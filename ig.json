@@ -2,7 +2,7 @@
 	"canonicalBase": "http://hl7.org/fhir/ig/snomed",
 	"tool": "jekyll",
 	"paths": {
-		"output": "gh-pages",
+		"output": "docs",
 		"resources": ["infrastructure", "valuesets", "conceptmaps"], 
 		"specification": "http://build.fhir.org",
 		"pages": ["pages"],
