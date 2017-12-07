@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ResultFlagCodelist-to-observation-interpretation"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ResultFlagCodelist-to-observation-interpretation (http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.7--20150401000000 to <a href=\"http://build.fhir.org/valueset-observation-interpretation.html\">http://hl7.org/fhir/ValueSet/observation-interpretation</a></p><p>DRAFT. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM LaboratoryTestResult release 2015 terminology for ResultFlags to the FHIR STU3 terminology.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>H (High)</td><td>equal</td><td>H (High)</td></tr><tr><td>L (Low)</td><td>equal</td><td>L (Low)</td></tr><tr><td>I (Intermediate)</td><td>equal</td><td>I (Intermediate)</td></tr><tr><td>R (Resistant)</td><td>equal</td><td>R (Resistant)</td></tr><tr><td>S (Susceptible)</td><td>equal</td><td>S (Susceptible)</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation"];
+  fhir:ConceptMap.version [ fhir:value "1.0"];
+  fhir:ConceptMap.name [ fhir:value "ResultFlagCodelist-to-observation-interpretation"];
+  fhir:ConceptMap.title [ fhir:value "HCIM ResultFlagCodelist to Observation Interpretation Codes"];
+  fhir:ConceptMap.status [ fhir:value "draft"];
+  fhir:ConceptMap.date [ fhir:value "2017-01-04T09:27:28+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "Nictiz"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Nictiz" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@nictiz.nl" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "Maps the HCIM LaboratoryTestResult release 2015 terminology for ResultFlags to the FHIR STU3 terminology."];
+  fhir:ConceptMap.purpose [ fhir:value "To aid in mapping from HCIM LaboratoryTestResult valueset ResultFlags to FHIR STU3 Observation interpretation element."];
+  fhir:ConceptMap.copyright [ fhir:value "CC0"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.7--20150401000000"];
+  fhir:ConceptMap.targetUri [ fhir:value "http://hl7.org/fhir/ValueSet/observation-interpretation"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://hl7.org/fhir/v3/ObservationInterpretation" ];
+     fhir:ConceptMap.group.sourceVersion [ fhir:value "2015-04-01T00:00:00" ];
+     fhir:ConceptMap.group.target [ fhir:value "http://hl7.org/fhir/v2/0078" ];
+     fhir:ConceptMap.group.targetVersion [ fhir:value "http://hl7.org/fhir/v2/0078 version 2.8.2" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "H" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "High" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "H" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "High" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "L" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Low" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "L" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Low" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "I" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Intermediate" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "I" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Intermediate" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "R" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Resistant" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "R" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Resistant" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "S" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Susceptible" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "S" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Susceptible" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation.ttl> .
+
+# -------------------------------------------------------------------------------------
+

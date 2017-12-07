@@ -1,0 +1,122 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ContactTypeCodelist-to-ActEncounterCode"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ContactTypeCodelist-to-ActEncounterCode (http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000 to <a href=\"http://build.fhir.org/v3/ActEncounterCode/vs.html\">http://hl7.org/fhir/ValueSet/v3-ActEncounterCode</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>AMB (ambulatory)</td><td>equal</td><td>AMB (ambulatory)</td></tr><tr><td>EMER (emergency)</td><td>equal</td><td>EMER (emergency)</td></tr><tr><td>FLD (field)</td><td>equal</td><td>FLD (field)</td></tr><tr><td>HH (home health)</td><td>equal</td><td>HH (home health)</td></tr><tr><td>IMP (inpatient encounter)</td><td>equal</td><td>IMP (inpatient encounter)</td></tr><tr><td>SS (short stay)</td><td>equal</td><td>SS (short stay)</td></tr><tr><td>VR (virtual)</td><td>equal</td><td>VR (virtual)</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode"];
+  fhir:ConceptMap.version [ fhir:value "1.0"];
+  fhir:ConceptMap.name [ fhir:value "ContactTypeCodelist-to-ActEncounterCode"];
+  fhir:ConceptMap.title [ fhir:value "HCIM ContactTypeCodelist to ActEncounterCode"];
+  fhir:ConceptMap.status [ fhir:value "active"];
+  fhir:ConceptMap.date [ fhir:value "2017-01-04T09:27:28+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "Nictiz"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Nictiz" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@nictiz.nl" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class"];
+  fhir:ConceptMap.purpose [ fhir:value "To aid in mapping from HCIM Contact value set ContactTypeCodelist to FHIR STU3 Contact.class"];
+  fhir:ConceptMap.copyright [ fhir:value "CC0"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000"];
+  fhir:ConceptMap.targetUri [ fhir:value "http://hl7.org/fhir/ValueSet/v3-ActEncounterCode"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://hl7.org/fhir/v3/ActCode" ];
+     fhir:ConceptMap.group.target [ fhir:value "http://hl7.org/fhir/v3/ActCode" ];
+     fhir:ConceptMap.group.targetVersion [ fhir:value "http://hl7.org/fhir/v3/ActCode version 2016-11-11" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "AMB" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Ambulatory" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "AMB" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "ambulatory" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "EMER" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Emergency" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "EMER" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "emergency" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "FLD" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Field" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "FLD" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "field" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "HH" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Home" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "HH" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "home" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "IMP" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Inpatient" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "IMP" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "inpatient" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ConceptMap.group.element.code [ fhir:value "SS" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Short Stay" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "SS" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "short stay" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:ConceptMap.group.element.code [ fhir:value "VR" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Virtual" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "VR" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "virtual" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode.ttl> .
+
+# -------------------------------------------------------------------------------------
+

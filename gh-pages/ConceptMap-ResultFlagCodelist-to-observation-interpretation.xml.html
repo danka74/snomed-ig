@@ -1,0 +1,275 @@
+﻿<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>SNOMED CT Implementation Guide for FHIR</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="SNOMED CT Implementation Guide for FHIR Implemenation Guide"/>
+<meta name="author" content="http://argonautwiki.hl7.org"/>
+
+
+  <link rel="stylesheet" href="fhir.css"/>
+
+
+     <!-- Bootstrap core CSS -->
+
+     <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+  <link rel="stylesheet" href="assets/css/project.css"/>
+  <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+	<link rel="stylesheet" href="jquery-ui.css"/>
+
+    <!-- Favicons -->
+  <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+
+
+<body markdown="1">
+
+
+ <div id="segment-header" class="segment">    <!-- segment-header -->
+  <div class="container">    <!-- container -->
+   <a no-external="true" id="logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
+   <div id="hl7-nav">
+     <a no-external="true" id="hl7-logo" href="http://www.hl7.org">
+     <img src="assets/images/hl7-logo.png" alt="visit the hl7 website" width="42" height="50"/>
+    </a>
+   </div>
+
+   <div id="ig-status">
+ <b>SNOMED CT Implementation Guide for FHIR</b>
+</div>
+
+  </div>
+  <div class="container">    <!-- container -->
+ </div></div>    <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">    <!-- container -->
+     <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container">
+     <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a href="http://build.fhir.org/index.html" class="navbar-brand hidden">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="conceptmaps.html">Concept Maps</a></li>
+        <li><a href="valuesets.html">Value Sets</a></li>
+        <li><a href="codesystems.html">Code Systems</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+      </ul>
+     </div>    <!-- /.nav-collapse -->
+    </div>    <!-- /.container -->
+   </nav>    <!-- /.navbar -->
+
+    <!-- /HEADER CONTENT -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-navbar -->
+
+
+
+    <!-- /container -->
+    <!-- /segment-breadcrumb -->
+
+<div id="segment-content" class="segment">    <!-- segment-content -->
+<div class="container">    <!-- container -->
+<div class="row">
+<div class="inner-wrapper">
+
+
+<div class="col-12">
+
+
+  <!-- ============BreadCrumb=============== -->
+
+<nav class="breadcrumb"><a name="3096ef67-e998-4b3b-a2ac-bf12ff68b034">​</a>
+  
+    
+    
+      <a href="index.html" class="breadcrumb-item">Home</a>
+      /
+      <a href="profiles.html" class="breadcrumb-item">Profiles</a>
+      /
+      <span class="breadcrumb-item active">ConceptMap-ResultFlagCodelist-to-observation-interpretation.xml</span>
+    
+    
+    
+    
+
+</nav>
+
+
+    <!-- ============CONTENT CONTENT=============== -->
+
+<h2>Example: ConceptMap-ResultFlagCodelist-to-observation-interpretation</h2>
+
+<p>
+Formats: <a href="ConceptMap-ResultFlagCodelist-to-observation-interpretation.html">Narrative</a>, <a href="ConceptMap-ResultFlagCodelist-to-observation-interpretation.xml.html">XML</a>, <a href="ConceptMap-ResultFlagCodelist-to-observation-interpretation.json.html">JSON</a>, <a href="ConceptMap-ResultFlagCodelist-to-observation-interpretation.ttl.html">Turtle</a>
+</p>
+<p>
+Raw <a download="null" href="ConceptMap-ResultFlagCodelist-to-observation-interpretation.xml">xml</a>
+</p>
+
+<pre class="xml">
+
+&lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap">ConceptMap</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;ResultFlagCodelist-to-observation-interpretation&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.text">text</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;ResultFlagCodelist-to-observation-interpretation (http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation)&lt;/h2&gt;&lt;p&gt;Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.7--20150401000000 to &lt;a href=&quot;http://build.fhir.org/valueset-observation-interpretation.html&quot;&gt;http://hl7.org/fhir/ValueSet/observation-interpretation&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: &lt;a href=&quot;mailto:info@nictiz.nl&quot;&gt;info@nictiz.nl&lt;/a&gt;). CC0&lt;/p&gt;&lt;div&gt;&lt;p&gt;Maps the HCIM LaboratoryTestResult release 2015 terminology for ResultFlags to the FHIR STU3 terminology.&lt;/p&gt;
+&lt;/div&gt;&lt;br/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;H (High)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;H (High)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;L (Low)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;L (Low)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;I (Intermediate)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;I (Intermediate)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;R (Resistant)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;R (Resistant)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;S (Susceptible)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;S (Susceptible)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+  &lt;/text&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.url">url</a>
+       <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;1.0&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;ResultFlagCodelist-to-observation-interpretation&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;HCIM ResultFlagCodelist to Observation Interpretation Codes&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2017-01-04T09:27:28+00:00&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nictiz&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.contact">contact</a>&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nictiz&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;info@nictiz.nl&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+    &lt;/telecom&gt;
+  &lt;/contact&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.description">description</a>
+               <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;Maps the HCIM LaboratoryTestResult release 2015 terminology for ResultFlags to the FHIR STU3 terminology.&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.purpose">purpose</a>
+           <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;To aid in mapping from HCIM LaboratoryTestResult valueset ResultFlags to FHIR STU3 Observation interpretation element.&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.copyright">copyright</a> <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;CC0&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.source[x]">sourceUri</a>
+             <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.13.1.7--20150401000000&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.target[x]">targetUri</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/ValueSet/observation-interpretation&quot;/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group">group</a>&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/v3/ObservationInterpretation&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;2015-04-01T00:00:00&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/v2/0078&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.targetVersion">targetVersion</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;http://hl7.org/fhir/v2/0078 version 2.8.2&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;H&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;High&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;H&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;High&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+      &lt;/target&gt;
+    &lt;/element&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;L&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Low&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;L&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Low&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+      &lt;/target&gt;
+    &lt;/element&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;I&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Intermediate&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;I&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Intermediate&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+      &lt;/target&gt;
+    &lt;/element&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Resistant&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;R&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Resistant&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+      &lt;/target&gt;
+    &lt;/element&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;S&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Susceptible&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;S&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Susceptible&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+      &lt;/target&gt;
+    &lt;/element&gt;
+  &lt;/group&gt;
+&lt;/ConceptMap&gt;</pre>
+
+
+    <!-- ==============END CONTENT END CONTENT=================== -->
+
+</div>
+
+
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+
+</div>    <!-- /segment-content -->
+
+
+
+
+
+        <!-- /inner-wrapper -->
+                <!-- /row -->
+            <!-- /container -->
+
+        <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">    <!-- segment-footer -->
+  <div class="container">    <!-- container -->
+   <div class="inner-wrapper">
+    <p>
+            SNOMED CT Implementation Guide for FHIR Version:   &reg;&copy; <a style="color: #81BEF7" href="http://build.fhir.org">FHIR Version: 3.0.1</a> (IG Publisher v3.0.1-11917) generated on Thu, Dec 7, 2017 14:33+0000. |
+               <!-- <a style="color: #81BEF7" rel="license"  <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
+                <a rel="license" style="color: #81BEF7" href="http://build.fhir.orglicense.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a>
+        
+        </p>
+   </div>    <!-- /inner-wrapper -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-footer -->
+    <!-- disqus thread -->
+    <!-- disqus -->
+    <!-- end disqus -->
+
+ <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+  <div class="container">    <!-- container -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-post-footer -->
+
+   <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/jquery.js"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="./dist/js/bootstrap.min.js"> </script>
+<script src="./assets/js/respond.min.js"> </script>
+
+<script src="./assets/js/fhir.js"> </script>
+
+  <!-- Analytics Below
+================================================== -->
+
+
+</body>
+
+
+</head></html>

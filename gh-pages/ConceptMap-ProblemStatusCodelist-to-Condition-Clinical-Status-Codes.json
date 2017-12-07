@@ -1,0 +1,74 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ProblemStatusCodelist-to-Condition-Clinical-Status-Codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ProblemStatusCodelist-to-Condition-Clinical-Status-Codes (http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.5.1.2--20150401000000 to <a href=\"http://build.fhir.org/valueset-condition-clinical.html\">http://hl7.org/fhir/ValueSet/condition-clinical</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM OverdrachtConcern release 2015 terminology for ProblemStatus to the FHIR STU3 terminology binded at Condition.clinicalStatus</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>55561003 (Active)</td><td>equal</td><td>active</td></tr><tr><td>73425007 (Inactive)</td><td>equal</td><td>inactive</td></tr><tr><td>413322009 (Problem resolved (finding))</td><td>equal</td><td>resolved</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes",
+  "version": "1.0",
+  "name": "ProblemStatusCodelist-to-Condition-Clinical-Status-Codes",
+  "title": "HCIM ProblemStatusCodelist to Condition Clinical Status Codes",
+  "status": "active",
+  "date": "2017-01-04T09:27:28+00:00",
+  "publisher": "Nictiz",
+  "contact": [
+    {
+      "name": "Nictiz",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "info@nictiz.nl",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Maps the HCIM OverdrachtConcern release 2015 terminology for ProblemStatus to the FHIR STU3 terminology binded at Condition.clinicalStatus",
+  "purpose": "To aid in mapping from HCIM OverdrachtConcern value set ProblemStatusCodelist to FHIR STU3 Condition.clinicalStatus",
+  "copyright": "CC0",
+  "sourceUri": "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.5.1.2--20150401000000",
+  "targetUri": "http://hl7.org/fhir/ValueSet/condition-clinical",
+  "group": [
+    {
+      "source": "http://snomed.info/sct",
+      "target": "http://hl7.org/fhir/condition-clinical",
+      "targetVersion": "http://hl7.org/fhir/condition-clinical version 3.0.1",
+      "element": [
+        {
+          "code": "55561003",
+          "display": "Active",
+          "target": [
+            {
+              "code": "active",
+              "display": "Active",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "73425007",
+          "display": "Inactive",
+          "target": [
+            {
+              "code": "inactive",
+              "display": "Inactive",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "413322009",
+          "display": "Resolved",
+          "target": [
+            {
+              "code": "resolved",
+              "display": "Resolved",
+              "equivalence": "equal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

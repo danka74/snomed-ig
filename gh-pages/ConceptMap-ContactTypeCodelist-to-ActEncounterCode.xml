@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ContactTypeCodelist-to-ActEncounterCode"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ContactTypeCodelist-to-ActEncounterCode (http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000 to <a href="http://build.fhir.org/v3/ActEncounterCode/vs.html">http://hl7.org/fhir/ValueSet/v3-ActEncounterCode</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href="mailto:info@nictiz.nl">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class</p>
+</div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>AMB (ambulatory)</td><td>equal</td><td>AMB (ambulatory)</td></tr><tr><td>EMER (emergency)</td><td>equal</td><td>EMER (emergency)</td></tr><tr><td>FLD (field)</td><td>equal</td><td>FLD (field)</td></tr><tr><td>HH (home health)</td><td>equal</td><td>HH (home health)</td></tr><tr><td>IMP (inpatient encounter)</td><td>equal</td><td>IMP (inpatient encounter)</td></tr><tr><td>SS (short stay)</td><td>equal</td><td>SS (short stay)</td></tr><tr><td>VR (virtual)</td><td>equal</td><td>VR (virtual)</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode"/>
+  <version value="1.0"/>
+  <name value="ContactTypeCodelist-to-ActEncounterCode"/>
+  <title value="HCIM ContactTypeCodelist to ActEncounterCode"/>
+  <status value="active"/>
+  <date value="2017-01-04T09:27:28+00:00"/>
+  <publisher value="Nictiz"/>
+  <contact>
+    <name value="Nictiz"/>
+    <telecom>
+      <system value="email"/>
+      <value value="info@nictiz.nl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class"/>
+  <purpose value="To aid in mapping from HCIM Contact value set ContactTypeCodelist to FHIR STU3 Contact.class"/>
+  <copyright value="CC0"/>
+  <sourceUri value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000"/>
+  <targetUri value="http://hl7.org/fhir/ValueSet/v3-ActEncounterCode"/>
+  <group>
+    <source value="http://hl7.org/fhir/v3/ActCode"/>
+    <target value="http://hl7.org/fhir/v3/ActCode"/>
+    <targetVersion value="http://hl7.org/fhir/v3/ActCode version 2016-11-11"/>
+    <element>
+      <code value="AMB"/>
+      <display value="Ambulatory"/>
+      <target>
+        <code value="AMB"/>
+        <display value="ambulatory"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="EMER"/>
+      <display value="Emergency"/>
+      <target>
+        <code value="EMER"/>
+        <display value="emergency"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="FLD"/>
+      <display value="Field"/>
+      <target>
+        <code value="FLD"/>
+        <display value="field"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="HH"/>
+      <display value="Home"/>
+      <target>
+        <code value="HH"/>
+        <display value="home"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="IMP"/>
+      <display value="Inpatient"/>
+      <target>
+        <code value="IMP"/>
+        <display value="inpatient"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="SS"/>
+      <display value="Short Stay"/>
+      <target>
+        <code value="SS"/>
+        <display value="short stay"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="VR"/>
+      <display value="Virtual"/>
+      <target>
+        <code value="VR"/>
+        <display value="virtual"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>
