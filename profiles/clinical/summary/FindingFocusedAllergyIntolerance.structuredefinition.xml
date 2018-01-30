@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2018-01-24T18:12:19.613+01:00" />
+  </meta>
+  <url value="http://snomed.info/fhir/AllergyIntolerance-FindingFocused" />
+  <name value="AllergyIntolerance-FindingFocused" />
+  <status value="draft" />
+  <date value="2018-01-24T06:43:49.758+01:00" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="AllergyIntolerance" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="AllergyIntolerance.type">
+      <path value="AllergyIntolerance.type" />
+      <max value="0" />
+    </element>
+    <element id="AllergyIntolerance.category">
+      <path value="AllergyIntolerance.category" />
+      <max value="0" />
+    </element>
+    <element id="AllergyIntolerance.code">
+      <path value="AllergyIntolerance.code" />
+      <definition value="Code for an allergy or intolerance statement (either a positive or a negated/excluded statement).  This may be a code for an allergy or intolerance condition (e.g., &quot;Latex allergy&quot;), or a negated/excluded code for a specific substance or class (e.g., &quot;No latex allergy&quot;) or a general or categorical negated statement (e.g.,  &quot;No known allergy&quot;, &quot;No known drug allergies&quot;)." />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AllergyIntoleranceCode" />
+        </extension>
+        <strength value="required" />
+        <description value="Type of the allergy or intolerance condition, or negation/exclusion codes for reporting no known allergies." />
+        <valueSetReference>
+          <reference value="http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="AllergyIntolerance.code.coding.system">
+      <path value="AllergyIntolerance.code.coding.system" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="AllergyIntolerance.reaction.substance">
+      <path value="AllergyIntolerance.reaction.substance" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="SubstanceCode" />
+        </extension>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="AllergyIntolerance.reaction.manifestation">
+      <path value="AllergyIntolerance.reaction.manifestation" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="Manifestation" />
+        </extension>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="AllergyIntolerance.reaction.exposureRoute">
+      <path value="AllergyIntolerance.reaction.exposureRoute" />
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="RouteOfAdministration" />
+        </extension>
+        <strength value="required" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
