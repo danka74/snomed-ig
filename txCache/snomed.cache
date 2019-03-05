@@ -1,0 +1,181 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "17162000"
+}, "valueSet" :null}####
+v: {
+  "display" : "Certain",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005"
+}, "valueSet" :null}####
+v: {
+  "display" : "Likely",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "60022001"
+}, "valueSet" :null}####
+v: {
+  "display" : "Possible diagnosis (contextual qualifier)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385434005"
+}, "valueSet" :null}####
+v: {
+  "display" : "Improbable diagnosis (contextual qualifier) (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260385009"
+}, "valueSet" :null}####
+v: {
+  "display" : "Negative",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "261665006"
+}, "valueSet" :null}####
+v: {
+  "display" : "Unknown",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410591008"
+}, "valueSet" :null}####
+v: {
+  "display" : "Definitely present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410592001"
+}, "valueSet" :null}####
+v: {
+  "display" : "Probably present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410590009"
+}, "valueSet" :null}####
+v: {
+  "display" : "Known possible (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410593006"
+}, "valueSet" :null}####
+v: {
+  "display" : "Probably NOT present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410594000"
+}, "valueSet" :null}####
+v: {
+  "display" : "Definitely NOT present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "62482003"
+}, "valueSet" :null}####
+v: {
+  "display" : "Low",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255508009"
+}, "valueSet" :null}####
+v: {
+  "display" : "Medium",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "75540009"
+}, "valueSet" :null}####
+v: {
+  "display" : "High",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "399166001"
+}, "valueSet" :null}####
+v: {
+  "display" : "Fatal (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55561003"
+}, "valueSet" :null}####
+v: {
+  "display" : "Active (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "73425007"
+}, "valueSet" :null}####
+v: {
+  "display" : "Inactive",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "413322009"
+}, "valueSet" :null}####
+v: {
+  "display" : "Problem resolved (finding)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

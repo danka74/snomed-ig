@@ -3,14 +3,14 @@
   "id": "CriticalExtentCodelist-to-allergy-intolerance-criticality",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CriticalExtentCodelist-to-allergy-intolerance-criticality (http://hl7.org/fhir/ig/snomed/ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.4--20150401000000 to <a href=\"http://build.fhir.org/valueset-allergy-intolerance-criticality.html\">http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyCriticalExtent to the FHIR STU3 terminology</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>62482003 (Low)</td><td>equal</td><td>low (Low Risk)</td></tr><tr><td>255508009 (Medium)</td><td>unmatched</td><td/></tr><tr><td>75540009 (High)</td><td>equal</td><td>high (High Risk)</td></tr><tr><td>399166001 (Fatal (qualifier value))</td><td>unmatched</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CriticalExtentCodelist-to-allergy-intolerance-criticality (http://hl7.org/fhir/ig/snomed/ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.4--20150401000000 to <a href=\"http://build.fhir.org/valueset-allergy-intolerance-criticality.html\">http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality</a></p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyCriticalExtent to the FHIR STU3 terminology</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>62482003 (Low)</td><td>equal</td><td>low (Low Risk)</td></tr><tr><td>255508009 (Medium)</td><td>unmatched</td><td/></tr><tr><td>75540009 (High)</td><td>equal</td><td>high (High Risk)</td></tr><tr><td>399166001 (Fatal (qualifier value))</td><td>unmatched</td><td/></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/ig/snomed/ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality",
   "version": "1.0",
   "name": "CriticalExtentCodelist-to-allergy-intolerance-criticality",
   "title": "HCIM CriticalExtentCodelist to allergy-intolerance-criticality",
   "status": "active",
-  "date": "2017-01-04T09:27:28+00:00",
+  "date": "2017-01-04T03:27:28-06:00",
   "publisher": "Nictiz",
   "contact": [
     {

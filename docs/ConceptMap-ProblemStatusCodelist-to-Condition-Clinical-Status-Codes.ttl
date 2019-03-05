@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ProblemStatusCodelist-to-Condition-Clinical-Status-Codes (http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.5.1.2--20150401000000 to <a href=\"http://build.fhir.org/valueset-condition-clinical.html\">http://hl7.org/fhir/ValueSet/condition-clinical</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM OverdrachtConcern release 2015 terminology for ProblemStatus to the FHIR STU3 terminology binded at Condition.clinicalStatus</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>55561003 (Active)</td><td>equal</td><td>active</td></tr><tr><td>73425007 (Inactive)</td><td>equal</td><td>inactive</td></tr><tr><td>413322009 (Problem resolved (finding))</td><td>equal</td><td>resolved</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ProblemStatusCodelist-to-Condition-Clinical-Status-Codes (http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.5.1.2--20150401000000 to <a href=\"http://build.fhir.org/valueset-condition-clinical.html\">http://hl7.org/fhir/ValueSet/condition-clinical</a></p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM OverdrachtConcern release 2015 terminology for ProblemStatus to the FHIR STU3 terminology binded at Condition.clinicalStatus</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>55561003 (Active (qualifier value))</td><td>equal</td><td>active</td></tr><tr><td>73425007 (Inactive)</td><td>equal</td><td>inactive</td></tr><tr><td>413322009 (Problem resolved (finding))</td><td>equal</td><td>resolved</td></tr></table></div>"
   ];
   fhir:ConceptMap.url [ fhir:value "http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"];
   fhir:ConceptMap.version [ fhir:value "1.0"];
   fhir:ConceptMap.name [ fhir:value "ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"];
   fhir:ConceptMap.title [ fhir:value "HCIM ProblemStatusCodelist to Condition Clinical Status Codes"];
   fhir:ConceptMap.status [ fhir:value "active"];
-  fhir:ConceptMap.date [ fhir:value "2017-01-04T09:27:28+00:00"^^xsd:dateTime];
+  fhir:ConceptMap.date [ fhir:value "2017-01-04T03:27:28-06:00"^^xsd:dateTime];
   fhir:ConceptMap.publisher [ fhir:value "Nictiz"];
   fhir:ConceptMap.contact [
      fhir:index 0;

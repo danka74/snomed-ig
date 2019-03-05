@@ -3,14 +3,14 @@
   "id": "SeverityCodelist-to-AllergyIntoleranceSeverity",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SeverityCodelist-to-AllergyIntoleranceSeverity (http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.6--20150401000000 to <a href=\"http://build.fhir.org/valueset-reaction-event-severity.html\">http://hl7.org/fhir/ValueSet/reaction-event-severity</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllgergyIntolerance release 2015 terminology for the concept Serverty to the FHIR STU3 terminology bound at AllergyIntolerance.reaction.severity</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>MILD</td><td>equal</td><td>mild</td></tr><tr><td>MOD</td><td>equal</td><td>moderate</td></tr><tr><td>SEV</td><td>equal</td><td>severe</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SeverityCodelist-to-AllergyIntoleranceSeverity (http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.6--20150401000000 to <a href=\"http://build.fhir.org/valueset-reaction-event-severity.html\">http://hl7.org/fhir/ValueSet/reaction-event-severity</a></p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllgergyIntolerance release 2015 terminology for the concept Serverty to the FHIR STU3 terminology bound at AllergyIntolerance.reaction.severity</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>MILD</td><td>equal</td><td>mild</td></tr><tr><td>MOD</td><td>equal</td><td>moderate</td></tr><tr><td>SEV</td><td>equal</td><td>severe</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity",
   "version": "1.0",
   "name": "SeverityCodelist-to-AllergyIntoleranceSeverity",
   "title": "HCIM SeverityCodelist to AllergyIntoleranceSeverity",
   "status": "active",
-  "date": "2017-01-04T09:27:28+00:00",
+  "date": "2017-01-04T03:27:28-06:00",
   "publisher": "Nictiz",
   "contact": [
     {

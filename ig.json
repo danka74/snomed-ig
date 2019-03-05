@@ -1,6 +1,8 @@
 {
 	"canonicalBase": "http://hl7.org/fhir/ig/snomed",
 	"tool": "jekyll",
+	"license": "CC0-1.0",
+	"npm-name": "hl7.fhir.uv.snomed",
 	"paths": {
 		"output": "docs",
 		"resources": ["infrastructure", "valuesets", "conceptmaps"], 

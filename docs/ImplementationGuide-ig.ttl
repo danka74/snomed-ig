@@ -5,9 +5,9 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig> a fhir:ImplementationGuide;
+<http://hl7.org/fhir/ig/snomed/ImplementationGuide/hl7.fhir.uv.snomed-null> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "ig"];
+  fhir:Resource.id [ fhir:value "hl7.fhir.uv.snomed-null"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>SNOMED CT Implementation Guide for FHIR</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig</pre></div>"
@@ -17,114 +17,11 @@
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 (vocab)"];
+  fhir:ImplementationGuide.fhirVersion [ fhir:value "3.0.1"];
   fhir:ImplementationGuide.package [
      fhir:index 0;
-     fhir:ImplementationGuide.package.name [ fhir:value "base" ];
-     fhir:ImplementationGuide.package.resource [
-       fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-AllergyStatusCodelist-to-allergy-status.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyStatusCodelist-to-allergy-status" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/AllergyStatusCodelist-to-allergy-status" ]
-       ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-ContactTypeCodelist-to-ActEncounterCode.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ContactTypeCodelist-to-ActEncounterCode" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/ContactTypeCodelist-to-ActEncounterCode" ]
-       ]
-     ], [
-       fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-CriticalExtentCodelist-to-allergy-intolerance-criticality.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "CriticalExtentCodelist-to-allergy-intolerance-criticality" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality" ]
-       ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ProbabilityCodelist-to-reaction-event-certainty" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/ProbabilityCodelist-to-reaction-event-certainty" ]
-       ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-ProblemStatusCodelist-to-Condition-Clinical-Status-Codes.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ProblemStatusCodelist-to-Condition-Clinical-Status-Codes" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes" ]
-       ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-ResultFlagCodelist-to-observation-interpretation.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ResultFlagCodelist-to-observation-interpretation" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/ResultFlagCodelist-to-observation-interpretation" ]
-       ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-SeverityCodelist-to-AllergyIntoleranceSeverity.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "SeverityCodelist-to-AllergyIntoleranceSeverity" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity" ]
-       ]
-     ], [
-       fhir:index 7;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConceptMap-spec-type.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Specimen mapping from v2 table 0487 to SNOMED CT" ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <http://hl7.org/fhir/ig/snomed/ConceptMap/spec-type>;
-         fhir:Reference.reference [ fhir:value "ConceptMap/spec-type" ]
-       ]
-     ]
+     fhir:Element.id [ fhir:value "p1" ];
+     fhir:ImplementationGuide.package.name [ fhir:value "base" ]
   ];
   fhir:ImplementationGuide.page [
      fhir:ImplementationGuide.page.source [ fhir:value "index.html" ];
@@ -132,27 +29,11 @@
      fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
   ] .
 
-<http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/ResultFlagCodelist-to-observation-interpretation> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity> a fhir:ig .
-
-<http://hl7.org/fhir/ig/snomed/ConceptMap/spec-type> a fhir:ig .
-
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig.ttl> a owl:Ontology;
+<http://hl7.org/fhir/ig/snomed/ImplementationGuide/hl7.fhir.uv.snomed-null.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/ig/snomed/ImplementationGuide/ig.ttl> .
+  owl:versionIRI <http://build.fhir.org/ig/snomed/ImplementationGuide/hl7.fhir.uv.snomed-null.ttl> .
 
 # -------------------------------------------------------------------------------------
 

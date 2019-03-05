@@ -58,13 +58,13 @@
      <!-- HEADER CONTENT -->
 
    <nav class="navbar navbar-inverse">
-    <div class="container">
+    <div class="container"><a name="62ff9fb4-dbe9-47eb-b265-f21ebd8689ea">​</a>
      <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
       <span class="icon-bar"> </span>
       <span class="icon-bar"> </span>
       <span class="icon-bar"> </span>
      </button>
-     <a href="http://build.fhir.org/index.html" class="navbar-brand hidden">FHIR</a>
+     <a href="http://build.fhir.org//index.html" class="navbar-brand hidden">FHIR</a>
      <div class="nav-collapse collapse navbar-inverse-collapse">
       <ul class="nav navbar-nav">
         <li><a href="index.html">Home</a></li>
@@ -97,7 +97,7 @@
 
   <!-- ============BreadCrumb=============== -->
 
-<nav class="breadcrumb"><a name="4e2fed80-9e90-41fb-80fa-a9179a907d8d">​</a>
+<nav class="breadcrumb"><a name="ae75583d-0bd0-4907-a364-084c9aa8ba14">​</a>
   
     
     
@@ -127,86 +127,86 @@ Raw <a download="null" href="ConceptMap-AllergyStatusCodelist-to-allergy-status.
 
 <pre class="xml">
 
-&lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap">ConceptMap</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>=&quot;AllergyStatusCodelist-to-allergy-status&quot;/&gt;
+&lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap">ConceptMap</a> xmlns="http://hl7.org/fhir"&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.id">id</a> <a href="http://build.fhir.org/datatypes.html#id">value</a>="AllergyStatusCodelist-to-allergy-status"/&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.text">text</a>&gt;
-    &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;AllergyStatusCodelist-to-allergy-status (http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status)&lt;/h2&gt;&lt;p&gt;Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000 to (not specified)&lt;/p&gt;&lt;p&gt;ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: &lt;a href=&quot;mailto:info@nictiz.nl&quot;&gt;info@nictiz.nl&lt;/a&gt;). CC0&lt;/p&gt;&lt;div&gt;&lt;p&gt;Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology&lt;/p&gt;
-&lt;/div&gt;&lt;br/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;active&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;obsolete&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;inactive&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;completed&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;resolved&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nullified&lt;/td&gt;&lt;td&gt;unmatched&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Nullified means 'entered in error'. There is no mapping for that in the AllergyIntolerance.clinicalStatus. Use AllergyIntolerance.verificationStatus = entered-in-error.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nullified&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;entered-in-error&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="generated"/&gt;
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;h2&gt;AllergyStatusCodelist-to-allergy-status (http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status)&lt;/h2&gt;&lt;p&gt;Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000 to (not specified)&lt;/p&gt;&lt;p&gt;ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: &lt;a href="mailto:info@nictiz.nl"&gt;info@nictiz.nl&lt;/a&gt;). CC0&lt;/p&gt;&lt;div&gt;&lt;p&gt;Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology&lt;/p&gt;
+&lt;/div&gt;&lt;br/&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;active&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;obsolete&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;inactive&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;completed&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;resolved&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nullified&lt;/td&gt;&lt;td&gt;unmatched&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Nullified means 'entered in error'. There is no mapping for that in the AllergyIntolerance.clinicalStatus. Use AllergyIntolerance.verificationStatus = entered-in-error.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table class="grid"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nullified&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;entered-in-error&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
   &lt;/text&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.url">url</a>
-       <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;1.0&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;AllergyStatusCodelist-to-allergy-status&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;HCIM AllergyStatusCodelist to allergy status&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>=&quot;2017-01-04T09:27:28+00:00&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nictiz&quot;/&gt;
+       <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.version">version</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="1.0"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="AllergyStatusCodelist-to-allergy-status"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.title">title</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="HCIM AllergyStatusCodelist to allergy status"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.status">status</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="active"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.date">date</a> <a href="http://build.fhir.org/datatypes.html#dateTime">value</a>="2017-01-04T03:27:28-06:00"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.publisher">publisher</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Nictiz"/&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.contact">contact</a>&gt;
-    &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nictiz&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Nictiz"/&gt;
     &lt;<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;info@nictiz.nl&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="email"/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="info@nictiz.nl"/&gt;
+      &lt;<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="work"/&gt;
     &lt;/telecom&gt;
   &lt;/contact&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.description">description</a>
-               <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology&quot;/&gt;
+               <a href="http://build.fhir.org/datatypes.html#markdown">value</a>="Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology"/&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.purpose">purpose</a>
-           <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;To aid in mapping from HCIM AllergyIntolerance value set AllergyStatusCodelist to FHIR STU3 AllergyIntolerance clinicalStatus and verificationStatus&quot;/&gt;
-  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.copyright">copyright</a> <a href="http://build.fhir.org/datatypes.html#markdown">value</a>=&quot;CC0&quot;/&gt;
+           <a href="http://build.fhir.org/datatypes.html#markdown">value</a>="To aid in mapping from HCIM AllergyIntolerance value set AllergyStatusCodelist to FHIR STU3 AllergyIntolerance clinicalStatus and verificationStatus"/&gt;
+  &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.copyright">copyright</a> <a href="http://build.fhir.org/datatypes.html#markdown">value</a>="CC0"/&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.source[x]">sourceUri</a>
-             <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000&quot;/&gt;
+             <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000"/&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group">group</a>&gt;
-    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/v3/ActStatus&quot;/&gt;
-    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/reaction-event-certainty&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://hl7.org/fhir/v3/ActStatus"/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://hl7.org/fhir/reaction-event-certainty"/&gt;
     &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;active&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="active"/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="active"/&gt;
       &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="active"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Active"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="equal"/&gt;
       &lt;/target&gt;
     &lt;/element&gt;
     &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;obsolete&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;obsolete&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="obsolete"/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="obsolete"/&gt;
       &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;inactive&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Inactive&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="inactive"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Inactive"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="equal"/&gt;
       &lt;/target&gt;
     &lt;/element&gt;
     &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Completed&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="completed"/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Completed"/&gt;
       &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;resolved&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Resolved&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="resolved"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Resolved"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="equal"/&gt;
       &lt;/target&gt;
     &lt;/element&gt;
     &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;nullified&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nullified&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="nullified"/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Nullified"/&gt;
       &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;unmatched&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="unmatched"/&gt;
         &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nullified means &amp;#39;entered in error&amp;#39;. There is no mapping for that in the AllergyIntolerance.clinicalStatus. Use AllergyIntolerance.verificationStatus = entered-in-error.&quot;/&gt;
+                 <a href="http://build.fhir.org/datatypes.html#string">value</a>="Nullified means &amp;#39;entered in error&amp;#39;. There is no mapping for that in the AllergyIntolerance.clinicalStatus. Use AllergyIntolerance.verificationStatus = entered-in-error."/&gt;
       &lt;/target&gt;
     &lt;/element&gt;
   &lt;/group&gt;
   &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group">group</a>&gt;
-    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/v3/ActStatus&quot;/&gt;
-    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/allergy-verification-status&quot;/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://hl7.org/fhir/v3/ActStatus"/&gt;
+    &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://build.fhir.org/datatypes.html#uri">value</a>="http://hl7.org/fhir/allergy-verification-status"/&gt;
     &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;nullified&quot;/&gt;
-      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Nullified&quot;/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="nullified"/&gt;
+      &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Nullified"/&gt;
       &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;entered-in-error&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>=&quot;Entered in error&quot;/&gt;
-        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>=&quot;equal&quot;/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="entered-in-error"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a> <a href="http://build.fhir.org/datatypes.html#string">value</a>="Entered in error"/&gt;
+        &lt;<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://build.fhir.org/datatypes.html#code">value</a>="equal"/&gt;
       &lt;/target&gt;
     &lt;/element&gt;
   &lt;/group&gt;
@@ -238,10 +238,10 @@ Raw <a download="null" href="ConceptMap-AllergyStatusCodelist-to-allergy-status.
 <div id="segment-footer" class="segment">    <!-- segment-footer -->
   <div class="container">    <!-- container -->
    <div class="inner-wrapper">
-    <p>
-            SNOMED CT Implementation Guide for FHIR Version:   &reg;&copy; <a style="color: #81BEF7" href="http://build.fhir.org">FHIR Version: 3.0.1</a> (IG Publisher v3.0.1-11917) generated on Thu, Dec 7, 2017 14:33+0000. |
+    <p><a name="d2343889-a334-41ed-9942-b26c3a409ac2">​</a>
+            SNOMED CT Implementation Guide for FHIR Version:   &reg;&copy; <a style="color: #81BEF7" href="http://build.fhir.org/">FHIR Version: 3.0.1</a> (IG Publisher v3.0.1-11917) generated on Tue, Mar 5, 2019 16:07-0600. |
                <!-- <a style="color: #81BEF7" rel="license"  <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
-                <a rel="license" style="color: #81BEF7" href="http://build.fhir.orglicense.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a>
+                <a rel="license" style="color: #81BEF7" href="http://build.fhir.org/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a>
         
         </p>
    </div>    <!-- /inner-wrapper -->

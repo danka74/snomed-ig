@@ -1,0 +1,11 @@
+﻿{
+  "url": "http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig",
+  "name": "SNOMED CT Implementation Guide for FHIR",
+  "package-id": "hl7.fhir.uv.snomed",
+  "date": "Tue, 05 Mar, 2019 16:07:27 -0600",
+  "errs": 18,
+  "warnings": 2,
+  "hints": 0,
+  "version": "3.0.1",
+  "tool": "4.1.0 (3)"
+}

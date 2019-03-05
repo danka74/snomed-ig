@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="AllergyStatusCodelist-to-allergy-status"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyStatusCodelist-to-allergy-status (http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000 to (not specified)</p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href="mailto:info@nictiz.nl">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>AllergyStatusCodelist-to-allergy-status (http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.3--20150401000000 to (not specified)</p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href="mailto:info@nictiz.nl">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllergyIntolerance release 2015 terminology for AllergyStatus to the FHIR STU3 terminology</p>
 </div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td><td><b>Comment</b></td></tr><tr><td>active</td><td>equal</td><td>active</td><td/></tr><tr><td>obsolete</td><td>equal</td><td>inactive</td><td/></tr><tr><td>completed</td><td>equal</td><td>resolved</td><td/></tr><tr><td>nullified</td><td>unmatched</td><td/><td>Nullified means 'entered in error'. There is no mapping for that in the AllergyIntolerance.clinicalStatus. Use AllergyIntolerance.verificationStatus = entered-in-error.</td></tr></table><table class="grid"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>nullified</td><td>equal</td><td>entered-in-error</td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/ig/snomed/ConceptMap/AllergyStatusCodelist-to-allergy-status"/>
@@ -11,7 +11,7 @@
   <name value="AllergyStatusCodelist-to-allergy-status"/>
   <title value="HCIM AllergyStatusCodelist to allergy status"/>
   <status value="active"/>
-  <date value="2017-01-04T09:27:28+00:00"/>
+  <date value="2017-01-04T03:27:28-06:00"/>
   <publisher value="Nictiz"/>
   <contact>
     <name value="Nictiz"/>

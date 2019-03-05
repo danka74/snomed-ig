@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ig"/>
+  <id value="hl7.fhir.uv.snomed-null"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>SNOMED CT Implementation Guide for FHIR</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig</pre></div>
   </text>
@@ -10,88 +10,9 @@
   <status value="draft"/>
   <experimental value="true"/>
   <publisher value="HL7 (vocab)"/>
-  <package>
+  <fhirVersion value="3.0.1"/>
+  <package id="p1">
     <name value="base"/>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-AllergyStatusCodelist-to-allergy-status.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="AllergyStatusCodelist-to-allergy-status"/>
-      <sourceReference>
-        <reference value="ConceptMap/AllergyStatusCodelist-to-allergy-status"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-ContactTypeCodelist-to-ActEncounterCode.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="ContactTypeCodelist-to-ActEncounterCode"/>
-      <sourceReference>
-        <reference value="ConceptMap/ContactTypeCodelist-to-ActEncounterCode"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-CriticalExtentCodelist-to-allergy-intolerance-criticality.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="CriticalExtentCodelist-to-allergy-intolerance-criticality"/>
-      <sourceReference>
-        <reference value="ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="ProbabilityCodelist-to-reaction-event-certainty"/>
-      <sourceReference>
-        <reference value="ConceptMap/ProbabilityCodelist-to-reaction-event-certainty"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-ProblemStatusCodelist-to-Condition-Clinical-Status-Codes.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"/>
-      <sourceReference>
-        <reference value="ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-ResultFlagCodelist-to-observation-interpretation.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="ResultFlagCodelist-to-observation-interpretation"/>
-      <sourceReference>
-        <reference value="ConceptMap/ResultFlagCodelist-to-observation-interpretation"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-SeverityCodelist-to-AllergyIntoleranceSeverity.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="SeverityCodelist-to-AllergyIntoleranceSeverity"/>
-      <sourceReference>
-        <reference value="ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConceptMap-spec-type.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="Specimen mapping from v2 table 0487 to SNOMED CT"/>
-      <sourceReference>
-        <reference value="ConceptMap/spec-type"/>
-      </sourceReference>
-    </resource>
   </package>
   <page>
     <source value="index.html"/>

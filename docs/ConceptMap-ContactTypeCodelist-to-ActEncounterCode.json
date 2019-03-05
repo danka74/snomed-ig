@@ -3,14 +3,14 @@
   "id": "ContactTypeCodelist-to-ActEncounterCode",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ContactTypeCodelist-to-ActEncounterCode (http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000 to <a href=\"http://build.fhir.org/v3/ActEncounterCode/vs.html\">http://hl7.org/fhir/ValueSet/v3-ActEncounterCode</a></p><p>ACTIVE. Published on Jan 4, 2017 9:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>AMB (ambulatory)</td><td>equal</td><td>AMB (ambulatory)</td></tr><tr><td>EMER (emergency)</td><td>equal</td><td>EMER (emergency)</td></tr><tr><td>FLD (field)</td><td>equal</td><td>FLD (field)</td></tr><tr><td>HH (home health)</td><td>equal</td><td>HH (home health)</td></tr><tr><td>IMP (inpatient encounter)</td><td>equal</td><td>IMP (inpatient encounter)</td></tr><tr><td>SS (short stay)</td><td>equal</td><td>SS (short stay)</td></tr><tr><td>VR (virtual)</td><td>equal</td><td>VR (virtual)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ContactTypeCodelist-to-ActEncounterCode (http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.15.1.1--20150401000000 to <a href=\"http://build.fhir.org/v3/ActEncounterCode/vs.html\">http://hl7.org/fhir/ValueSet/v3-ActEncounterCode</a></p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM Contact release 2015 terminology for ContactType to the FHIR STU3 terminology binded at Encounter.class</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>AMB (ambulatory)</td><td>equal</td><td>AMB (ambulatory)</td></tr><tr><td>EMER (emergency)</td><td>equal</td><td>EMER (emergency)</td></tr><tr><td>FLD (field)</td><td>equal</td><td>FLD (field)</td></tr><tr><td>HH (home health)</td><td>equal</td><td>HH (home health)</td></tr><tr><td>IMP (inpatient encounter)</td><td>equal</td><td>IMP (inpatient encounter)</td></tr><tr><td>SS (short stay)</td><td>equal</td><td>SS (short stay)</td></tr><tr><td>VR (virtual)</td><td>equal</td><td>VR (virtual)</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/ig/snomed/ConceptMap/ContactTypeCodelist-to-ActEncounterCode",
   "version": "1.0",
   "name": "ContactTypeCodelist-to-ActEncounterCode",
   "title": "HCIM ContactTypeCodelist to ActEncounterCode",
   "status": "active",
-  "date": "2017-01-04T09:27:28+00:00",
+  "date": "2017-01-04T03:27:28-06:00",
   "publisher": "Nictiz",
   "contact": [
     {
