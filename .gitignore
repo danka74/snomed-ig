@@ -8,10 +8,6 @@
 *.so
 *.sh
 *.py
-!definitions.py
-!publish.sh
-!publish2.sh
-!push.sh
 
 # Packages #
 ############
@@ -25,7 +21,6 @@
 *.rar
 *.tar
 *.zip
-!resources/definitions.json.zip
 
 # Logs and databases #
 ######################
@@ -43,10 +38,8 @@
 ehthumbs.db
 Thumbs.db
 
-
 # FHIR IG Publisher local build directories #
 #############################################
-
 qa
 temp
 output
@@ -75,5 +68,3 @@ Log-FHIR.xlsx
 ~*.docx
 ~*.xlsx
 ~*.pptx
-
-

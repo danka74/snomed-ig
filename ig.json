@@ -4,7 +4,7 @@
 	"license": "CC0-1.0",
 	"npm-name": "hl7.fhir.uv.snomed",
 	"paths": {
-		"output": "docs",
+		"output": "output",
 		"resources": ["infrastructure", "valuesets", "conceptmaps"], 
 		"specification": "http://build.fhir.org",
 		"pages": ["pages"],
@@ -33,10 +33,10 @@
 			"template-format": "format.html"
 		}
 	},
-	"version": "3.0.1",
+	"version": "4.0.0",
 	"source": "ig.xml",
 	"gen-examples": "false",
 	"title": "SNOMED CT Implementation Guide",
-  "sct-edition" : "http://snomed.info/sct/900000000000207008",
-	"publisher": "HL7 Intl (Vocab)"
+  	"sct-edition" : "http://snomed.info/sct/900000000000207008",
+	"publisher": "SNOMED International"
 }
