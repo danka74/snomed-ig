@@ -1,0 +1,356 @@
+﻿<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+   <meta charset="UTF-8"/>
+  <title>SNOMED CT Implementation Guide for FHIR</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="SNOMED CT Implementation Guide for FHIR Implemenation Guide"/>
+<meta name="author" content="http://argonautwiki.hl7.org"/>
+
+
+  <link rel="stylesheet" href="fhir.css"/>
+
+
+     <!-- Bootstrap core CSS -->
+
+     <!-- Latest compiled and minified CSS -->
+
+  <link rel="stylesheet" href="dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+  <link rel="stylesheet" href="assets/css/project.css"/>
+  <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+	<link rel="stylesheet" href="jquery-ui.css"/>
+
+    <!-- Favicons -->
+  <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+  <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+  <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+  <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+
+
+<body markdown="1">
+
+
+ <div id="segment-header" class="segment">    <!-- segment-header -->
+  <div class="container">    <!-- container -->
+   <a no-external="true" id="logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="logo fhir"/> </a>
+   <div id="hl7-nav">
+     <a no-external="true" id="hl7-logo" href="http://www.hl7.org">
+     <img src="assets/images/hl7-logo.png" alt="visit the hl7 website" width="42" height="50"/>
+    </a>
+   </div>
+
+   <div id="ig-status">
+ <b>SNOMED CT Implementation Guide for FHIR</b>
+</div>
+
+  </div>
+  <div class="container">    <!-- container -->
+ </div></div>    <!-- /segment-header -->
+
+ <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+  <div id="stripe"> </div>
+  <div class="container">    <!-- container -->
+     <!-- HEADER CONTENT -->
+
+   <nav class="navbar navbar-inverse">
+    <div class="container"><a name="5106b621-1586-43c1-a2aa-4614378ea1a9">​</a>
+     <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+     </button>
+     <a href="http://build.fhir.org//index.html" class="navbar-brand hidden">FHIR</a>
+     <div class="nav-collapse collapse navbar-inverse-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="conceptmaps.html">Concept Maps</a></li>
+        <li><a href="valuesets.html">Value Sets</a></li>
+        <li><a href="codesystems.html">Code Systems</a></li>
+        <li><a href="downloads.html">Downloads</a></li>
+      </ul>
+     </div>    <!-- /.nav-collapse -->
+    </div>    <!-- /.container -->
+   </nav>    <!-- /.navbar -->
+
+    <!-- /HEADER CONTENT -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-navbar -->
+
+
+
+    <!-- /container -->
+    <!-- /segment-breadcrumb -->
+
+<div id="segment-content" class="segment">    <!-- segment-content -->
+<div class="container">    <!-- container -->
+<div class="row">
+<div class="inner-wrapper">
+
+
+<div class="col-12">
+
+
+  <!-- ============BreadCrumb=============== -->
+
+<nav class="breadcrumb"><a name="2b6826d4-3658-40f8-a703-b46d0e8d3710">​</a>
+  
+    
+    
+      <a href="index.html" class="breadcrumb-item">Home</a>
+      /
+      <a href="profiles.html" class="breadcrumb-item">Profiles</a>
+      /
+      <span class="breadcrumb-item active">ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.json</span>
+    
+    
+    
+    
+
+</nav>
+
+
+    <!-- ============CONTENT CONTENT=============== -->
+
+<h2>Example: ConceptMap-ProbabilityCodelist-to-reaction-event-certainty</h2>
+
+<p>
+Formats: <a href="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.html">Narrative</a>, <a href="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.xml.html">XML</a>, <a href="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.json.html">JSON</a>, <a href="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.ttl.html">Turtle</a>
+</p>
+<p>
+Raw <a download="null" href="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.json">json</a>
+</p>
+
+<pre class="json">
+{
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap">resourceType</a>" : "ConceptMap",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.id">id</a>" : "ProbabilityCodelist-to-reaction-event-certainty",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.text">text</a>" : {
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://build.fhir.org/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h2&gt;ProbabilityCodelist-to-reaction-event-certainty (http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty)&lt;/h2&gt;&lt;p&gt;Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.8--20150401000000 to (not specified)&lt;/p&gt;&lt;p&gt;ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: &lt;a href=\"mailto:info@nictiz.nl\"&gt;info@nictiz.nl&lt;/a&gt;). CC0&lt;/p&gt;&lt;div&gt;&lt;p&gt;Maps the HCIM AllergyIntolerance release 2015 terminology for Certainty to the FHIR STU3 terminology.&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\"grid\"&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Equivalence&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17162000 (Certain)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2931005 (Likely)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;likely&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;60022001 (Possible diagnosis (contextual qualifier))&lt;/td&gt;&lt;td&gt;narrower&lt;/td&gt;&lt;td&gt;likely&lt;/td&gt;&lt;td&gt;The better equivalent would be &amp;quot;somewhat likely&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;unlikely&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;260385009 (Negative)&lt;/td&gt;&lt;td&gt;wider&lt;/td&gt;&lt;td&gt;unlikely&lt;/td&gt;&lt;td&gt;The better equivalent would be &amp;quot;confirmed likely&amp;quot;.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;261665006 (Unknown)&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;unknown&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;410591008 (Definitely present (qualifier value))&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;410592001 (Probably present (qualifier value))&lt;/td&gt;&lt;td&gt;equal&lt;/td&gt;&lt;td&gt;likely&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;410590009 (Known possible (qualifier value))&lt;/td&gt;&lt;td&gt;narrower&lt;/td&gt;&lt;td&gt;likely&lt;/td&gt;&lt;td&gt;The better equivalent would be &amp;quot;somewhat likely&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;410593006 (Probably NOT present (qualifier value))&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;unlikely&lt;/td&gt;&lt;td&gt;Combine with AllergyIntolerance.verificationStatus = unconfirmed.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;410594000 (Definitely NOT present (qualifier value))&lt;/td&gt;&lt;td&gt;wider&lt;/td&gt;&lt;td&gt;unlikely&lt;/td&gt;&lt;td&gt;The better equivalent would be &amp;quot;confirmed likely&amp;quot;.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.url">url</a>" : "http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.version">version</a>" : "1.0",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.name">name</a>" : "ProbabilityCodelist-to-reaction-event-certainty",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.title">title</a>" : "HCIM ProbabilityCodelist to reaction-event-certainty",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.status">status</a>" : "active",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.date">date</a>" : "2017-01-04T03:27:28-06:00",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.publisher">publisher</a>" : "Nictiz",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.contact">contact</a>" : [
+    {
+      "<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Nictiz",
+      "<a href="http://build.fhir.org/datatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "info@nictiz.nl",
+          "<a href="http://build.fhir.org/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "work"
+        }
+      ]
+    }
+  ],
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.description">description</a>" : "Maps the HCIM AllergyIntolerance release 2015 terminology for Certainty to the FHIR STU3 terminology.",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.purpose">purpose</a>" : "To aid in mapping from HCIM AllergyIntolerance value set ProbabilityCodelist to FHIR STU3 AllergyIntolerance extension for certainty.",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.copyright">copyright</a>" : "CC0",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.source[x]">sourceUri</a>" : "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.8--20150401000000",
+  "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group">group</a>" : [
+    {
+      "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.source">source</a>" : "http://snomed.info/sct",
+      "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.target">target</a>" : "http://hl7.org/fhir/reaction-event-certainty",
+      "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element">element</a>" : [
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "17162000",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Certain",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "confirmed",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Confirmed",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "2931005",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Probable",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "60022001",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Possible",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "narrower",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "The better equivalent would be \"somewhat likely\""
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "385434005",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Unlikely",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "260385009",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Ruled Out",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "wider",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "The better equivalent would be \"confirmed likely\"."
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "261665006",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Unknown",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "unknown",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unknown",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "410591008",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Definitely present",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "confirmed",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Confirmed",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "410592001",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Probably present",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equal"
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "410590009",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Known possible",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Likely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "narrower",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "The better equivalent would be \"somewhat likely\""
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "410593006",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Probably not present",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Combine with AllergyIntolerance.verificationStatus = unconfirmed."
+            }
+          ]
+        },
+        {
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.code">code</a>" : "410594000",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Definitely not present",
+          "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Unlikely",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "wider",
+              "<a href="http://build.fhir.org/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "The better equivalent would be \"confirmed likely\"."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}</pre>
+
+
+    <!-- ==============END CONTENT END CONTENT=================== -->
+
+</div>
+
+
+</div>    <!-- /inner-wrapper -->
+</div>    <!-- /row -->
+</div>    <!-- /container -->
+
+</div>    <!-- /segment-content -->
+
+
+
+
+
+        <!-- /inner-wrapper -->
+                <!-- /row -->
+            <!-- /container -->
+
+        <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">    <!-- segment-footer -->
+  <div class="container">    <!-- container -->
+   <div class="inner-wrapper">
+    <p><a name="2d85bb3b-8e1e-4d57-b463-89bdad57833d">​</a>
+            SNOMED CT Implementation Guide for FHIR Version:   &reg;&copy; <a style="color: #81BEF7" href="http://build.fhir.org/">FHIR Version: 4.0.0</a> (IG Publisher v4.0.0-0d7a3630) generated on Tue, Jul 2, 2019 20:11-0500. |
+               <!-- <a style="color: #81BEF7" rel="license"  <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
+                <a rel="license" style="color: #81BEF7" href="http://build.fhir.org/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a>
+        
+        </p>
+   </div>    <!-- /inner-wrapper -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-footer -->
+    <!-- disqus thread -->
+    <!-- disqus -->
+    <!-- end disqus -->
+
+ <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+  <div class="container">    <!-- container -->
+  </div>    <!-- /container -->
+ </div>    <!-- /segment-post-footer -->
+
+   <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+<script src="./assets/js/jquery.js"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+<script src="./dist/js/bootstrap.min.js"> </script>
+<script src="./assets/js/respond.min.js"> </script>
+
+<script src="./assets/js/fhir.js"> </script>
+
+  <!-- Analytics Below
+================================================== -->
+
+
+</body>
+
+
+</head></html>

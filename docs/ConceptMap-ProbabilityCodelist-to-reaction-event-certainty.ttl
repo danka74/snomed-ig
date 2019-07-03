@@ -1,0 +1,165 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty> a fhir:ConceptMap;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ProbabilityCodelist-to-reaction-event-certainty"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ProbabilityCodelist-to-reaction-event-certainty (http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.8--20150401000000 to (not specified)</p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href=\"mailto:info@nictiz.nl\">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllergyIntolerance release 2015 terminology for Certainty to the FHIR STU3 terminology.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td><td><b>Comment</b></td></tr><tr><td>17162000 (Certain)</td><td>equal</td><td>confirmed</td><td/></tr><tr><td>2931005 (Likely)</td><td>equal</td><td>likely</td><td/></tr><tr><td>60022001 (Possible diagnosis (contextual qualifier))</td><td>narrower</td><td>likely</td><td>The better equivalent would be &quot;somewhat likely&quot;</td></tr><tr><td>385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))</td><td>equal</td><td>unlikely</td><td/></tr><tr><td>260385009 (Negative)</td><td>wider</td><td>unlikely</td><td>The better equivalent would be &quot;confirmed likely&quot;.</td></tr><tr><td>261665006 (Unknown)</td><td>equal</td><td>unknown</td><td/></tr><tr><td>410591008 (Definitely present (qualifier value))</td><td>equal</td><td>confirmed</td><td/></tr><tr><td>410592001 (Probably present (qualifier value))</td><td>equal</td><td>likely</td><td/></tr><tr><td>410590009 (Known possible (qualifier value))</td><td>narrower</td><td>likely</td><td>The better equivalent would be &quot;somewhat likely&quot;</td></tr><tr><td>410593006 (Probably NOT present (qualifier value))</td><td>equivalent</td><td>unlikely</td><td>Combine with AllergyIntolerance.verificationStatus = unconfirmed.</td></tr><tr><td>410594000 (Definitely NOT present (qualifier value))</td><td>wider</td><td>unlikely</td><td>The better equivalent would be &quot;confirmed likely&quot;.</td></tr></table></div>"
+  ];
+  fhir:ConceptMap.url [ fhir:value "http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty"];
+  fhir:ConceptMap.version [ fhir:value "1.0"];
+  fhir:ConceptMap.name [ fhir:value "ProbabilityCodelist-to-reaction-event-certainty"];
+  fhir:ConceptMap.title [ fhir:value "HCIM ProbabilityCodelist to reaction-event-certainty"];
+  fhir:ConceptMap.status [ fhir:value "active"];
+  fhir:ConceptMap.date [ fhir:value "2017-01-04T03:27:28-06:00"^^xsd:dateTime];
+  fhir:ConceptMap.publisher [ fhir:value "Nictiz"];
+  fhir:ConceptMap.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Nictiz" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "info@nictiz.nl" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ConceptMap.description [ fhir:value "Maps the HCIM AllergyIntolerance release 2015 terminology for Certainty to the FHIR STU3 terminology."];
+  fhir:ConceptMap.purpose [ fhir:value "To aid in mapping from HCIM AllergyIntolerance value set ProbabilityCodelist to FHIR STU3 AllergyIntolerance extension for certainty."];
+  fhir:ConceptMap.copyright [ fhir:value "CC0"];
+  fhir:ConceptMap.sourceUri [ fhir:value "http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.8--20150401000000"];
+  fhir:ConceptMap.group [
+     fhir:index 0;
+     fhir:ConceptMap.group.source [ fhir:value "http://snomed.info/sct" ];
+     fhir:ConceptMap.group.target [ fhir:value "http://hl7.org/fhir/reaction-event-certainty" ];
+     fhir:ConceptMap.group.element [
+       fhir:index 0;
+       fhir:ConceptMap.group.element.code [ fhir:value "17162000" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Certain" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "confirmed" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Confirmed" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ConceptMap.group.element.code [ fhir:value "2931005" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Probable" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "likely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Likely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ConceptMap.group.element.code [ fhir:value "60022001" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Possible" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "likely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Likely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "The better equivalent would be \"somewhat likely\"" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ConceptMap.group.element.code [ fhir:value "385434005" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Unlikely" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "unlikely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Unlikely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ConceptMap.group.element.code [ fhir:value "260385009" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Ruled Out" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "unlikely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Unlikely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "wider" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "The better equivalent would be \"confirmed likely\"." ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ConceptMap.group.element.code [ fhir:value "261665006" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Unknown" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "unknown" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Unknown" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:ConceptMap.group.element.code [ fhir:value "410591008" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Definitely present" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "confirmed" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Confirmed" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:ConceptMap.group.element.code [ fhir:value "410592001" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Probably present" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "likely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Likely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:ConceptMap.group.element.code [ fhir:value "410590009" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Known possible" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "likely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Likely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "narrower" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "The better equivalent would be \"somewhat likely\"" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:ConceptMap.group.element.code [ fhir:value "410593006" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Probably not present" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "unlikely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Unlikely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Combine with AllergyIntolerance.verificationStatus = unconfirmed." ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:ConceptMap.group.element.code [ fhir:value "410594000" ];
+       fhir:ConceptMap.group.element.display [ fhir:value "Definitely not present" ];
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "unlikely" ];
+         fhir:ConceptMap.group.element.target.display [ fhir:value "Unlikely" ];
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "wider" ];
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "The better equivalent would be \"confirmed likely\"." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/ig/snomed/ConceptMap/ProbabilityCodelist-to-reaction-event-certainty.ttl> .
+
+# -------------------------------------------------------------------------------------
+

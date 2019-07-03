@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="SeverityCodelist-to-AllergyIntoleranceSeverity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>SeverityCodelist-to-AllergyIntoleranceSeverity (http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity)</h2><p>Mapping from http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.6--20150401000000 to <a href="http://build.fhir.org/valueset-reaction-event-severity.html">http://hl7.org/fhir/ValueSet/reaction-event-severity</a></p><p>ACTIVE. Published on Jan 4, 2017 3:27:28 AM by Nictiz (Nictiz: <a href="mailto:info@nictiz.nl">info@nictiz.nl</a>). CC0</p><div><p>Maps the HCIM AllgergyIntolerance release 2015 terminology for the concept Serverty to the FHIR STU3 terminology bound at AllergyIntolerance.reaction.severity</p>
+</div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Equivalence</b></td><td><b>Destination Code</b></td></tr><tr><td>MILD</td><td>equal</td><td>mild</td></tr><tr><td>MOD</td><td>equal</td><td>moderate</td></tr><tr><td>SEV</td><td>equal</td><td>severe</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/ig/snomed/ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity"/>
+  <version value="1.0"/>
+  <name value="SeverityCodelist-to-AllergyIntoleranceSeverity"/>
+  <title value="HCIM SeverityCodelist to AllergyIntoleranceSeverity"/>
+  <status value="active"/>
+  <date value="2017-01-04T03:27:28-06:00"/>
+  <publisher value="Nictiz"/>
+  <contact>
+    <name value="Nictiz"/>
+    <telecom>
+      <system value="email"/>
+      <value value="info@nictiz.nl"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Maps the HCIM AllgergyIntolerance release 2015 terminology for the concept Serverty to the FHIR STU3 terminology bound at AllergyIntolerance.reaction.severity"/>
+  <purpose value="To aid in mapping from ZIB AllgergyIntolerance value set SeverityCodelist to FHIR STU3 AllergyIntolerance.reaction.severity"/>
+  <copyright value="CC0"/>
+  <sourceUri value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.8.2.6--20150401000000"/>
+  <targetUri value="http://hl7.org/fhir/ValueSet/reaction-event-severity"/>
+  <group>
+    <source value="urn:oid:2.16.840.1.113883.2.4.15.20"/>
+    <target value="http://hl7.org/fhir/reaction-event-severity"/>
+    <targetVersion value="http://hl7.org/fhir/reaction-event-severity version 3.0.1"/>
+    <element>
+      <code value="MILD"/>
+      <display value="Mild"/>
+      <target>
+        <code value="mild"/>
+        <display value="Mild"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="MOD"/>
+      <display value="Moderate"/>
+      <target>
+        <code value="moderate"/>
+        <display value="Moderate"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+    <element>
+      <code value="SEV"/>
+      <display value="Severe"/>
+      <target>
+        <code value="severe"/>
+        <display value="Severe"/>
+        <equivalence value="equal"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

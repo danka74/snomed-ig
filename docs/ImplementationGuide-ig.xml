@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.uv.snomed-null"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>SNOMED CT Implementation Guide for FHIR</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig</pre></div>
+  </text>
+  <url value="http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig"/>
+  <name value="SNOMED CT Implementation Guide for FHIR"/>
+  <status value="draft"/>
+  <publisher value="SNOMED International"/>
+  <packageId value="hl7.fhir.uv.snomed"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.0"/>
+  <definition>
+    <grouping>
+      <name value="base"/>
+    </grouping>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-ProbabilityCodelist-to-reaction-event-certainty.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ProbabilityCodelist-to-reaction-event-certainty"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-CriticalExtentCodelist-to-allergy-intolerance-criticality.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/CriticalExtentCodelist-to-allergy-intolerance-criticality"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-ContactTypeCodelist-to-ActEncounterCode.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ContactTypeCodelist-to-ActEncounterCode"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-AllergyStatusCodelist-to-allergy-status.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/AllergyStatusCodelist-to-allergy-status"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-SeverityCodelist-to-AllergyIntoleranceSeverity.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/SeverityCodelist-to-AllergyIntoleranceSeverity"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-ResultFlagCodelist-to-observation-interpretation.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ResultFlagCodelist-to-observation-interpretation"/>
+      </reference>
+    </resource>
+    <resource>
+      <extension url="http://tools.fhir.org/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ConceptMap-ProblemStatusCodelist-to-Condition-Clinical-Status-Codes.html"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/ProblemStatusCodelist-to-Condition-Clinical-Status-Codes"/>
+      </reference>
+    </resource>
+    <page>
+      <nameUrl value="index.html"/>
+      <title value="SNOMED CT Implementation Guide Homepage"/>
+      <generation value="markdown"/>
+    </page>
+  </definition>
+</ImplementationGuide>
