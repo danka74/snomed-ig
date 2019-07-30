@@ -5,8 +5,8 @@
 	"npm-name": "hl7.fhir.uv.snomed",
 	"paths": {
 		"output": "docs",
-		"resources": ["infrastructure", "valuesets", "conceptmaps"], 
-		"specification": "http://build.fhir.org",
+		"resources": ["infrastructure", "codesystems", "valuesets", "conceptmaps"],
+		"specification": "http://hl7.org/fhir/R4",
 		"pages": ["pages"],
 		"qa": "qa",
 		"txCache": "txCache",
@@ -14,7 +14,7 @@
 	},
 	"broken-links": "warning",
 	"resources": {
-    "*" : true
+		"*" : true
 	},
 	"status": "draft",
 	"do-transforms": "false",

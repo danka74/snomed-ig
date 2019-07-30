@@ -2533,7 +2533,7 @@ button.close {
   right: 0;
 }
 .navbar-inverse {
-  background-color: #707070;
+  background-color: #00a9e0;
 }
 .navbar-inverse .navbar-brand {
   color: #e6e6e6;
@@ -2552,7 +2552,7 @@ button.close {
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #005990;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
