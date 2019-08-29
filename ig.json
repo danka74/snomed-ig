@@ -9,6 +9,7 @@
 		"specification": "http://hl7.org/fhir/R4",
 		"pages": ["pages"],
 		"qa": "qa",
+		"history": "http://hl7.org/fhir/ig/snomed/history.cfml",
 		"txCache": "txCache",
 		"temp": "temp"
 	},
