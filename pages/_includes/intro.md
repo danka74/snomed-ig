@@ -1,8 +1,6 @@
 ## {{ site.data.fhir.igName }}
 {:.no_toc}
 
-{% include publish-box.html %}
-
 ###  Introduction
 
 This is the SNOMED CT implementation guide for FHIR. 
@@ -19,5 +17,3 @@ from the National Release Centers, and/or HL7 affiliates. Content in here is the
 HL7 or SNOMED International, and made available to you under different licences. 
 
 #### Editors notes:
-
-source pages/\_include/{{page.md_filename}}.md  file
