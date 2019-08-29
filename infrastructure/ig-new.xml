@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ig"/>
+  <id value="snomed-ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
     <valueString value="/Users/rhausam/git-repo/snomed-ig/infrastructure"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/codesystems"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
     <valueString value="/Users/rhausam/git-repo/snomed-ig/valuesets"/>
@@ -16,6 +19,7 @@
   </extension>
   <url value="http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig"/>
   <name value="SNOMED CT Implementation Guide for FHIR"/>
+  <title value="SNOMED CT Implementation Guide for FHIR"/>
   <status value="draft"/>
   <publisher value="SNOMED International"/>
   <packageId value="hl7.fhir.uv.snomed"/>
