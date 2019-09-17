@@ -4,7 +4,7 @@
 	"license": "CC0-1.0",
 	"npm-name": "hl7.fhir.uv.snomed",
 	"paths": {
-		"output": "docs",
+		"output": "output",
 		"resources": ["infrastructure", "codesystems", "valuesets", "conceptmaps"],
 		"specification": "http://hl7.org/fhir/R4",
 		"pages": ["pages"],
