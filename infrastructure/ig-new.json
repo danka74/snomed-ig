@@ -18,6 +18,10 @@
     "valueString" : "/Users/rhausam/git-repo/snomed-ig/conceptmaps"
   },
   {
+    "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
+    "valueString" : "/Users/rhausam/git-repo/snomed-ig/profiles/clinical/summary"
+  },
+  {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
     "valueString" : "/Users/rhausam/git-repo/snomed-ig/pages"
   }],

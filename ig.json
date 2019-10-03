@@ -5,7 +5,7 @@
 	"npm-name": "hl7.fhir.uv.snomed",
 	"paths": {
 		"output": "output",
-		"resources": ["infrastructure", "codesystems", "valuesets", "conceptmaps"],
+		"resources": ["infrastructure", "codesystems", "valuesets", "conceptmaps", "profiles/clinical/summary"],
 		"specification": "http://hl7.org/fhir/R4",
 		"pages": ["pages"],
 		"qa": "qa",
@@ -22,6 +22,9 @@
 	"defaults": {
 		"ValueSet": {
 			"template-base": "vs.html"
+		},
+		"Profile": {
+			"template-base": "pr.html"
 		},
 		"CodeSystem": {
 			"template-base": "cs.html"
