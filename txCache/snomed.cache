@@ -359,3 +359,5043 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "420134006"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:61dff045-9782-4a66-b9f3-3b78a6b31de9",
+    "timestamp" : "2019-10-04T06:15:14.542Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct?version=http://snomed.info/sct/20611000087101/version/20190430"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "21626009",
+      "display" : "Cutaneous hypersensitivity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25744000",
+      "display" : "Hereditary gastrogenic lactose intolerance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "54250004",
+      "display" : "Intolerance to lactose in children without lactase deficiency"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "59037007",
+      "display" : "Intolerance to drug"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "61712006",
+      "display" : "Transient gluten sensitivity"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "72354005",
+      "display" : "Oral contraceptive intolerance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91930004",
+      "display" : "Allergy to eggs"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91931000",
+      "display" : "Erythromycin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91932007",
+      "display" : "Allergy to fruit"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91933002",
+      "display" : "Macrolide allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91934008",
+      "display" : "Nut allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91935009",
+      "display" : "Allergy to peanuts"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91936005",
+      "display" : "Penicillin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91937001",
+      "display" : "Seafood allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91938006",
+      "display" : "Allergy to strawberries"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91939003",
+      "display" : "Sulfonamide allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "91940001",
+      "display" : "Allergy to walnut"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "115665000",
+      "display" : "Atopic state"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "188336009",
+      "display" : "Laboratory animal dander allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "190751001",
+      "display" : "Primary lactose intolerance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "213020009",
+      "display" : "Egg protein allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "232346004",
+      "display" : "Allergy to cat dander"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "232347008",
+      "display" : "Allergy to animal dander"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "232348003",
+      "display" : "Feather allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "232349006",
+      "display" : "House dust allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "232350006",
+      "display" : "Allergy to house dust mite"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "235719002",
+      "display" : "Food intolerance"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293582004",
+      "display" : "Allergy to analgesic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293584003",
+      "display" : "Acetaminophen allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293585002",
+      "display" : "Allergy to salicylate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293586001",
+      "display" : "Allergy to aspirin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293588000",
+      "display" : "Allergy to pentazocine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293589008",
+      "display" : "Allergy to phenazocine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293590004",
+      "display" : "Allergy to methadone analog"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293591000",
+      "display" : "Allergy to dextromoramide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293592007",
+      "display" : "Allergy to propoxyphene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293593002",
+      "display" : "Allergy to dipipanone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293594008",
+      "display" : "Allergy to methadone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293595009",
+      "display" : "Allergy to morphinan opioid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293596005",
+      "display" : "Allergy to buprenorphine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293597001",
+      "display" : "Allergy to codeine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293598006",
+      "display" : "Allergy to diamorphine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293599003",
+      "display" : "Allergy to dihydrocodeine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293600000",
+      "display" : "Allergy to nalbuphine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293601001",
+      "display" : "Allergy to morphine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293602008",
+      "display" : "Allergy to opium alkaloid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293603003",
+      "display" : "Allergy to meperidine analog"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293604009",
+      "display" : "Allergy to alfentanil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293605005",
+      "display" : "Allergy to fentanyl"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293606006",
+      "display" : "Allergy to meperidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293607002",
+      "display" : "Allergy to phenoperidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293608007",
+      "display" : "Allergy to meptazinol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293609004",
+      "display" : "Allergy to levorphanol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293610009",
+      "display" : "Allergy to non-steroidal anti-inflammatory agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293611008",
+      "display" : "Allergy to acemetacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293612001",
+      "display" : "Allergy to apazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293613006",
+      "display" : "Allergy to diclofenac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293614000",
+      "display" : "Allergy to etodolac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293615004",
+      "display" : "Allergy to felbinac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293616003",
+      "display" : "Allergy to fenbufen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293617007",
+      "display" : "Allergy to fenoprofen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293618002",
+      "display" : "Allergy to flurbiprofen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293619005",
+      "display" : "Allergy to ibuprofen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293620004",
+      "display" : "Indometacin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293621000",
+      "display" : "Allergy to ketoprofen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293622007",
+      "display" : "Allergy to ketorolac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293623002",
+      "display" : "Allergy to mefenamic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293624008",
+      "display" : "Allergy to nabumetone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293625009",
+      "display" : "Allergy to naproxen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293626005",
+      "display" : "Allergy to nefopam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293627001",
+      "display" : "Allergy to oxyphenbutazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293628006",
+      "display" : "Allergy to phenylbutazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293629003",
+      "display" : "Allergy to piroxicam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293630008",
+      "display" : "Allergy to sulindac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293631007",
+      "display" : "Allergy to tenoxicam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293632000",
+      "display" : "Allergy to tiaprofenic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293633005",
+      "display" : "Allergy to tolmetin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293634004",
+      "display" : "Allergy to diagnostic agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293635003",
+      "display" : "Allergy to tuberculin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293636002",
+      "display" : "Allergy to radiopharmaceutical"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293637006",
+      "display" : "Allergy to contrast media"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293638001",
+      "display" : "Allergy to X-ray contrast media"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293639009",
+      "display" : "Allergy to magnetic resonance imaging contrast media"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293645001",
+      "display" : "Allergy to tripotassium dicitratobismuthate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293646000",
+      "display" : "Allergy to sucralfate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293647009",
+      "display" : "Allergy to licorice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293648004",
+      "display" : "Allergy to misoprostol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293649007",
+      "display" : "Allergy to histamine H2 receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293650007",
+      "display" : "Allergy to cimetidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293651006",
+      "display" : "Allergy to famotidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293652004",
+      "display" : "Allergy to nizatidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293653009",
+      "display" : "Allergy to ranitidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293654003",
+      "display" : "Allergy to H+/K+-exchanging ATPase inhibitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293655002",
+      "display" : "Allergy to omeprazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293656001",
+      "display" : "Allergy to lansoprazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293657005",
+      "display" : "Allergy to carbenoxolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293658000",
+      "display" : "Allergy to pirenzepine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293659008",
+      "display" : "Allergy to pancreatin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293660003",
+      "display" : "Mesalazine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293662006",
+      "display" : "Allergy to olsalazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293663001",
+      "display" : "Allergy to sulfasalazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293664007",
+      "display" : "Allergy to antacid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293665008",
+      "display" : "Allergy to magnesium trisilicate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293666009",
+      "display" : "Allergy to aluminum hydroxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293668005",
+      "display" : "Allergy to loperamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293669002",
+      "display" : "Allergy to kaolin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293670001",
+      "display" : "Allergy to motility stimulant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293671002",
+      "display" : "Allergy to cisapride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293673004",
+      "display" : "Allergy to nabilone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293674005",
+      "display" : "Allergy to domperidone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293675006",
+      "display" : "Allergy to metoclopramide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293676007",
+      "display" : "Allergy to 5-HT3 receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293678008",
+      "display" : "Allergy to bisacodyl"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293679000",
+      "display" : "Dantron allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293680002",
+      "display" : "Allergy to sodium picosulfate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293681003",
+      "display" : "Allergy to lactulose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293682005",
+      "display" : "Allergy to magnesium sulfate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293684006",
+      "display" : "Allergy to anthraquinone laxative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293685007",
+      "display" : "Allergy to cascara"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293686008",
+      "display" : "Allergy to senna"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293687004",
+      "display" : "Allergy to docusate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293688009",
+      "display" : "Allergy to antispasmodic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293690005",
+      "display" : "Allergy to peppermint oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293691009",
+      "display" : "Allergy to alverine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293692002",
+      "display" : "Allergy to mebeverine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293693007",
+      "display" : "Dicycloverine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293694001",
+      "display" : "Allergy to mepenzolate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293695000",
+      "display" : "Allergy to pipenzolate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293696004",
+      "display" : "Allergy to poldine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293697008",
+      "display" : "Allergy to propantheline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293699006",
+      "display" : "Allergy to chenodeoxycholic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293700007",
+      "display" : "Allergy to dehydrocholic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293701006",
+      "display" : "Allergy to ursodeoxycholic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293702004",
+      "display" : "Allergy to chenodeoxycholic acid + ursodeoxycholic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293706001",
+      "display" : "Allergy to etomidate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293707005",
+      "display" : "Allergy to ketamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293708000",
+      "display" : "Allergy to propofol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293709008",
+      "display" : "Thiopental allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293710003",
+      "display" : "Allergy to methohexital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293712006",
+      "display" : "Allergy to enflurane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293714007",
+      "display" : "Allergy to halothane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293715008",
+      "display" : "Allergy to isoflurane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293716009",
+      "display" : "Allergy to trichloroethylene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293717000",
+      "display" : "Allergy to desflurane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293718005",
+      "display" : "Allergy to local anesthetic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293719002",
+      "display" : "Allergy to bupivacaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293720008",
+      "display" : "Allergy to dibucaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293721007",
+      "display" : "Allergy to prilocaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293722000",
+      "display" : "Lidocaine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293723005",
+      "display" : "Allergy to cocaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293724004",
+      "display" : "Allergy to benzocaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293725003",
+      "display" : "Tetracaine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293726002",
+      "display" : "Allergy to benoxinate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293727006",
+      "display" : "Allergy to procaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293728001",
+      "display" : "Allergy to proxymetacaine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293732007",
+      "display" : "Allergy to amifostine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293733002",
+      "display" : "Allergy to aldesleukin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293735009",
+      "display" : "Allergy to molgramostim"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293736005",
+      "display" : "Allergy to lenograstim"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293737001",
+      "display" : "Allergy to filgrastim"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293738006",
+      "display" : "Allergy to levamisole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293739003",
+      "display" : "Allergy to antineoplastic agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293740001",
+      "display" : "Allergy to alkylating agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293741002",
+      "display" : "Allergy to mitobronitol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293742009",
+      "display" : "Allergy to busulfan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293743004",
+      "display" : "Allergy to treosulfan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293745006",
+      "display" : "Allergy to thiotepa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293746007",
+      "display" : "Allergy to nitrogen mustard derivative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293747003",
+      "display" : "Allergy to chlorambucil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293748008",
+      "display" : "Allergy to cyclophosphamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293749000",
+      "display" : "Allergy to ethoglucid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293750000",
+      "display" : "Allergy to ifosfamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293751001",
+      "display" : "Allergy to melphalan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293752008",
+      "display" : "Allergy to estramustine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293753003",
+      "display" : "Chlormethine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293754009",
+      "display" : "Allergy to nitrosurea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293755005",
+      "display" : "Allergy to carmustine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293756006",
+      "display" : "Allergy to lomustine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293757002",
+      "display" : "Allergy to triazene antineoplastic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293758007",
+      "display" : "Allergy to dacarbazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293759004",
+      "display" : "Allergy to cytotoxic antibiotic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293760009",
+      "display" : "Allergy to dactinomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293761008",
+      "display" : "Allergy to bleomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293762001",
+      "display" : "Allergy to mitomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293763006",
+      "display" : "Allergy to plicamycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293764000",
+      "display" : "Allergy to aclarubicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293765004",
+      "display" : "Mitoxantrone allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293766003",
+      "display" : "Allergy to doxorubicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293767007",
+      "display" : "Allergy to epirubicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293768002",
+      "display" : "Allergy to idarubicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293770006",
+      "display" : "Allergy to mercuric oxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293771005",
+      "display" : "Allergy to methotrexate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293772003",
+      "display" : "Allergy to mercaptopurine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293773008",
+      "display" : "Tioguanine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293774002",
+      "display" : "Allergy to pentostatin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293775001",
+      "display" : "Allergy to cytarabine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293776000",
+      "display" : "Allergy to fluorouracil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293777009",
+      "display" : "Allergy to etoposide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293778004",
+      "display" : "Allergy to amsacrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293779007",
+      "display" : "Allergy to carboplatin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293780005",
+      "display" : "Allergy to cisplatin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293781009",
+      "display" : "Hydroxycarbamide allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293782002",
+      "display" : "Allergy to procarbazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293783007",
+      "display" : "Allergy to razoxane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293784001",
+      "display" : "Allergy to crisantaspase"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293785000",
+      "display" : "Allergy to paclitaxel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293786004",
+      "display" : "Allergy to fludarabine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293787008",
+      "display" : "Allergy to aminoglutethimide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293788003",
+      "display" : "Allergy to estrogen receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293789006",
+      "display" : "Allergy to trilostane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293790002",
+      "display" : "Allergy to tamoxifen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293791003",
+      "display" : "Allergy to formestane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293792005",
+      "display" : "Allergy to Vinca alkaloid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293793000",
+      "display" : "Allergy to vinblastine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293794006",
+      "display" : "Allergy to vincristine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293795007",
+      "display" : "Allergy to vindesine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293796008",
+      "display" : "Allergy to dimethyl sulfoxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293798009",
+      "display" : "Ciclosporin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293799001",
+      "display" : "Allergy to azathioprine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293801003",
+      "display" : "Allergy to centrally acting appetite suppressant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293802005",
+      "display" : "Allergy to mazindol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293803000",
+      "display" : "Allergy to phentermine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293804006",
+      "display" : "Allergy to dexfenfluramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293805007",
+      "display" : "Allergy to diethylpropion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293806008",
+      "display" : "Allergy to fenfluramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293808009",
+      "display" : "Allergy to levodopa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293809001",
+      "display" : "Benserazide + levodopa allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293810006",
+      "display" : "Carbidopa + levodopa allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293811005",
+      "display" : "Allergy to amantadine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293812003",
+      "display" : "Allergy to apomorphine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293813008",
+      "display" : "Lisuride allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293814002",
+      "display" : "Allergy to pergolide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293815001",
+      "display" : "Allergy to bromocriptine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293818004",
+      "display" : "Allergy to lithium carbonate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293819007",
+      "display" : "Allergy to lithium citrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293822009",
+      "display" : "Allergy to butriptyline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293823004",
+      "display" : "Allergy to doxepin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293824005",
+      "display" : "Allergy to iprindole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293825006",
+      "display" : "Allergy to lofepramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293826007",
+      "display" : "Allergy to nortriptyline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293827003",
+      "display" : "Allergy to trimipramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293828008",
+      "display" : "Allergy to amoxapine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293829000",
+      "display" : "Allergy to amitriptyline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293830005",
+      "display" : "Allergy to clomipramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293831009",
+      "display" : "Allergy to desipramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293832002",
+      "display" : "Dosulepin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293833007",
+      "display" : "Allergy to imipramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293834001",
+      "display" : "Allergy to protriptyline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293835000",
+      "display" : "Allergy to monoamine oxidase inhibitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293836004",
+      "display" : "Allergy to phenelzine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293837008",
+      "display" : "Allergy to iproniazid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293838003",
+      "display" : "Allergy to isocarboxazid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293839006",
+      "display" : "Allergy to tranylcypromine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293840008",
+      "display" : "Allergy to moclobemide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293842000",
+      "display" : "Allergy to tryptophan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293843005",
+      "display" : "Allergy to venlafaxine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293844004",
+      "display" : "Allergy to selective serotonin re-uptake inhibitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293845003",
+      "display" : "Allergy to sertraline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293847006",
+      "display" : "Allergy to paroxetine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293848001",
+      "display" : "Allergy to nefazodone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293849009",
+      "display" : "Allergy to citalopram"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293850009",
+      "display" : "Allergy to fluoxetine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293851008",
+      "display" : "Allergy to fluvoxamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293853006",
+      "display" : "Allergy to maprotiline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293854000",
+      "display" : "Allergy to mianserin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293855004",
+      "display" : "Allergy to trazodone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293856003",
+      "display" : "Allergy to viloxazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293857007",
+      "display" : "Allergy to anticonvulsant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293858002",
+      "display" : "Allergy to beclamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293859005",
+      "display" : "Allergy to lamotrigine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293860000",
+      "display" : "Allergy to piracetam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293861001",
+      "display" : "Allergy to gabapentin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293862008",
+      "display" : "Allergy to valproate sodium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293863003",
+      "display" : "Allergy to barbiturate antiepileptic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293864009",
+      "display" : "Methylphenobarbital allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293865005",
+      "display" : "Phenobarbital allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293866006",
+      "display" : "Allergy to primidone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293867002",
+      "display" : "Allergy to carbamazepine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293868007",
+      "display" : "Allergy to vigabatrin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293869004",
+      "display" : "Allergy to phenytoin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293870003",
+      "display" : "Allergy to ethosuximide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293871004",
+      "display" : "Allergy to clonazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293874007",
+      "display" : "Allergy to zopiclone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293875008",
+      "display" : "Allergy to zolpidem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293876009",
+      "display" : "Allergy to chlormezanone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293877000",
+      "display" : "Allergy to methyprylon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293878005",
+      "display" : "Allergy to paraldehyde"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293879002",
+      "display" : "Allergy to barbiturate sedative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293880004",
+      "display" : "Amobarbital allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293881000",
+      "display" : "Butobarbital allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293882007",
+      "display" : "Allergy to cyclobarbital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293884008",
+      "display" : "Secobarbital allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293886005",
+      "display" : "Allergy to flunitrazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293887001",
+      "display" : "Allergy to flurazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293888006",
+      "display" : "Allergy to loprazolam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293889003",
+      "display" : "Allergy to lormetazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293890007",
+      "display" : "Allergy to nitrazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293891006",
+      "display" : "Allergy to triazolam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293892004",
+      "display" : "Allergy to alprazolam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293893009",
+      "display" : "Allergy to bromazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293894003",
+      "display" : "Allergy to chlordiazepoxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293895002",
+      "display" : "Allergy to clobazam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293897005",
+      "display" : "Allergy to ketazolam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293898000",
+      "display" : "Allergy to medazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293899008",
+      "display" : "Allergy to oxazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293900003",
+      "display" : "Allergy to prazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293901004",
+      "display" : "Allergy to midazolam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293902006",
+      "display" : "Allergy to diazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293903001",
+      "display" : "Allergy to lorazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293904007",
+      "display" : "Allergy to temazepam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293905008",
+      "display" : "Allergy to carbamate sedative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293906009",
+      "display" : "Allergy to meprobamate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293908005",
+      "display" : "Allergy to chloral hydrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293909002",
+      "display" : "Allergy to dichloralphenazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293911006",
+      "display" : "Allergy to buspirone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293912004",
+      "display" : "Clomethiazole allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293914003",
+      "display" : "Allergy to sulpiride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293915002",
+      "display" : "Allergy to loxapine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293916001",
+      "display" : "Allergy to clozapine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293917005",
+      "display" : "Allergy to risperidone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293918000",
+      "display" : "Allergy to tetrabenazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293919008",
+      "display" : "Allergy to butyrophenone derivative"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293920002",
+      "display" : "Allergy to benperidol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293921003",
+      "display" : "Allergy to trifluperidol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293922005",
+      "display" : "Allergy to haloperidol decanoate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293923000",
+      "display" : "Allergy to droperidol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293924006",
+      "display" : "Allergy to haloperidol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293925007",
+      "display" : "Allergy to diphenylbutylpiperidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293926008",
+      "display" : "Allergy to pimozide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293927004",
+      "display" : "Allergy to fluspirilene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293928009",
+      "display" : "Allergy to phenothiazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293929001",
+      "display" : "Levomepromazine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293930006",
+      "display" : "Allergy to periciazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293933008",
+      "display" : "Allergy to thiethylperazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293934002",
+      "display" : "Allergy to fluphenazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293935001",
+      "display" : "Allergy to chlorpromazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293936000",
+      "display" : "Pipotiazine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293937009",
+      "display" : "Allergy to promazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293938004",
+      "display" : "Allergy to thioridazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293939007",
+      "display" : "Allergy to perphenazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293940009",
+      "display" : "Allergy to prochlorperazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293941008",
+      "display" : "Allergy to trifluoperazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293942001",
+      "display" : "Allergy to thioxanthene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293943006",
+      "display" : "Allergy to chlorprothixene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293946003",
+      "display" : "Allergy to zuclopenthixol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293948002",
+      "display" : "Flupentixol allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293949005",
+      "display" : "Allergy to oxypertine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293950005",
+      "display" : "Allergy to remoxipride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293952002",
+      "display" : "Allergy to selegiline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293953007",
+      "display" : "Allergy to central stimulant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293954001",
+      "display" : "Allergy to pemoline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293955000",
+      "display" : "Allergy to methylphenidate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293956004",
+      "display" : "Allergy to prolintane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293957008",
+      "display" : "Amfetamine group allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293958003",
+      "display" : "Dexamfetamine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293959006",
+      "display" : "Allergy to alcohol metabolism modifier"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293960001",
+      "display" : "Allergy to disulfiram"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293962009",
+      "display" : "Allergy to beta adrenergic receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293963004",
+      "display" : "Allergy to beta-1 adrenergic receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293964005",
+      "display" : "Allergy to acebutolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293965006",
+      "display" : "Allergy to atenolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293966007",
+      "display" : "Allergy to betaxolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293967003",
+      "display" : "Allergy to bisoprolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293968008",
+      "display" : "Allergy to celiprolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293969000",
+      "display" : "Allergy to esmolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293970004",
+      "display" : "Allergy to metoprolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293972007",
+      "display" : "Allergy to nadolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293973002",
+      "display" : "Allergy to pindolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293974008",
+      "display" : "Allergy to carvedilol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293975009",
+      "display" : "Allergy to metipranolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293976005",
+      "display" : "Allergy to carteolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293977001",
+      "display" : "Allergy to labetalol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293978006",
+      "display" : "Allergy to levobunolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293979003",
+      "display" : "Allergy to oxprenolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293980000",
+      "display" : "Allergy to penbutolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293981001",
+      "display" : "Allergy to practolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293982008",
+      "display" : "Allergy to propranolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293983003",
+      "display" : "Allergy to sotalol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293984009",
+      "display" : "Allergy to timolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293985005",
+      "display" : "Allergy to alpha adrenergic receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293986006",
+      "display" : "Allergy to alfuzosin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293987002",
+      "display" : "Allergy to doxazosin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293988007",
+      "display" : "Allergy to indoramin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293989004",
+      "display" : "Allergy to phenoxybenzamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293990008",
+      "display" : "Allergy to phentolamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293991007",
+      "display" : "Allergy to prazosin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293992000",
+      "display" : "Allergy to terazosin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293993005",
+      "display" : "Allergy to nicotine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293994004",
+      "display" : "Allergy to calcium channel blocker"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293995003",
+      "display" : "Allergy to lidoflazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293996002",
+      "display" : "Allergy to nifedipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293997006",
+      "display" : "Allergy to prenylamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293998001",
+      "display" : "Allergy to isradipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "293999009",
+      "display" : "Allergy to felodipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294000006",
+      "display" : "Allergy to lacidipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294001005",
+      "display" : "Allergy to nimodipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294002003",
+      "display" : "Allergy to amlodipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294003008",
+      "display" : "Allergy to diltiazem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294004002",
+      "display" : "Allergy to nicardipine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294005001",
+      "display" : "Allergy to verapamil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294006000",
+      "display" : "Allergy to parasympathomimetic agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294007009",
+      "display" : "Allergy to pilocarpine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294009007",
+      "display" : "Allergy to methacholine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294010002",
+      "display" : "Allergy to cholinesterase inhibitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294011003",
+      "display" : "Allergy to physostigmine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294012005",
+      "display" : "Allergy to demecarium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294013000",
+      "display" : "Allergy to distigmine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294014006",
+      "display" : "Allergy to echothiophate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294015007",
+      "display" : "Allergy to edrophonium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294016008",
+      "display" : "Allergy to pyridostigmine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294017004",
+      "display" : "Allergy to neostigmine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294018009",
+      "display" : "Allergy to bethanechol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294019001",
+      "display" : "Allergy to carbachol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294021006",
+      "display" : "Allergy to isoetharine hydrochloride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294023009",
+      "display" : "Allergy to pseudoephedrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294024003",
+      "display" : "Allergy to alpha adrenergic receptor agonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294025002",
+      "display" : "Allergy to oxedrine tartrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294026001",
+      "display" : "Allergy to metaraminol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294027005",
+      "display" : "Allergy to methoxamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294028000",
+      "display" : "Allergy to naphazoline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294029008",
+      "display" : "Norepinephrine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294030003",
+      "display" : "Allergy to phenylephrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294031004",
+      "display" : "Allergy to xylometazoline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294033001",
+      "display" : "Allergy to selective beta-2 agonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294035008",
+      "display" : "Allergy to pirbuterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294036009",
+      "display" : "Allergy to salmeterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294037000",
+      "display" : "Allergy to albuterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294038005",
+      "display" : "Allergy to bambuterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294039002",
+      "display" : "Allergy to fenoterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294040000",
+      "display" : "Allergy to metaproterenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294041001",
+      "display" : "Allergy to reproterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294042008",
+      "display" : "Allergy to rimiterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294043003",
+      "display" : "Allergy to ritodrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294044009",
+      "display" : "Allergy to terbutaline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294045005",
+      "display" : "Allergy to tulobuterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294047002",
+      "display" : "Allergy to dobutamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294048007",
+      "display" : "Allergy to dopexamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294050004",
+      "display" : "Allergy to isoproterenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294055009",
+      "display" : "Allergy to methyldopa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294056005",
+      "display" : "Allergy to methyldopa and diuretic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294057001",
+      "display" : "Allergy to apraclonidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294058006",
+      "display" : "Allergy to clonidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294059003",
+      "display" : "Allergy to lofexidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294060008",
+      "display" : "Allergy to dipivefrin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294061007",
+      "display" : "Allergy to dopamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294062000",
+      "display" : "Allergy to ephedrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294063005",
+      "display" : "Allergy to oxymetazoline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294064004",
+      "display" : "Allergy to xamoterol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294067006",
+      "display" : "Allergy to belladonna alkaloid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294068001",
+      "display" : "Allergy to piperidolate hydrochloride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294069009",
+      "display" : "Allergy to biperiden"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294071009",
+      "display" : "Allergy to terodiline hydrochloride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294072002",
+      "display" : "Allergy to lachesine chloride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294073007",
+      "display" : "Allergy to tropicamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294074001",
+      "display" : "Allergy to scopolamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294076004",
+      "display" : "Allergy to atropine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294077008",
+      "display" : "Trihexyphenidyl allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294078003",
+      "display" : "Benzatropine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294079006",
+      "display" : "Allergy to cyclopentolate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294080009",
+      "display" : "Allergy to glycopyrronium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294081008",
+      "display" : "Allergy to homatropine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294082001",
+      "display" : "Allergy to ipratropium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294083006",
+      "display" : "Allergy to methixene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294084000",
+      "display" : "Allergy to orphenadrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294087007",
+      "display" : "Allergy to oxitropium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294088002",
+      "display" : "Allergy to oxybutynin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294089005",
+      "display" : "Allergy to procyclidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294091002",
+      "display" : "Allergy to dornase alfa"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294092009",
+      "display" : "Allergy to mucolytics"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294093004",
+      "display" : "Allergy to tyloxapol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294094005",
+      "display" : "Allergy to bromhexine hydrochloride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294095006",
+      "display" : "Carbocysteine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294096007",
+      "display" : "Allergy to methylcysteine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294097003",
+      "display" : "Allergy to acetylcysteine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294098008",
+      "display" : "Allergy to respiratory stimulant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294099000",
+      "display" : "Allergy to nikethamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294100008",
+      "display" : "Allergy to ethamivan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294101007",
+      "display" : "Allergy to doxapram"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294102000",
+      "display" : "Allergy to lung surfactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294103005",
+      "display" : "Allergy to beractant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294105003",
+      "display" : "Allergy to pumactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294106002",
+      "display" : "Allergy to colfosceril"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294109009",
+      "display" : "Allergy to histamine H1 receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294111000",
+      "display" : "Allergy to astemizole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294112007",
+      "display" : "Allergy to terfenadine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294113002",
+      "display" : "Allergy to acrivastine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294114008",
+      "display" : "Allergy to loratadine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294115009",
+      "display" : "Allergy to azelastine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294116005",
+      "display" : "Allergy to cetirizine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294118006",
+      "display" : "Allergy to clemastine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294119003",
+      "display" : "Allergy to mebhydrolin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294120009",
+      "display" : "Allergy to mequitazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294121008",
+      "display" : "Allergy to oxatomide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294122001",
+      "display" : "Allergy to cyclizine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294123006",
+      "display" : "Allergy to dimenhydrinate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294125004",
+      "display" : "Allergy to antazoline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294126003",
+      "display" : "Allergy to promethazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294127007",
+      "display" : "Allergy to azatadine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294128002",
+      "display" : "Allergy to brompheniramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294129005",
+      "display" : "Chlorphenamine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294130000",
+      "display" : "Allergy to cinnarizine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294131001",
+      "display" : "Allergy to cyproheptadine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294132008",
+      "display" : "Dimetindene allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294133003",
+      "display" : "Allergy to diphenhydramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294134009",
+      "display" : "Allergy to diphenylpyraline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294135005",
+      "display" : "Allergy to hydroxyzine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294136006",
+      "display" : "Allergy to pyrilamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294137002",
+      "display" : "Allergy to phenindamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294138007",
+      "display" : "Allergy to pheniramine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294139004",
+      "display" : "Allergy to triprolidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294140002",
+      "display" : "Alimemazine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294142005",
+      "display" : "Allergy to nedocromil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294144006",
+      "display" : "Allergy to ketotifen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294145007",
+      "display" : "Allergy to lodoxamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294148009",
+      "display" : "Allergy to isoaminile"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294152009",
+      "display" : "Allergy to noscapine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294153004",
+      "display" : "Allergy to pholcodine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294157003",
+      "display" : "Allergy to xanthine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294158008",
+      "display" : "Allergy to aminophylline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294160005",
+      "display" : "Allergy to theophylline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294168003",
+      "display" : "Allergy to calamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294169006",
+      "display" : "Allergy to coal tar"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294172004",
+      "display" : "Allergy to bufexamac"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294173009",
+      "display" : "Allergy to anthralin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294177005",
+      "display" : "Allergy to ichthammol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294178000",
+      "display" : "Allergy to calcipotriol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294180006",
+      "display" : "Allergy to azelaic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294181005",
+      "display" : "Allergy to bromine and bromine compound"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294182003",
+      "display" : "Allergy to Podophyllum resin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294183008",
+      "display" : "Allergy to podophyllotoxin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294184002",
+      "display" : "Sunscreening preparations allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294189007",
+      "display" : "Surgical tissue adhesive allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294190003",
+      "display" : "Allergy to enbucrilate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294191004",
+      "display" : "Allergy to collodion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294192006",
+      "display" : "Counter irritants allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294193001",
+      "display" : "Allergy to emollient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294194007",
+      "display" : "Poultices allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294196009",
+      "display" : "Allergy to alkali-metal soap"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294197000",
+      "display" : "Astringent allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294200004",
+      "display" : "Allergy to crotamiton"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294202007",
+      "display" : "Topical abrasive agent allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294203002",
+      "display" : "Allergy to benzoyl peroxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294204008",
+      "display" : "Allergy to silver nitrate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294206005",
+      "display" : "Allergy to gamma-linolenic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294207001",
+      "display" : "Allergy to retinoid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294208006",
+      "display" : "Allergy to etretinate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294209003",
+      "display" : "Allergy to acitretin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294210008",
+      "display" : "Allergy to tretinoin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294211007",
+      "display" : "Allergy to isotretinoin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294214004",
+      "display" : "Allergy to Colchicum alkaloid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294215003",
+      "display" : "Allergy to colchicine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294217006",
+      "display" : "Allergy to probenecid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294218001",
+      "display" : "Allergy to sulfinpyrazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294219009",
+      "display" : "Allergy to xanthine oxidase inhibitor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294220003",
+      "display" : "Allergy to allopurinol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294221004",
+      "display" : "Allergy to skeletal muscle relaxant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294224007",
+      "display" : "Allergy to succinylcholine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294225008",
+      "display" : "Allergy to nondepolarizing agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294226009",
+      "display" : "Allergy to mivacurium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294227000",
+      "display" : "Allergy to alcuronium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294228005",
+      "display" : "Allergy to atracurium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294229002",
+      "display" : "Allergy to gallamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294230007",
+      "display" : "Allergy to pancuronium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294231006",
+      "display" : "Allergy to tubocurarine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294232004",
+      "display" : "Allergy to vecuronium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294233009",
+      "display" : "Allergy to rocuronium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294234003",
+      "display" : "Allergy to baclofen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294235002",
+      "display" : "Allergy to carisoprodol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294236001",
+      "display" : "Allergy to methocarbamol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294237005",
+      "display" : "Allergy to dantrolene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294238000",
+      "display" : "Allergy to gold"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294239008",
+      "display" : "Allergy to gold sodium thiomalate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294240005",
+      "display" : "Allergy to auranofin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294242002",
+      "display" : "Allergy to papaverine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294243007",
+      "display" : "Allergy to flavoxate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294245000",
+      "display" : "Allergy to mifepristone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294246004",
+      "display" : "Allergy to nonionic surfactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294247008",
+      "display" : "Nonoxynol allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294248003",
+      "display" : "Allergy to octoxinol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294249006",
+      "display" : "Allergy to prostaglandin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294250006",
+      "display" : "Allergy to A series prostaglandin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294252003",
+      "display" : "Allergy to E series prostaglandin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294253008",
+      "display" : "Allergy to dinoprostone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294254002",
+      "display" : "Allergy to gemeprost"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294255001",
+      "display" : "Allergy to alprostadil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294256000",
+      "display" : "Allergy to F series prostaglandin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294257009",
+      "display" : "Allergy to dinoprost"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294258004",
+      "display" : "Allergy to carboprost"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294259007",
+      "display" : "Allergy to I series prostaglandin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294260002",
+      "display" : "Allergy to epoprostenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294261003",
+      "display" : "Allergy to terpene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294263000",
+      "display" : "Allergy to antidote"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294264006",
+      "display" : "Allergy to ipecacuanha"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294265007",
+      "display" : "Allergy to activated charcoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294266008",
+      "display" : "Allergy to sodium nitrite"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294268009",
+      "display" : "Allergy to digoxin immune fab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294269001",
+      "display" : "Allergy to mesna"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294270000",
+      "display" : "Allergy to benzodiazepine receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294271001",
+      "display" : "Allergy to flumazenil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294273003",
+      "display" : "Allergy to pralidoxime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294275005",
+      "display" : "Allergy to opioid receptor antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294276006",
+      "display" : "Allergy to naltrexone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294277002",
+      "display" : "Allergy to naloxone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294278007",
+      "display" : "Allergy to protamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294280001",
+      "display" : "Allergy to Fullers earth"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294281002",
+      "display" : "Allergy to bentonite"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294282009",
+      "display" : "Allergy to chelating agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294283004",
+      "display" : "Allergy to dimercaprol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294284005",
+      "display" : "Allergy to deferoxamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294285006",
+      "display" : "Allergy to edetate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294290009",
+      "display" : "Allergy to trientine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294291008",
+      "display" : "Allergy to penicillamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294298002",
+      "display" : "Allergy to glycine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294299005",
+      "display" : "Allergy to dialysis fluid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294306008",
+      "display" : "Allergy to dimethyl-ether propane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294315001",
+      "display" : "Allergy to fixed oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294316000",
+      "display" : "Allergy to olive oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294317009",
+      "display" : "Allergy to Arachis oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294318004",
+      "display" : "Allergy to castor oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294320001",
+      "display" : "Allergy to glycerin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294324005",
+      "display" : "Allergy to paraffin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294327003",
+      "display" : "Allergy to mineral oil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294328008",
+      "display" : "Allergy to silicone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294329000",
+      "display" : "Allergy to dimethicone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294330005",
+      "display" : "Allergy to wool alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294332002",
+      "display" : "Allergy to polyvinyl alcohol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294333007",
+      "display" : "Allergy to carbomer-940"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294334001",
+      "display" : "Allergy to cellulose-derived viscosity modifier"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294335000",
+      "display" : "Allergy to hypromellose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294337008",
+      "display" : "Allergy to hydroxyethylcellulose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294339006",
+      "display" : "Allergy to carboxymethylcellulose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294340008",
+      "display" : "Allergy to antifungal agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294341007",
+      "display" : "Allergy to flucytosine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294342000",
+      "display" : "Allergy to terbinafine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294343005",
+      "display" : "Allergy to nitrophenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294344004",
+      "display" : "Allergy to tolnaftate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294346002",
+      "display" : "Allergy to amorolfine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294348001",
+      "display" : "Allergy to griseofulvin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294349009",
+      "display" : "Allergy to amphotericin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294350009",
+      "display" : "Allergy to natamycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294351008",
+      "display" : "Allergy to nystatin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294352001",
+      "display" : "Allergy to azole antifungal agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294354000",
+      "display" : "Allergy to undecenoate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294355004",
+      "display" : "Allergy to imidazole antifungal agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294356003",
+      "display" : "Allergy to clotrimazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294357007",
+      "display" : "Allergy to fenticonazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294358002",
+      "display" : "Allergy to tioconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294359005",
+      "display" : "Allergy to econazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294360000",
+      "display" : "Allergy to isoconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294361001",
+      "display" : "Allergy to sulconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294362008",
+      "display" : "Allergy to ketoconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294363003",
+      "display" : "Allergy to miconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294364009",
+      "display" : "Allergy to triazole antifungal agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294365005",
+      "display" : "Allergy to fluconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294366006",
+      "display" : "Allergy to itraconazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294367002",
+      "display" : "Allergy to antiviral agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294368007",
+      "display" : "Allergy to inosine pranobex"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294369004",
+      "display" : "Allergy to zidovudine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294370003",
+      "display" : "Allergy to ganciclovir"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294371004",
+      "display" : "Allergy to famciclovir"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294372006",
+      "display" : "Allergy to didanosine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294373001",
+      "display" : "Allergy to zalcitabine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294374007",
+      "display" : "Allergy to valacyclovir"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294375008",
+      "display" : "Allergy to interferon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294376009",
+      "display" : "Allergy to interferon gamma-1b"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294377000",
+      "display" : "Allergy to interferon alfa-2a"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294378005",
+      "display" : "Allergy to interferon alfa-2b"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294379002",
+      "display" : "Allergy to interferon alfa-n1"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294380004",
+      "display" : "Ribavirin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294381000",
+      "display" : "Allergy to trifluridine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294382007",
+      "display" : "Allergy to foscarnet"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294383002",
+      "display" : "Allergy to vidarabine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294384008",
+      "display" : "Allergy to acyclovir"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294385009",
+      "display" : "Allergy to idoxuridine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294387001",
+      "display" : "Allergy to antimalarial agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294388006",
+      "display" : "Allergy to pyrimethamine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294389003",
+      "display" : "Allergy to aminoquinoline antimalarial agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294390007",
+      "display" : "Allergy to amodiaquine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294391006",
+      "display" : "Allergy to primaquine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294392004",
+      "display" : "Allergy to mefloquine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294393009",
+      "display" : "Allergy to hydroxychloroquine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294394003",
+      "display" : "Allergy to chloroquine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294395002",
+      "display" : "Allergy to biguanide antimalarial agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294396001",
+      "display" : "Allergy to proguanil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294397005",
+      "display" : "Allergy to Cinchona antimalarial"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294398000",
+      "display" : "Allergy to quinine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294399008",
+      "display" : "Allergy to halofantrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294400001",
+      "display" : "Allergy to quinacrine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294404005",
+      "display" : "Allergy to acetic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294405006",
+      "display" : "Hydrargaphen allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294406007",
+      "display" : "Allergy to polynoxylin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294407003",
+      "display" : "Allergy to hexetidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294408008",
+      "display" : "Allergy to sodium perborate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294410005",
+      "display" : "Allergy to potassium permanganate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294411009",
+      "display" : "Allergy to bismuth subnitrate and iodoform paste impregnated gauze"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294413007",
+      "display" : "Allergy to thymol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294415000",
+      "display" : "Allergy to chloroxylenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294416004",
+      "display" : "Hexachlorophene allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294417008",
+      "display" : "Allergy to triclosan"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294418003",
+      "display" : "Allergy to phenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294421001",
+      "display" : "Allergy to industrial methylated spirit"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294423003",
+      "display" : "Allergy to glutaraldehyde"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294425005",
+      "display" : "Allergy to noxythiolin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294426006",
+      "display" : "Allergy to formaldehyde"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294427002",
+      "display" : "Allergy to amidine disinfectant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294430009",
+      "display" : "Allergy to biguanide disinfectant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294431008",
+      "display" : "Allergy to chlorhexidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294432001",
+      "display" : "Allergy to chlorhexidine hydrochloride and neomycin sulfate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294433006",
+      "display" : "Allergy to borate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294434000",
+      "display" : "Allergy to boric acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294436003",
+      "display" : "Allergy to quaternary ammonium surfactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294437007",
+      "display" : "Allergy to cetrimide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294438002",
+      "display" : "Allergy to benzalkonium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294439005",
+      "display" : "Allergy to domiphen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294440007",
+      "display" : "Allergy to quaternary pyridinium surfactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294441006",
+      "display" : "Allergy to cetylpyridinium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294442004",
+      "display" : "Allergy to quaternary quinolinium surfactant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294443009",
+      "display" : "Allergy to dequalinium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294447005",
+      "display" : "Allergy to gentian violet"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294448000",
+      "display" : "Allergy to brilliant green"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294449008",
+      "display" : "Allergy to hydrogen peroxide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294450008",
+      "display" : "Allergy to anthelmintic agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294451007",
+      "display" : "Allergy to piperazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294452000",
+      "display" : "Allergy to pyrantel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294453005",
+      "display" : "Allergy to niclosamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294455003",
+      "display" : "Allergy to bephenium"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294456002",
+      "display" : "Allergy to diethylcarbamazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294457006",
+      "display" : "Allergy to benzimidazole anthelmintic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294458001",
+      "display" : "Allergy to mebendazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294459009",
+      "display" : "Allergy to albendazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294460004",
+      "display" : "Tiabendazole allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294461000",
+      "display" : "Allergy to antibacterial drug"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294462007",
+      "display" : "Allergy to aminoglycosides"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294463002",
+      "display" : "Allergy to amikacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294464008",
+      "display" : "Allergy to kanamycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294465009",
+      "display" : "Allergy to netilmicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294466005",
+      "display" : "Allergy to streptomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294467001",
+      "display" : "Allergy to framycetin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294468006",
+      "display" : "Allergy to neomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294469003",
+      "display" : "Allergy to gentamicin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294470002",
+      "display" : "Allergy to tobramycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294471003",
+      "display" : "Allergy to clarithromycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294472005",
+      "display" : "Allergy to azithromycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294474006",
+      "display" : "Allergy to spectinomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294475007",
+      "display" : "Allergy to vancomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294476008",
+      "display" : "Allergy to teicoplanin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294477004",
+      "display" : "Allergy to trimethoprim"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294478009",
+      "display" : "Allergy to nitrofurantoin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294479001",
+      "display" : "Methenamine hippurate allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294480003",
+      "display" : "Allergy to mupirocin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294481004",
+      "display" : "Allergy to nitrofurazone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294482006",
+      "display" : "Allergy to fusidic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294483001",
+      "display" : "Allergy to 4-quinolones"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294484007",
+      "display" : "Allergy to rosoxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294485008",
+      "display" : "Allergy to cinoxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294486009",
+      "display" : "Allergy to nalidixic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294487000",
+      "display" : "Allergy to ciprofloxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294488005",
+      "display" : "Allergy to enoxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294489002",
+      "display" : "Allergy to ofloxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294490006",
+      "display" : "Allergy to norfloxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294491005",
+      "display" : "Allergy to temafloxacin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294492003",
+      "display" : "Allergy to penicillinase-sensitive penicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294494002",
+      "display" : "Allergy to benethamine penicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294496000",
+      "display" : "Allergy to phenethicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294497009",
+      "display" : "Allergy to penicillin V"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294499007",
+      "display" : "Allergy to penicillin G"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294500003",
+      "display" : "Allergy to penicillinase-resistant penicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294501004",
+      "display" : "Allergy to cloxacillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294502006",
+      "display" : "Allergy to floxacillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294503001",
+      "display" : "Allergy to methicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294504007",
+      "display" : "Allergy to broad spectrum penicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294505008",
+      "display" : "Amoxicillin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294506009",
+      "display" : "Allergy to ampicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294507000",
+      "display" : "Allergy to cyclacillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294508005",
+      "display" : "Allergy to mezlocillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294509002",
+      "display" : "Allergy to pivampicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294510007",
+      "display" : "Allergy to carbenicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294511006",
+      "display" : "Allergy to bacampicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294512004",
+      "display" : "Allergy to talampicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294513009",
+      "display" : "Allergy to antipseudomonal penicillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294514003",
+      "display" : "Allergy to temocillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294515002",
+      "display" : "Allergy to piperacillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294516001",
+      "display" : "Allergy to azlocillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294517005",
+      "display" : "Allergy to ticarcillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294518000",
+      "display" : "Allergy to carfecillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294519008",
+      "display" : "Allergy to amdinocillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294520002",
+      "display" : "Allergy to amdinocillin pivoxil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294522005",
+      "display" : "Allergy to ampicillin and cloxacillin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294523000",
+      "display" : "Amoxicillin + clavulanate potassium allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294524006",
+      "display" : "Ampicillin + floxacillin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294525007",
+      "display" : "Allergy to piperacillin and tazobactam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294526008",
+      "display" : "Allergy to pivampicillin and pivmecillinam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294527004",
+      "display" : "Allergy to ticarcillin and clavulanic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294528009",
+      "display" : "Allergy to polymyxin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294529001",
+      "display" : "Allergy to colistin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294530006",
+      "display" : "Allergy to polymyxin B"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294531005",
+      "display" : "Allergy to carbapenem"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294532003",
+      "display" : "Allergy to cephalosporin antibacterial"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294533008",
+      "display" : "Allergy to first generation cephalosporin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294534002",
+      "display" : "Allergy to cefadroxil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294535001",
+      "display" : "Cefalexin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294536000",
+      "display" : "Allergy to cephalothin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294537009",
+      "display" : "Cefazolin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294538004",
+      "display" : "Cefradine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294539007",
+      "display" : "Allergy to moxalactam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294540009",
+      "display" : "Allergy to second generation cephalosporin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294541008",
+      "display" : "Allergy to cefaclor"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294542001",
+      "display" : "Allergy to cefuroxime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294543006",
+      "display" : "Allergy to cefamandole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294545004",
+      "display" : "Allergy to cefotaxime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294546003",
+      "display" : "Allergy to ceftazidime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294547007",
+      "display" : "Allergy to ceftizoxime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294548002",
+      "display" : "Allergy to cefixime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294549005",
+      "display" : "Allergy to cefodizime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294550005",
+      "display" : "Allergy to cefpodoxime"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294551009",
+      "display" : "Allergy to ceftriaxone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294552002",
+      "display" : "Allergy to ceftibuten"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294554001",
+      "display" : "Allergy to cefsulodin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294555000",
+      "display" : "Allergy to fourth generation cephalosporin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294556004",
+      "display" : "Allergy to cefpirome"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294557008",
+      "display" : "Allergy to cephamycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294558003",
+      "display" : "Allergy to cefoxitin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294559006",
+      "display" : "Allergy to fosfomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294561002",
+      "display" : "Allergy to clindamycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294562009",
+      "display" : "Allergy to lincomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294563004",
+      "display" : "Allergy to mandelic acid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294564005",
+      "display" : "Allergy to monobactam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294565006",
+      "display" : "Allergy to aztreonam"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294566007",
+      "display" : "Allergy to nitroimidazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294567003",
+      "display" : "Allergy to metronidazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294568008",
+      "display" : "Allergy to tinidazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294569000",
+      "display" : "Allergy to nimorazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294570004",
+      "display" : "Allergy to calcium sulfaloxate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294571000",
+      "display" : "Allergy to phthalylsulfathiazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294572007",
+      "display" : "Allergy to sulfalene"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294573002",
+      "display" : "Allergy to sulfadiazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294574008",
+      "display" : "Allergy to sulfadimethoxine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294575009",
+      "display" : "Allergy to sulfamethazine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294576005",
+      "display" : "Allergy to sulfisoxazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294577001",
+      "display" : "Allergy to sulfaguanidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294578006",
+      "display" : "Allergy to sulfanilylurea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294579003",
+      "display" : "Allergy to mafenide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294582008",
+      "display" : "Allergy to sulfacetamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294584009",
+      "display" : "Allergy to clomocycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294585005",
+      "display" : "Allergy to doxycycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294586006",
+      "display" : "Allergy to lymecycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294587002",
+      "display" : "Allergy to minocycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294588007",
+      "display" : "Allergy to oxytetracycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294590008",
+      "display" : "Allergy to chlortetracycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294591007",
+      "display" : "Allergy to demeclocycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294592000",
+      "display" : "Allergy to tetracycline"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294593005",
+      "display" : "Allergy to chloramphenicol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294594004",
+      "display" : "Sulfamethoxazole and trimethoprim allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294595003",
+      "display" : "Allergy to antiprotozoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294596002",
+      "display" : "Allergy to atovaquone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294597006",
+      "display" : "Allergy to antimony antiprotozoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294598001",
+      "display" : "Allergy to sodium stibogluconate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294599009",
+      "display" : "Allergy to diamidine antiprotozoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294600007",
+      "display" : "Allergy to pentamidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294601006",
+      "display" : "Allergy to dichloroacetamide antiprotozoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294602004",
+      "display" : "Allergy to diloxanide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294603009",
+      "display" : "Allergy to hydroxyquinoline antiprotozoal"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294604003",
+      "display" : "Allergy to clioquinol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294605002",
+      "display" : "Allergy to antimycobacterial agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294606001",
+      "display" : "Allergy to antituberculosis agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294607005",
+      "display" : "Allergy to pyrazinamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294609008",
+      "display" : "Allergy to capreomycin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294610003",
+      "display" : "Allergy to cycloserine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294611004",
+      "display" : "Allergy to rifampin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294612006",
+      "display" : "Allergy to rifabutin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294613001",
+      "display" : "Allergy to hydrazide antituberculosis agent"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294614007",
+      "display" : "Allergy to isoniazid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294615008",
+      "display" : "Allergy to ethambutol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294616009",
+      "display" : "Allergy to antileprotic drug"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294617000",
+      "display" : "Allergy to dapsone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294618005",
+      "display" : "Allergy to clofazimine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294620008",
+      "display" : "Allergy to benzyl benzoate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294621007",
+      "display" : "Allergy to monosulfiram"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294622000",
+      "display" : "Allergy to carbamate pesticide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294623005",
+      "display" : "Allergy to carbaryl"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294624004",
+      "display" : "Allergy to organochlorine pesticide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294625003",
+      "display" : "Allergy to lindane"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294627006",
+      "display" : "Allergy to malathion"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294629009",
+      "display" : "Allergy to phenothrin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294630004",
+      "display" : "Allergy to permethrin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294632007",
+      "display" : "Allergy to immunoglobulin product"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294633002",
+      "display" : "Allergy to human immunoglobulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294635009",
+      "display" : "Allergy to intravenous immunoglobulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294636005",
+      "display" : "Allergy to blood group antibody D"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294638006",
+      "display" : "Allergy to tetanus immunoglobulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294639003",
+      "display" : "Allergy to Varicella-zoster virus antibody"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294641002",
+      "display" : "Allergy to anthrax vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294642009",
+      "display" : "Allergy to diphtheria vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294643004",
+      "display" : "Allergy to diphtheria single antigen vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294644005",
+      "display" : "Allergy to diphtheria and tetanus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294645006",
+      "display" : "Allergy to diphtheria and tetanus and pertussis vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294646007",
+      "display" : "Allergy to Hepatitis B virus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294647003",
+      "display" : "Allergy to Influenza virus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294648008",
+      "display" : "Allergy to influenza split virion vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294649000",
+      "display" : "Allergy to influenza surface antigen vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294650000",
+      "display" : "Allergy to mumps vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294651001",
+      "display" : "Allergy to pertussis vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294652008",
+      "display" : "Allergy to pneumococcal vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294654009",
+      "display" : "Allergy to Poliovirus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294655005",
+      "display" : "Allergy to Rabies vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294656006",
+      "display" : "Allergy to rubella vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294657002",
+      "display" : "Allergy to smallpox vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294658007",
+      "display" : "Allergy to tetanus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294659004",
+      "display" : "Allergy to typhoid vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294660009",
+      "display" : "Allergy to typhoid polysaccharide vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294661008",
+      "display" : "Allergy to typhoid whole cell vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294662001",
+      "display" : "Allergy to measles, mumps and rubella vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294663006",
+      "display" : "Allergy to Hepatitis A virus vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294664000",
+      "display" : "Haemophilus influenzae type B vaccine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294665004",
+      "display" : "Allergy to meningococcal polysaccharide vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294667007",
+      "display" : "Clostridium botulinum toxin allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294668002",
+      "display" : "Allergy to botulinum antitoxin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294669005",
+      "display" : "Allergy to diphtheria antitoxin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294670006",
+      "display" : "Allergy to hormone, synthetic hormone substitute or hormone antagonist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294671005",
+      "display" : "Allergy to glucagon"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294674002",
+      "display" : "Allergy to carbimazole"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294676000",
+      "display" : "Allergy to propylthiouracil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294677009",
+      "display" : "Allergy to corticosteroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294678004",
+      "display" : "Allergy to betamethasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294679007",
+      "display" : "Allergy to hydrocortisone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294682002",
+      "display" : "Allergy to prednisone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294683007",
+      "display" : "Allergy to fluorometholone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294684001",
+      "display" : "Allergy to flunisolide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294685000",
+      "display" : "Allergy to desonide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294686004",
+      "display" : "Desoximetasone allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294687008",
+      "display" : "Allergy to fluocinonide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294688003",
+      "display" : "Allergy to fluocortolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294689006",
+      "display" : "Fludroxycortide allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294690002",
+      "display" : "Allergy to halcinonide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294691003",
+      "display" : "Allergy to alclometasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294692005",
+      "display" : "Beclometasone allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294693000",
+      "display" : "Allergy to clobetasol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294694006",
+      "display" : "Allergy to clobetasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294695007",
+      "display" : "Allergy to cortisone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294696008",
+      "display" : "Allergy to diflucortolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294697004",
+      "display" : "Allergy to fluclorolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294698009",
+      "display" : "Allergy to fludrocortisone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294699001",
+      "display" : "Allergy to fluocinolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294700000",
+      "display" : "Allergy to fluticasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294701001",
+      "display" : "Allergy to mometasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294702008",
+      "display" : "Allergy to dexamethasone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294706006",
+      "display" : "Allergy to methylprednisolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294707002",
+      "display" : "Allergy to prednisolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294711008",
+      "display" : "Allergy to triamcinolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294712001",
+      "display" : "Allergy to budesonide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294714000",
+      "display" : "Allergy to insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294717007",
+      "display" : "Allergy to zinc insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294720004",
+      "display" : "Allergy to isophane insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294721000",
+      "display" : "Allergy to protamine zinc insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294722007",
+      "display" : "Allergy to biphasic isophane insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294723002",
+      "display" : "Allergy to human insulin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294728006",
+      "display" : "Allergy to sulfonylurea"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294729003",
+      "display" : "Allergy to acetohexamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294730008",
+      "display" : "Allergy to chlorpropamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294731007",
+      "display" : "Allergy to glyburide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294732000",
+      "display" : "Allergy to glibornuride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294733005",
+      "display" : "Allergy to gliclazide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294734004",
+      "display" : "Allergy to glipizide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294735003",
+      "display" : "Allergy to gliquidone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294736002",
+      "display" : "Allergy to glymidine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294737006",
+      "display" : "Allergy to tolazamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294738001",
+      "display" : "Allergy to tolbutamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294739009",
+      "display" : "Allergy to biguanide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294740006",
+      "display" : "Allergy to metformin"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294741005",
+      "display" : "Allergy to guar gum"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294742003",
+      "display" : "Allergy to acarbose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294745001",
+      "display" : "Allergy to progestational hormone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294746000",
+      "display" : "Allergy to allylestrenol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294747009",
+      "display" : "Allergy to dydrogesterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294748004",
+      "display" : "Allergy to progesterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294749007",
+      "display" : "Gestonorone allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294750007",
+      "display" : "Allergy to hydroxyprogesterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294751006",
+      "display" : "Allergy to megestrol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294752004",
+      "display" : "Allergy to norethindrone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294754003",
+      "display" : "Allergy to levonorgestrel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294755002",
+      "display" : "Allergy to medroxyprogesterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294757005",
+      "display" : "Allergy to anabolic steroid"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294758000",
+      "display" : "Allergy to tibolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294760003",
+      "display" : "Allergy to oxymetholone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294761004",
+      "display" : "Allergy to nandrolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294762006",
+      "display" : "Allergy to stanozolol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294763001",
+      "display" : "Allergy to cyclofenil"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294764007",
+      "display" : "Allergy to danazol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294765008",
+      "display" : "Allergy to gestrinone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294767000",
+      "display" : "Allergy to finasteride"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294768005",
+      "display" : "Allergy to flutamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294769002",
+      "display" : "Allergy to bicalutamide"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294770001",
+      "display" : "Allergy to cyproterone acetate and ethinylestradiol"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294771002",
+      "display" : "Allergy to cyproterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294773004",
+      "display" : "Allergy to androgen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294774005",
+      "display" : "Allergy to mesterolone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294775006",
+      "display" : "Allergy to methyltestosterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294776007",
+      "display" : "Allergy to testosterone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294781003",
+      "display" : "Allergy to estrogen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294782005",
+      "display" : "Allergy to estradiol"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
