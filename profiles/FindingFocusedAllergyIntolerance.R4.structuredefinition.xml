@@ -4,7 +4,7 @@
   <meta>
     <lastUpdated value="2018-02-27T13:33:18.322+01:00" />
   </meta>
-  <url value="http://snomed.info/fhir/AllergyIntolerance-FindingFocused" />
+  <url value="http://hl7.org/fhir/ig/snomed/StructureDefinition/AllergyIntolerance-FindingFocused" />
   <name value="AllergyIntoleranceFindingFocused" />
   <status value="draft" />
   <date value="2018-01-24T06:43:49.758+01:00" />
@@ -34,9 +34,9 @@
         <source value="AllergyIntolerance" />
       </constraint>
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
         <description value="Type of the allergy or intolerance condition, or negation/exclusion codes for reporting no known allergies." />
-        <valueSet value="http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code" />
+        <valueSet value="http://hl7.org/fhir/ig/snomed/ValueSet/allergyintolerance-finding-code" />
       </binding>
     </element>
     <element id="AllergyIntolerance.code.coding.system">

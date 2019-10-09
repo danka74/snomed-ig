@@ -21,7 +21,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 1
   }],
-  "url" : "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code",
+  "url" : "http://hl7.org/fhir/ig/snomed/ValueSet/allergyintolerance-finding-code",
   "identifier" : [],
   "version" : "4.0.0",
   "name" : "AllergyIntoleranceFindingCode",
