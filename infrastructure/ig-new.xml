@@ -3,22 +3,22 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="snomed-ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/home/dlkn02/git/snomed-ig/infrastructure"/>
+    <valueString value="/Users/Peter/code/snomed-ig/infrastructure"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/home/dlkn02/git/snomed-ig/codesystems"/>
+    <valueString value="/Users/Peter/code/snomed-ig/codesystems"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/home/dlkn02/git/snomed-ig/valuesets"/>
+    <valueString value="/Users/Peter/code/snomed-ig/valuesets"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/home/dlkn02/git/snomed-ig/conceptmaps"/>
+    <valueString value="/Users/Peter/code/snomed-ig/conceptmaps"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/home/dlkn02/git/snomed-ig/profiles"/>
+    <valueString value="/Users/Peter/code/snomed-ig/profiles"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="/home/dlkn02/git/snomed-ig/pages"/>
+    <valueString value="/Users/Peter/code/snomed-ig/pages"/>
   </extension>
   <url value="http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig"/>
   <name value="SNOMED CT Implementation Guide for FHIR"/>
