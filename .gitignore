@@ -73,3 +73,7 @@ infrastructure/ig-expansion-parameters.json
 infrastructure/ig-new.json
 infrastructure/ig-new.xml
 infrastructure/ig-validation-parameters.json
+
+# IDE #
+#######
+.project
