@@ -5,6 +5,7 @@
     <lastUpdated value="2018-02-27T13:33:18.322+01:00" />
   </meta>
   <url value="http://snomed.info/fhir/StructureDefinition/AllergyIntolerance-FindingFocused" />
+  <version value="0.0.1" />
   <name value="AllergyIntoleranceFindingFocused" />
   <status value="draft" />
   <date value="2018-01-24T06:43:49.758+01:00" />
