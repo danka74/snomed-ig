@@ -4,7 +4,7 @@
   <meta>
     <lastUpdated value="2018-02-01T21:21:14.335+01:00" />
   </meta>
-  <url value="http://hl7.org/fhir/ig/snomed/StructureDefinition/AllergyIntolerance-SubstanceFocused" />
+  <url value="http://snomed.info/fhir/StructureDefinition/AllergyIntolerance-SubstanceFocused" />
   <version value="0.0.1" />
   <name value="AllergyIntoleranceSubstanceFocused" />
   <status value="draft" />
@@ -44,19 +44,19 @@
     <element id="AllergyIntolerance.reaction.substance">
       <path value="AllergyIntolerance.reaction.substance" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
       </binding>
     </element>
     <element id="AllergyIntolerance.reaction.manifestation">
       <path value="AllergyIntolerance.reaction.manifestation" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
       </binding>
     </element>
     <element id="AllergyIntolerance.reaction.exposureRoute">
       <path value="AllergyIntolerance.reaction.exposureRoute" />
       <binding>
-        <strength value="required" />
+        <strength value="extensible" />
       </binding>
     </element>
   </differential>

@@ -1,5 +1,5 @@
 {
-	"canonicalBase": "http://snomed.info/fhir/",
+	"canonicalBase": "http://snomed.info/fhir",
 	"tool": "jekyll",
 	"license": "CC0-1.0",
 	"npm-name": "hl7.fhir.uv.snomed",
