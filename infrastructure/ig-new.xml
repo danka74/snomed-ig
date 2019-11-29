@@ -3,22 +3,22 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="snomed-ig"/>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/Peter/code/snomed-ig/infrastructure"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/infrastructure"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/Peter/code/snomed-ig/codesystems"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/codesystems"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/Peter/code/snomed-ig/valuesets"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/valuesets"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/Peter/code/snomed-ig/conceptmaps"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/conceptmaps"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource">
-    <valueString value="/Users/Peter/code/snomed-ig/profiles"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/profiles"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages">
-    <valueString value="/Users/Peter/code/snomed-ig/pages"/>
+    <valueString value="/Users/rhausam/git-repo/snomed-ig/pages"/>
   </extension>
   <url value="http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig"/>
   <name value="SNOMED CT Implementation Guide for FHIR"/>
@@ -27,8 +27,8 @@
   <publisher value="SNOMED International"/>
   <packageId value="hl7.fhir.uv.snomed"/>
   <license value="CC0-1.0"/>
-  <fhirVersion value="4.0.0"/>
-  <fhirVersion value="4.0.0"/>
+  <fhirVersion value="4.0.1"/>
+  <fhirVersion value="4.0.1"/>
   <definition>
     <grouping>
       <name value="base"/>
