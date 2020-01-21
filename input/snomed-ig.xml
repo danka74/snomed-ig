@@ -2,12 +2,12 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="snomed-ig"/>
-  <url value="http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig"/>
+  <url value="http://snomed.info/fhir/ImplementationGuide/ig"/>
   <name value="SNOMEDCTImplementationGuideforFHIR"/>
   <title value="SNOMED CT Implementation Guide for FHIR"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <publisher value="SNOMED Internationalp"/>
+  <publisher value="SNOMED International"/>
   <contact>
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
