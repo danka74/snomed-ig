@@ -1,7 +1,7 @@
-
 qa
 temp
 output
+input-cache
 
 infrastructure/ig-expansion-parameters.json
 infrastructure/ig-expansion-parameters.json
@@ -10,5 +10,4 @@ infrastructure/ig-new.xml
 infrastructure/ig-validation-parameters.json
 
 /input/images/Thumbs.db
-/input-cache/org.hl7.fhir.publisher.jar
 template
