@@ -47,18 +47,21 @@
     <element id="AllergyIntolerance.reaction.substance">
       <path value="AllergyIntolerance.reaction.substance" />
       <binding>
+        <valueSet value="http://hl7.org/fhir/ValueSet/substance-code"/> 
         <strength value="extensible" />
       </binding>
     </element>
     <element id="AllergyIntolerance.reaction.manifestation">
       <path value="AllergyIntolerance.reaction.manifestation" />
       <binding>
+        <valueSet value="http://hl7.org/fhir/ValueSet/clinical-findings"/> 
         <strength value="extensible" />
       </binding>
     </element>
     <element id="AllergyIntolerance.reaction.exposureRoute">
       <path value="AllergyIntolerance.reaction.exposureRoute" />
       <binding>
+        <valueSet value="http://hl7.org/fhir/ValueSet/route-codes"/> 
         <strength value="extensible" />
       </binding>
     </element>
