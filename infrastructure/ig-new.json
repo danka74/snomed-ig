@@ -3,27 +3,27 @@
   "id" : "snomed-ig",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/infrastructure"
+    "valueString" : "/Users/Peter/code/snomed-ig/infrastructure"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/codesystems"
+    "valueString" : "/Users/Peter/code/snomed-ig/codesystems"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/valuesets"
+    "valueString" : "/Users/Peter/code/snomed-ig/valuesets"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/conceptmaps"
+    "valueString" : "/Users/Peter/code/snomed-ig/conceptmaps"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-resource",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/profiles"
+    "valueString" : "/Users/Peter/code/snomed-ig/profiles"
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/igpublisher-folder-pages",
-    "valueString" : "/Users/rhausam/git-repo/snomed-ig/pages"
+    "valueString" : "/Users/Peter/code/snomed-ig/pages"
   }],
   "url" : "http://hl7.org/fhir/ig/snomed/ImplementationGuide/ig",
   "name" : "SNOMED CT Implementation Guide for FHIR",
@@ -32,8 +32,8 @@
   "publisher" : "SNOMED International",
   "packageId" : "hl7.fhir.uv.snomed",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.0.1",
-  "4.0.1"],
+  "fhirVersion" : ["4.0.0",
+  "4.0.0"],
   "definition" : {
     "grouping" : [{
       "name" : "base"
