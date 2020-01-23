@@ -37,7 +37,7 @@
 			"template-format": "format.html"
 		}
 	},
-	"version": "4.0.1",
+	"version": "4.0.0",
 	"source": "ig.xml",
 	"gen-examples": "false",
 	"title": "SNOMED CT Implementation Guide",
