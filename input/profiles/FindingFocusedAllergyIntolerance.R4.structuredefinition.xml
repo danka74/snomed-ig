@@ -9,7 +9,7 @@
   <name value="AllergyIntoleranceFindingFocused" />
   <status value="draft" />
   <date value="2018-01-24T06:43:49.758+01:00" />
-  <fhirVersion value="4.0.0" />
+  <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />
   <type value="AllergyIntolerance" />
@@ -30,7 +30,7 @@
       <constraint>
         <key value="code-1" />
         <severity value="error" />
-        <human value="Either there is a code from the required value set or there is a note" />
+        <human value="Either there is a code from the extensible value set or there is a note" />
         <expression value="code.exists() or note.exists()" />
         <source value="AllergyIntolerance" />
       </constraint>
