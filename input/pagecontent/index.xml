@@ -1,0 +1,141 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+  <a name="intro"> </a>
+  <h3>Introduction to this implementation guide</h3>
+  <p> An order catalog exposes a homogeneous collection of healthcare items that can be ordered or
+    selected by practitioners to support the course of healthcare delivery. These homogeneous
+    healthcare items may represent services, products, devices or knowledge artifacts such as order
+    sets, for instance. Each item specifies its purpose, describes how it should be ordered and/or
+    used, and characterizes the outcomes that one can expect from its usage. </p>
+  <p> Examples of catalogs include order sets catalog, evidence based CDS content, laboratory test
+    compendium, medication formulary, catalog of medical devices. </p>
+  <p> This universal realm implementation guide specifies the methods and artifacts based on the
+    FHIR standard, to enable the sharing of catalogs of healthcare items across practitioners and
+    organizations. The methods such as browsing, searching, retrieval, or maintaining the content,
+    are common regarless of the catagory of catalog at hand: product, service, clinical knowledge...
+    Some of the artifacts, like the one representing the catalog as a whole, are also common to all
+    categories of catalogs. Other artifacts are specific to the category of items (medication,
+    device, order set, diagnostic service ...) exposed by the catalog. </p>
+  <p>Considering these commonalities and specificities, building a common guidance for implementing
+    any kind of catalog of healthcare items in FHIR has been deemed the most valuable proposition to
+    implementers. Hence this unique Order Catalog Implementation Guide, which aims to cover all
+    categories of catalogs of healthcare items. The use cases and artifacts (profiles, extensions, semantic
+    resources) that are specific to a particular category of catalog will be placed under the
+    responsibility of the HL7 Working Group defining the base resources for this category. </p>
+  <a name="purpose"> </a>
+  <h3>Purpose of order catalogs</h3>
+  <p> A catalog provides reference data, which aggregates requirements and guidance of usage for the
+    items of the catalog, from multiple sources: regulatory, clinical knowledge, organizational
+    (based on the organization of the provider of the items). These reference data are assembled
+    under the stewardship of the catalog custodian: an organization liable for building and sharing
+    the catalog, and maintaining it over time.</p>
+  <p>Catalogs are hosted on servers which make them accessible to the practitioners through their IT
+    systems or applications (e.g. EHR, EMR, CPOE, apps, LIS, Pharmacy system ...) Client
+    applications may interact with a catalog server to: </p>
+  <ul>
+    <li>browse through entries of the catalog and retrieve items of interest together with the
+      detailed instructions and guidance related to the usage of these items,</li>
+    <li>import/export the full catalog or a part of it (e.g. import the recent updates), </li>
+    <li>administer the content of the catalog: add/update/retire items and/or supporting resources.
+    </li>
+  </ul>
+  <br/>
+  <a name="scope"> </a>
+  <h3>Scope of order catalogs</h3>
+  <p> Order catalogs have varied scopes, sizes, ownerships and targetted consumers and
+    jurisdictions. For instance an order catalog might expose the medical devices of a particular
+    manufacturer to the potential users of these devices in a country. Another catalog might
+    consolidate all the medical devices that are approved for use in healthcare throughout the
+    European Union market. Another example of order catalog would be a drug formulary listing the
+    medicinal products that are available for prescription in a particular hospital. A broader
+    catalog of medicinal product might include all the medications authorized to the national market
+    of a country. These examples illustrate that:</p>
+  <ul>
+    <li>the role of custodian of the catalog is distinct from the role of owner of the items
+      exposed in the catalog, even if in one of the examples above the two roles may be played by
+      the same organization;</li>
+    <li>some catalogs may expose a huge number of items, and yet the FHIR resources that implement
+      them must stay of manageable size;</li>
+    <li>some catalogs are scoped for use within a single organization, while others address multiple
+      organizations (or even jurisdictions) of potential consumers.</li>
+  </ul>
+  <br/>
+  <a name="technical"> </a>
+  <h3>Technical Overview</h3>
+  <p> In the FHIR standard, an order catalog as a whole is represented by an instance of the
+    Composition resource, which conveys the general properties of the catalog (e.g. owner, title,
+    period of validity, type of content), and each item of the catalog is represented by a
+    definitional resource, possibly associated with a set of supporting resources providing further
+    details on this item. Two alternative methods are usable to bind the catalog as a whole to its
+    items. </p>
+  <ol>
+    <li>The catalog references its items from its Composition.section.entry elements. This method
+      constrains the Composition resource with the Catalog profile.</li>
+    <li>Each definitional resource representing an item references the Composition resource. The
+      Composition resource in this case acts as the header of the catalog. This method constrains
+      the Composition resource with the CatalogHeader profile. </li>
+  </ol>
+  <img src="CatalogBindings.png" alt="Methods for binding catalogs and their items" width="600px"/>
+  <p> The catalog server must choose one of the two methods, and cannot mix the two methods for one
+    catalog. Usable for catalogs of any size, the second method is in particular more appropriate
+    for large catalogs because it makes the administration of the content easier. In particular,
+    adding a new item or retiring an item does not impose any update to the Composition resource
+    representing the catalog as a whole.</p>
+  <a name="walkthrough"> </a>
+  <h3>Walkthrough</h3>
+  <p> The main sections of this IG are: </p>
+  <ul>
+    <li><a href="uclabservices.html">Use cases - Laboratory services</a> - lists the use cases for compendium of laboratory diagnostic services. </li>
+    <li><a href="ucordersets.html">Use cases - Order sets</a> - lists the use cases for library of order sets. </li>
+    <li><a href="ucdrugs.html">Use cases - Medications</a> - lists the use cases for catalog of drugs. </li>
+    <li><a href="ucdevices.html">Use cases - Devices</a> - lists the use cases for catalog of devices. </li>
+    <li><a href="labservices.html">Specification - Laboratory services</a> - specifies the FHIR resources implemented by a compendium of laboratory diagnostic services. </li>
+    <li><a href="ordersets.html">Specification - Order sets</a> - specifies the FHIR resources implemented by a library of order sets. </li>
+    <li><a href="drugs.html">Specification - Medications</a> - specifies the FHIR resources implemented by a catalog of drugs, including medication formularies. </li>
+    <li><a href="devices.html">Specification - Devices</a> - specifies the FHIR resources implemented by a catalog of devices. </li>
+    <li><a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information </li>
+  </ul>
+  <h3>Authors and Contributors</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Role</th>
+        <th>Name</th>
+        <th>Organization</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Publishing Facilitator</strong></td>
+        <td>Rob Hausam</td>
+        <td>Hausam Consulting LLC</td>
+      </tr>
+      <tr>
+        <td><strong>Primary Editor</strong></td>
+        <td>François Macary</td>
+        <td>Phast</td>
+      </tr>
+      <tr>
+        <td><strong>Contributor</strong></td>
+        <td>Freida Hall</td>
+        <td>Quest Diagnostics</td>
+      </tr>
+      <tr>
+        <td><strong>Contributor</strong></td>
+        <td>Gary Randman</td>
+        <td>Quest Diagnostics</td>
+      </tr>
+      <tr>
+        <td><strong>Contributor</strong></td>
+        <td>Kathy Walsh</td>
+        <td>LabCorp</td>
+      </tr>
+      <tr>
+        <td><strong>Contributor</strong></td>
+        <td>Andrea Pitkus</td>
+        <td>U of Wisconsin</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
