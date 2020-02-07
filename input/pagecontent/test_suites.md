@@ -1,7 +1,3 @@
-## {{ site.data.fhir.igName }}
-{:.no_toc}
-
-###  Test Suites for using SNOMED CT with FHIR Servers
 
 * Examples of REST calls and their expected results (using SNOMED where possible), with narrative including any associated business logic.   
 * Be sure to make FHIR version and SNOMED CT Edition for each test clear

@@ -1,4 +1,3 @@
-# {{ page.title }}
 
 **Validator Pack and Definitions:**
 
@@ -22,3 +21,4 @@ These files should be the first choice whenever generating any implementation ar
 - [XML](examples.xml.zip)
 - [JSON](examples.json.zip)
 - [TTl](examples.ttl.zip)
+

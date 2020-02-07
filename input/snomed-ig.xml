@@ -53,8 +53,73 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="SNOMED CT Implementation Guide Homepage"/>
-        <generation value="html"/>
+        <generation value="markdown"/>
       </page>
+      <page>
+        <nameUrl value="introduction.html"/>
+        <title value="Introduction to using SNOMED with FHIR"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="general_imp_consider.html"/>
+        <title value="General Implementation Considerations"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="sct_specific_behaviours.html"/>
+        <title value="SNOMED CT Specific Behaviours"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ts_with_sct.html"/>
+        <title value="Implementing Terminology Services with SNOMED CT"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="terminology_binding.html"/>
+        <title value="Terminology Binding"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="test_suites.html"/>
+        <title value="Test Suites for using SNOMED CT with FHIR Servers"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="faq.html"/>
+        <title value="Frequently Asked Questions"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="codesystems.html"/>
+        <title value="Code Systems"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="conceptmaps.html"/>
+        <title value="Concept Maps"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="valuesets.html"/>
+        <title value="Value Sets"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Useful Downloads"/>
+        <generation value="markdown"/>
+      </page>
+
       <!--
       <page>
         <nameUrl value="background.html"/>
@@ -65,11 +130,6 @@
         <nameUrl value="spec.html"/>
         <title value="Detailed Specification"/>
         <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
       </page>
       <page>
         <nameUrl value="changes.html"/>

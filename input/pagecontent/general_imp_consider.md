@@ -1,7 +1,3 @@
-## {{ site.data.fhir.igName }}
-{:.no_toc}
-
-###  General Implementation Considerations
 
 When starting to think about a SNOMED on FHIR implementation, the following questions should be considered:
 * Is the goal (a) homogenous population of resources or (b) permissive guidance to cater for greater flexibility?

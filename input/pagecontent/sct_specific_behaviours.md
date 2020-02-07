@@ -1,7 +1,3 @@
-## {{ site.data.fhir.igName }}
-{:.no_toc}
-
-###  SNOMED CT Specific Behaviours
 
 * Emphasise use of Code field.
 * Links to other SNOMED using profiles (held elsewhere)

@@ -1,4 +1,3 @@
-# {{ page.title }}
 
 **Top Tip**
 
