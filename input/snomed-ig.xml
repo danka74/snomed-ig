@@ -119,13 +119,13 @@
         <title value="Useful Downloads"/>
         <generation value="markdown"/>
       </page>
+      <page>
+        <nameUrl value="versions.html"/>
+        <title value="Version Management Policy"/>
+        <generation value="markdown"/>
+      </page>
 
       <!--
-      <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
-      </page>
       <page>
         <nameUrl value="spec.html"/>
         <title value="Detailed Specification"/>
