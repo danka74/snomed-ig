@@ -34,6 +34,13 @@
         <expression value="code.exists() or note.exists()" />
         <source value="AllergyIntolerance" />
       </constraint>
+      <constraint>
+        <key value="code-2" />
+        <severity value="error" />
+        <human value="The code must be subsumed by 420134006 | Propensity to adverse reaction (finding) |" />
+        <expression value="code.subsumedBy()" />
+        <source value="AllergyIntolerance" />
+      </constraint>
       <binding>
         <strength value="extensible" />
         <description value="Type of the allergy or intolerance condition, or negation/exclusion codes for reporting no known allergies." />

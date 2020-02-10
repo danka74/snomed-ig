@@ -1,6 +1,6 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bodyheight",
+  "id" : "bodyweight",
   "meta" : {
     "lastUpdated" : "2019-10-04T13:33:18.322+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
@@ -9,11 +9,11 @@
     "status" : "generated",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Body Height Observable entity Code</h2><p>This value set contains concept codes for body height observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C;248334005 | Length of body (observable entity) |</p></div>"
   },
-  "url" : "http://snomed.info/fhir/ValueSet/bodyheight",
+  "url" : "http://snomed.info/fhir/ValueSet/bodyweight",
   "identifier" : [],
   "version" : "4.0.1",
-  "name" : "SnomedBodyHeight",
-  "title" : "Body Height Observable entity Code",
+  "name" : "SnomedBodyWeightm",
+  "title" : "Body weight Observable entity Code",
   "status" : "draft",
   "experimental" : false,
   "date" : "2019-10-04T13:33:18.322+01:00",
@@ -30,9 +30,9 @@
     "include" : [{
       "system" : "http://snomed.info/sct",
       "filter" : [{
-        "property": "concept",
-        "op": "is-a",
-        "value" : "248334005"
+        "property": "constraint",
+        "op": "=",
+        "value" : "(<< 27113001 | Body weight (observable entity) | MINUS (<< 248350002 | Reference weight (observable entity) | OR << 301334000 | Birth weight centile (observable entity) |))"
       }]
     }]
   }
