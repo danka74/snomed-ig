@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="snomed-observation-hearterate" />
+  <id value="hearterate" />
   <url value="http://snomed.info/fhir/StructureDefinition/hearterate" />
   <name value="RespRate" />
   <status value="draft" />
@@ -20,7 +20,7 @@
       <binding>
         <strength value="extensible" />
         <description value="SNOMED CT codes for heart rate" />
-        <valueSet value="http://snomed.info/fhir/ValueSet/hearterate" />
+        <valueSet value="http://snomed.info/fhir/ValueSet/heartrate" />
       </binding>
     </element>
     <element id="Observation.code.coding:snomedSlice.system">

@@ -1,19 +1,19 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "oxygensat",
+  "id" : "bodytemp",
   "meta" : {
     "lastUpdated" : "2019-10-04T13:33:18.322+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Body Height Observable entity Code</h2><p>This value set contains concept codes for body height observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C;248334005 | Length of body (observable entity) |</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Core Body Temperature Observable entity Code</h2><p>This value set contains concept codes for core body temperature observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C;276885007 | Core body temperature (observable entity) |</p></div>"
   },
-  "url" : "http://snomed.info/fhir/ValueSet/oxygensat",
+  "url" : "http://snomed.info/fhir/ValueSet/bodytemp",
   "identifier" : [],
   "version" : "4.0.1",
-  "name" : "SnomedOxygenSat",
-  "title" : "Peripehral oxygen saturation Observable entity Code",
+  "name" : "SnomedBodyTemp",
+  "title" : "Core body temperature Observable entity Code",
   "status" : "draft",
   "experimental" : false,
   "date" : "2019-10-04T13:33:18.322+01:00",
@@ -24,7 +24,7 @@
       "value" : "http://snomed.org/fhir"
     }]
   }],
-  "description" : "This value set contains concept codes for body height observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint <<248334005 | Length of body (observable entity) |",
+  "description" : "This value set contains concept codes for core body temperature observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint &#x3C;&#x3C; 276885007 | Core body temperature (observable entity) |",
   "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{
@@ -32,7 +32,7 @@
       "filter" : [{
         "property": "concept",
         "op": "is-a",
-        "value" : "431314004"
+        "value" : "276885007"
       }]
     }]
   }

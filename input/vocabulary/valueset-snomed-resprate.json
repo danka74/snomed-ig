@@ -1,19 +1,19 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bmi",
+  "id" : "resprate",
   "meta" : {
     "lastUpdated" : "2019-10-04T13:33:18.322+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Body Height Observable entity Code</h2><p>This value set contains concept codes for body height observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C;248334005 | Length of body (observable entity) |</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Respiratory rate Observable entity Code</h2><p>This value set contains concept codes for respiratory rate observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C; 86290005 | Respiratory rate (observable entity) |</p></div>"
   },
-  "url" : "http://snomed.info/fhir/ValueSet/bmi",
+  "url" : "http://snomed.info/fhir/ValueSet/resprate",
   "identifier" : [],
   "version" : "4.0.1",
-  "name" : "SnomedBMI",
-  "title" : "BMI Observable entity Code",
+  "name" : "SnomedRespRate",
+  "title" : "Respiratory rate Observable entity Code",
   "status" : "draft",
   "experimental" : false,
   "date" : "2019-10-04T13:33:18.322+01:00",
@@ -24,15 +24,15 @@
       "value" : "http://snomed.org/fhir"
     }]
   }],
-  "description" : "This value set contains concept codes for body height observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint <<248334005 | Length of body (observable entity) |",
+  "description" : "This value set contains concept codes for respiratory rate observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint << 86290005 | Respiratory rate (observable entity) |",
   "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "filter" : [{
-        "property": "constraint",
-        "op": "=",
-        "value" : "60621009 | Body mass index (observable entity) |"
+        "property": "concept",
+        "op": "is-a",
+        "value" : "86290005"
       }]
     }]
   }

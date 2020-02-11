@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="snomed-observation-bp" />
-  <url value="hhttp://snomed.info/fhir/StructureDefinition/bp" />
+  <id value="bp" />
+  <url value="http://snomed.info/fhir/StructureDefinition/bp" />
   <name value="BP" />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
@@ -11,7 +11,7 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/bp" />
   <derivation value="constraint" />
   <differential>
-    <element id="Observation.code.coding:sliceCoding">
+    <!-- <element id="Observation.code.coding:sliceCoding">
       <path value="Observation.code.coding" />
       <sliceName value="snomedSlice" />
       <min value="1" />
@@ -25,16 +25,23 @@
     <element id="Observation.code.coding:snomedSlice.system">
       <path value="Observation.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
-    </element>
+    </element> -->
     <element id="Observation.component:SystolicBP">
       <path value="Observation.component" />
       <sliceName value="SystolicBP" />
     </element>
     <element id="Observation.component:SystolicBP.code.coding:sliceCoding">
       <path value="Observation.component.code.coding" />
-      <sliceName value="snomedSlice" />
+      <sliceName value="snomedSBPSlice" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="SNOMED CT codes for body height" />
+        <valueSet value="http://snomed.info/fhir/ValueSet/syst-bp" />
+      </binding>
     </element>
-    <element id="Observation.component:SystolicBP.code.coding:snomedSlice.system">
+    <element id="Observation.component:SystolicBP.code.coding:snomedSBPSlice.system">
       <path value="Observation.component.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
     </element>
@@ -44,9 +51,16 @@
     </element>
     <element id="Observation.component:DiastolicBP.code.coding:sliceCoding">
       <path value="Observation.component.code.coding" />
-      <sliceName value="snomedSlice" />
+      <sliceName value="snomedDBPSlice" />
+      <min value="1" />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="SNOMED CT codes for body height" />
+        <valueSet value="http://snomed.info/fhir/ValueSet/dia-bp" />
+      </binding>
     </element>
-    <element id="Observation.component:DiastolicBP.code.coding:snomedSlice.system">
+    <element id="Observation.component:DiastolicBP.code.coding:snomedDBPSlice.system">
       <path value="Observation.component.code.coding.system" />
       <fixedUri value="http://snomed.info/sct" />
     </element>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="snomed-observation-bodytemp" />
+  <id value="bodytemp" />
   <url value="http://snomed.info/fhir/StructureDefinition/bodytemp" />
   <name value="BodyTemp" />
   <status value="draft" />

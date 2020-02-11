@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="snomed-observation-headcircum" />
+  <id value="headcircum" />
   <url value="http://snomed.info/fhir/StructureDefinition/headcircum" />
   <name value="HeadCircum" />
   <status value="draft" />
