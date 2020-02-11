@@ -6,7 +6,6 @@
   <title value="Allergy Intolerance - Substance Focused" />
   <description value="Profile of Allergy Intolerance resource with bindings to SNOMED CT Substances as well as additional constraints to avoid overlap with the binding." />
   <status value="draft" />
-  <date value="2018-01-18T11:19:41.496+01:00" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />
   <abstract value="false" />

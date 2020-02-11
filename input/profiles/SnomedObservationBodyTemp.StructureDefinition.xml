@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="bodytemp" />
   <url value="http://snomed.info/fhir/StructureDefinition/bodytemp" />
   <name value="BodyTemp" />
+  <title value="Body Temperature" />
+  <description value="Profile of HL7 body temperature profile with SNOMED CT binding in addition to 'magic number' binding from base profile." />
   <status value="draft" />
   <version value="0.0.1" />
   <fhirVersion value="4.0.1" />
