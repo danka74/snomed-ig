@@ -23,7 +23,7 @@
   }],
   "url" : "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code",
   "identifier" : [],
-  "version" : "4.0.0",
+  "version" : "4.0.1",
   "name" : "AllergyIntoleranceFindingCode",
   "title" : "Allergy-Intolerance Finding Code",
   "status" : "draft",

@@ -3,6 +3,8 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="snomed-ig"/>
   <url value="http://snomed.info/fhir/ImplementationGuide/ig"/>
+  <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
+  <version value="0.1.0"/>
   <name value="SNOMEDCTImplementationGuideforFHIR"/>
   <title value="SNOMED CT Implementation Guide for FHIR"/>
   <status value="draft"/>
@@ -29,7 +31,9 @@
     </coding>
   </jurisdiction>
   <packageId value="hl7.fhir.uv.snomed"/>
-  <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
+  <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
+  <license value="CC0-1.0"/>
+  <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
   <fhirVersion value="4.0.1"/>
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
@@ -49,23 +53,83 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="SNOMED CT Implementation Guide Homepage"/>
-        <generation value="html"/>
+        <generation value="markdown"/>
       </page>
-      <!--
       <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
+        <nameUrl value="introduction.html"/>
+        <title value="Introduction to using SNOMED with FHIR"/>
+        <generation value="markdown"/>
       </page>
+
+      <page>
+        <nameUrl value="general_imp_consider.html"/>
+        <title value="General Implementation Considerations"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="sct_specific_behaviours.html"/>
+        <title value="SNOMED CT Specific Behaviours"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ts_with_sct.html"/>
+        <title value="Implementing Terminology Services with SNOMED CT"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="profiles.html"/>
+        <title value="Profiles"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="terminology_binding.html"/>
+        <title value="Terminology Binding"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="test_suites.html"/>
+        <title value="Test Suites for using SNOMED CT with FHIR Servers"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="faq.html"/>
+        <title value="Frequently Asked Questions"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="codesystems.html"/>
+        <title value="Code Systems"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="conceptmaps.html"/>
+        <title value="Concept Maps"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="valuesets.html"/>
+        <title value="Value Sets"/>
+        <generation value="markdown"/>
+      </page>
+
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Useful Downloads"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="versions.html"/>
+        <title value="Version Management Policy"/>
+        <generation value="markdown"/>
+      </page>
+
+      <!--
       <page>
         <nameUrl value="spec.html"/>
         <title value="Detailed Specification"/>
         <generation value="markdown"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
       </page>
       <page>
         <nameUrl value="changes.html"/>
@@ -74,5 +138,34 @@
       </page>
     -->
     </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2020+"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="find-other-resources"/>
+      <value value="true"/>
+    </parameter>
+<!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
+    <parameter>
+      <code value="excludexml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludejson"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludettl"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludemap"/>
+      <value value="true"/>
+    </parameter>-->
   </definition>
 </ImplementationGuide>
