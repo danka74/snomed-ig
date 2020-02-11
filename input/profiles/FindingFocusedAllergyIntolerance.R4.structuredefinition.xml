@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AllergyIntolerance-FindingFocused" />
-  <meta>
-    <lastUpdated value="2018-02-27T13:33:18.322+01:00" />
-  </meta>
   <url value="http://snomed.info/fhir/StructureDefinition/AllergyIntolerance-FindingFocused" />
   <version value="0.0.1" />
   <name value="AllergyIntoleranceFindingFocused" />
+  <title value="Allergy Intolerance - Finding Focused" />
+  <description value="Profile of Allergy Intolerance resource with bindings to SNOMED CT Clinical findings as well as additional constraints to avoid overlap with the binding." />
   <status value="draft" />
   <date value="2018-01-24T06:43:49.758+01:00" />
   <fhirVersion value="4.0.1" />

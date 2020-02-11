@@ -14,7 +14,7 @@
       "value" : "http://snomed.org"
     }]
   }],
-  "description" : "This value set contains concept codes for peripheral oxygen saturation observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint &#x3C;&#x3C;431314004 | Peripheral oxygen saturation (observable entity) |",
+  "description" : "This value set contains concept codes for peripheral oxygen saturation observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint <<431314004 | Peripheral oxygen saturation (observable entity) |",
   "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
     "include" : [{

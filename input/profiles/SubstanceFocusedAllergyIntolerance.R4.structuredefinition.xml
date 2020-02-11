@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="AllergyIntolerance-SubstanceFocused" />
-  <meta>
-    <lastUpdated value="2018-02-01T21:21:14.335+01:00" />
-  </meta>
   <url value="http://snomed.info/fhir/StructureDefinition/AllergyIntolerance-SubstanceFocused" />
   <version value="0.0.1" />
   <name value="AllergyIntoleranceSubstanceFocused" />
+  <title value="Allergy Intolerance - Substance Focused" />
+  <description value="Profile of Allergy Intolerance resource with bindings to SNOMED CT Substances as well as additional constraints to avoid overlap with the binding." />
   <status value="draft" />
   <date value="2018-01-18T11:19:41.496+01:00" />
   <fhirVersion value="4.0.1" />
