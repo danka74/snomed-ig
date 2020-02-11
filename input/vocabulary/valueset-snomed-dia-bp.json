@@ -1,6 +1,6 @@
 {
   "resourceType" : "ValueSet",
-  "fhirurl" : "http://snomed.info/fhir/ValueSet/dia-bp",
+  "url" : "http://snomed.info/fhir/ValueSet/dia-bp",
   "identifier" : [],
   "version" : "4.0.1",
   "name" : "SnomedDiaBP",
