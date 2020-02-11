@@ -1,27 +1,17 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "dia-bp",
-  "meta" : {
-    "lastUpdated" : "2019-10-04T13:33:18.322+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Diastolic blood pressure Observable entity Code</h2><p>This value set contains concept codes for diastolic blood pressure observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint (&#x3C;&#x3C; 271650006 | Diastolic blood pressure (observable entity) | MINUS (&#x3C;&#x3C; 314465004 | 24 hour diastolic blood pressure (observable entity) | OR &#x3C;&#x3C; 716632005 | Baseline diastolic blood pressure (observable entity) | OR &#x3C;&#x3C; 315613000 | Target diastolic blood pressure (observable entity) |))</p></div>"
-  },
-  "url" : "http://snomed.info/fhir/ValueSet/dia-bp",
+  "fhirurl" : "http://snomed.info/fhir/ValueSet/dia-bp",
   "identifier" : [],
   "version" : "4.0.1",
   "name" : "SnomedDiaBP",
   "title" : "Diastolic blood pressure Observable entity Code",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2019-10-04T13:33:18.322+01:00",
   "publisher" : "SNOMED on FHIR",
   "contact" : [{
     "telecom" : [{
       "system" : "url",
-      "value" : "http://snomed.org/fhir"
+      "value" : "http://snomed.org"
     }]
   }],
   "description" : "This value set contains concept codes for diastolic blood pressure observable entities. It includes codes from [SNOMED](http://snomed.info/sct) meeting the constraint (<< 271650006 | Diastolic blood pressure (observable entity) | MINUS (<< 314465004 | 24 hour diastolic blood pressure (observable entity) | OR << 716632005 | Baseline diastolic blood pressure (observable entity) | OR << 315613000 | Target diastolic blood pressure (observable entity) |))",

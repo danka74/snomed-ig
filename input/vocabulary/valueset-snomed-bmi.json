@@ -1,14 +1,5 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "bmi",
-  "meta" : {
-    "lastUpdated" : "2019-10-04T13:33:18.322+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BMI Observable entity Code</h2><p>This value set contains concept codes for BMI observable entities. It includes codes from <a href=\"http://snomed.info/sct\">SNOMED</a> meeting the constraint &#x3C;&#x3C; 248334005 | Length of body (observable entity) |</p></div>"
-  },
   "url" : "http://snomed.info/fhir/ValueSet/bmi",
   "identifier" : [],
   "version" : "4.0.1",
@@ -16,12 +7,11 @@
   "title" : "BMI Observable entity Code",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2019-10-04T13:33:18.322+01:00",
   "publisher" : "SNOMED on FHIR",
   "contact" : [{
     "telecom" : [{
       "system" : "url",
-      "value" : "http://snomed.org/fhir"
+      "value" : "http://snomed.org"
     }]
   }],
   "description" : "This value set contains concept codes for BMI observable entities. It includes the single code from [SNOMED](http://snomed.info/sct) 60621009 | Body mass index (observable entity) |",

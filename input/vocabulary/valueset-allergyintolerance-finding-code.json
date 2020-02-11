@@ -1,19 +1,17 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "allergyintolerance-finding-code",
   "url" : "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code",
   "identifier" : [],
-  "version" : "4.0.0",
+  "version" : "4.0.1",
   "name" : "AllergyIntoleranceFindingCode",
   "title" : "Allergy-Intolerance Finding Code",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2019-10-04T13:33:18.322+01:00",
   "publisher" : "SNOMED on FHIR",
   "contact" : [{
     "telecom" : [{
       "system" : "url",
-      "value" : "http://snomed.org/fhir"
+      "value" : "http://snomed.org"
     }]
   }],
   "description" : "This value set contains concept codes for allergy or intolerance clinical findings. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 420134006 | Propensity to adverse reaction (finding) |",
