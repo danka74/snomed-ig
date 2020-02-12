@@ -1,0 +1,19 @@
+#segment-footer > .container a {
+  color: #315EF7;
+}
+#segment-footer > .container {
+  background-color: #00a9e0;
+  color: #ffffff;
+}
+
+#snomed-nav {
+  float: right;
+}
+
+.navbar-inverse {
+  background-color: #00a9e0;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #0089c0;
+}
+
