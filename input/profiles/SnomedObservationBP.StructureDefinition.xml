@@ -3,7 +3,7 @@
   <url value="http://snomed.info/fhir/StructureDefinition/bp" />
   <name value="BP" />
   <title value="Blood pressure" />
-  <description value="Profile of HL7 blood pressure profile with SNOMED CT binding in addition to 'magic number' binding from base profile." />
+  <description value="Profile of HL7 blood pressure profile with SNOMED CT binding in addition to 'magic value' binding from base profile." />
   <status value="draft" />
   <fhirVersion value="4.0.1" />
   <kind value="resource" />

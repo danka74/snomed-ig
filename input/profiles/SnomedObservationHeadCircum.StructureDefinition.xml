@@ -3,7 +3,7 @@
   <url value="http://snomed.info/fhir/StructureDefinition/headcircum" />
   <name value="HeadCircum" />
   <title value="Head Circumference" />
-  <description value="Profile of HL7 head circumference profile with SNOMED CT binding in addition to 'magic number' binding from base profile." />
+  <description value="Profile of HL7 head circumference profile with SNOMED CT binding in addition to 'magic value' binding from base profile." />
   <status value="draft" />
   <version value="0.0.1" />
   <fhirVersion value="4.0.1" />
