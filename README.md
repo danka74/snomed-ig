@@ -9,6 +9,6 @@ npm install -g fsh-sushi
 
 To build using HL7 IG Publisher and Ontoserver:
 ```
-cd snomed-ig-fsh
+cd snomed-ig
 java -Xmx4G -jar org.hl7.fhir.publisher.jar -ig . -tx https://r4.ontoserver.csiro.au/fhir
 ```
