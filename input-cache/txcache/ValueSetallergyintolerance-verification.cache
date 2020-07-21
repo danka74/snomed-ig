@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+  "code" : "confirmed"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@3e386977\r\n"
+}
+-------------------------------------------------------------------------------------
