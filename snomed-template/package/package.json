@@ -1,0 +1,13 @@
+{
+    "name": "snomed.fhir.template",
+    "version": "0.1.0",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "SNOMED FHIR Template",
+    "author": "http://snomed.org",
+    "canonical": "http://snomed.info/snomed.fhir.template",
+    "base": "fhir.base.template",
+    "dependencies": {
+        "fhir.base.template": "current"
+        }
+    }

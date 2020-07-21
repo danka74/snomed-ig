@@ -1,14 +1,14 @@
-# snomed-ig
+# SNOMED CT FHIR Implementation Guide
 
-Implementation Guide for using SNOMED CT with FHIR
+This IG uses [FSH](https://build.fhir.org/ig/HL7/fhir-shorthand/).
 
-The built/online version of this guide can be seen here:  http://build.fhir.org/ig/IHTSDO/snomed-ig/
+To install (tested with version 0.14.0):
+```
+npm install -g fsh-sushi
+```
 
-To add your own SNOMED CT/FHIR related content to this, contact 
-one of the maintainers. 
-
-* Peter G. Williams
-* Linda Bird
-* Grahame Grieve
-* Alexander Henket
-
+To build using HL7 IG Publisher and Ontoserver:
+```
+cd snomed-ig-fsh
+java -Xmx4G -jar org.hl7.fhir.publisher.jar -ig . -tx https://r4.ontoserver.csiro.au/fhir
+```
