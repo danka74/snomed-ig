@@ -1,8 +1,9 @@
 SUSHI-GENERATED-FILES.md
 org.hl7.fhir.publisher.jar
-input
-output
-temp
-template
+input/
+output/
+temp/
+template/
 ig.ini
 package-list.json
+.index.json
