@@ -5,7 +5,7 @@
     "license": "CC0-1.0",
     "description": "SNOMED FHIR Template",
     "author": "http://snomed.org",
-    "canonical": "http://snomed.info/snomed.fhir.template",
+    "canonical": "http://snomed.info/fhir/snomed-ig-template",
     "base": "fhir.base.template",
     "dependencies": {
         "fhir.base.template": "current"
