@@ -1,7 +1,11 @@
 Extension: DesignationUseContextExtension 
 Id: designation-use-context 
 Title: "Designation Use Context Extension"
-Description: "Extension to allow specific contexts of use (eg SNOMED Language Reference Sets, LOINC patient terms, ) to be specified when working with designations"
+Description: """
+Extension to allow specific contexts of use (eg SNOMED Language Reference Sets, 
+LOINC short name, long common name, consumer name, as well as ICD-10 rubrics) 
+to be specified when working with designations
+"""
 * ^context[0].type = #element
 * ^context[0].expression = "ValueSet.expansion.concept.designation"
 * ^context[1].type = #element
