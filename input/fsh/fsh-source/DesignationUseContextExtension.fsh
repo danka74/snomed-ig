@@ -12,7 +12,7 @@ to be specified when working with designations
 * ^context[1].expression = "Parameters.parameter"
 * extension contains
     code 1..1 and
-    role 0..1 and
+    role 0..1
 * extension[code] ^short = "Designation use context"
 * extension[code].value[x] only Coding
 * extension[code].valueCoding from http://snomed.info/sct?fhir_vs=isa/900000000000506000 (example)
