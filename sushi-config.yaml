@@ -16,6 +16,9 @@ version: 0.0.1
 name: SNOMEDCTImplementationGuideforFHIR
 title: SNOMED CT Implementation Guide for FHIR
 status: active
+jurisdiction:
+  system: http://unstats.un.org/unsd/methods/m49/m49.htm
+  code: "001"
 publisher:
   name: SNOMED on FHIR project group
   url: https://confluence.ihtsdotools.org/display/FHIR/SNOMED+on+FHIR
