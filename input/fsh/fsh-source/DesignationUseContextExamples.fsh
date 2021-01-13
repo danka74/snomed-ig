@@ -80,7 +80,7 @@ Description: "Example of drug concepts with multiple designations with different
 
 * expansion.contains[0].designation[2].value = "min"
 * expansion.contains[0].designation[2].language = #en
-* expansion.contains[0].designation[2].use = SCT#900000000000548007 "Preferred"
+* expansion.contains[0].designation[2].use = #preferredForLanguage "Preferred for language"
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[context].valueCoding = http://snomed.info/sct|http://snomed.info/sct/45991000052106#63491000052105 "Abbreviation use"
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[role].valueCoding = SCT#900000000000548007 "Preferred"
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[type].valueCoding = SCT#900000000000013009 "Synonym"
