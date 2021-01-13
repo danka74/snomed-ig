@@ -11,7 +11,7 @@ to be specified when working with designations
 * ^context[1].type = #element
 * ^context[1].expression = "Parameters.parameter"
 * extension contains
-    context 1..1 and
+    context 0..1 and
     role 0..1 and
     type 0..1
 * extension[context] ^short = "Designation use context"
