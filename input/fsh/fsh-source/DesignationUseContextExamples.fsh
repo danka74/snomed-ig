@@ -1,5 +1,35 @@
 Alias: SCT = http://snomed.info/sct
 
+Instance: DrugValueSetExample0
+InstanceOf: ValueSet
+Description: "Example of drug concepts with multiple designation uses"
+* status = #draft
+* experimental = true
+* expansion.timestamp = 2020-12-25T09:57:34.2112Z
+* expansion.contains[0].system = SCT
+* expansion.contains[0].code = #428641000
+* expansion.contains[0].display = "Capsule - unit of product usage"
+
+* expansion.contains[0].designation[0].value = "Capsule"
+* expansion.contains[0].designation[0].language = #en
+* expansion.contains[0].designation[0].use = SCT#900000000000013009 "Synonym"
+
+* expansion.contains[0].designation[1].value = "Capsule"
+* expansion.contains[0].designation[1].language = #en
+* expansion.contains[0].designation[1].use = #consumer "Consumer-friendly term"
+
+* expansion.contains[0].designation[2].value = "Caps"
+* expansion.contains[0].designation[2].language = #en
+* expansion.contains[0].designation[2].use = SCT#900000000000013009 "Synonym"
+
+* expansion.contains[0].designation[3].value = "Capsules"
+* expansion.contains[0].designation[3].language = #en
+* expansion.contains[0].designation[3].use = SCT#900000000000013009 "Synonym"
+
+* expansion.contains[0].designation[4].value = "Capsule - unit of product usage (qualifier value)"
+* expansion.contains[0].designation[4].language = #en
+* expansion.contains[0].designation[4].use = SCT#900000000000003001 "Fully specified name"
+
 Instance: DrugValueSetExample1
 InstanceOf: ValueSet
 Description: "Example of drug concepts with multiple designations with different use contexts"
@@ -8,6 +38,7 @@ Description: "Example of drug concepts with multiple designations with different
 * expansion.timestamp = 2020-12-25T09:57:34.2112Z
 * expansion.contains[0].system = SCT
 * expansion.contains[0].code = #428641000
+* expansion.contains[0].display = "Capsule - unit of product usage"
 
 * expansion.contains[0].designation[0].value = "Capsule"
 * expansion.contains[0].designation[0].language = #en
