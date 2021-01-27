@@ -21,7 +21,7 @@ Description: "Example of drug concepts with multiple designations with different
 
 * expansion.contains[0].designation[1].value = "Capsule"
 * expansion.contains[0].designation[1].language = #en
-* expansion.contains[0].designation[1].use = #consumer "Consumer-friendly term"
+* expansion.contains[0].designation[1].use = http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra#consumer "Consumer-friendly term"
 * expansion.contains[0].designation[1].extension[designation-use-context][0].extension[context].valueCoding = http://snomed.info/sct|http://snomed.info/sct/45991000052106#63451000052100 "Patient-friendly use"
 * expansion.contains[0].designation[1].extension[designation-use-context][0].extension[role].valueCoding = SCT#900000000000548007 "Preferred"
 * expansion.contains[0].designation[1].extension[designation-use-context][0].extension[type].valueCoding = SCT#900000000000013009 "Synonym"
@@ -33,7 +33,6 @@ Description: "Example of drug concepts with multiple designations with different
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[context].valueCoding = http://snomed.info/sct|http://snomed.info/sct/45991000052106#63491000052105 "Abbreviation use"
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[role].valueCoding = SCT#900000000000548007 "Preferred"
 * expansion.contains[0].designation[2].extension[designation-use-context][0].extension[type].valueCoding = SCT#900000000000013009 "Synonym"
-
 
 * expansion.contains[0].designation[3].value = "Capsules"
 * expansion.contains[0].designation[3].language = #en
@@ -48,6 +47,13 @@ Description: "Example of drug concepts with multiple designations with different
 * expansion.contains[0].designation[4].extension[designation-use-context][0].extension[context].valueCoding = SCT#900000000000509007 "US English"
 * expansion.contains[0].designation[4].extension[designation-use-context][0].extension[role].valueCoding = SCT#900000000000548007 "Preferred"
 * expansion.contains[0].designation[4].extension[designation-use-context][0].extension[type].valueCoding = SCT#900000000000003001 "Fully specified name"
+
+* expansion.contains[0].designation[5].value = "Capsule - unit of product usage"
+* expansion.contains[0].designation[5].language = #en
+* expansion.contains[0].designation[5].use = http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra#preferredForLanguage "Preferred for language" // just going by the proposal...
+* expansion.contains[0].designation[5].extension[designation-use-context][0].extension[context].valueCoding = SCT#900000000000509007 "US English"
+* expansion.contains[0].designation[5].extension[designation-use-context][0].extension[role].valueCoding = SCT#900000000000548007 "Preferred"
+* expansion.contains[0].designation[5].extension[designation-use-context][0].extension[type].valueCoding = SCT#900000000000013009 "Synonym"
 
 
 
