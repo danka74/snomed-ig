@@ -16,7 +16,7 @@ Description: "Example of drug concepts with multiple designation uses"
 
 * expansion.contains[0].designation[1].value = "Capsule"
 * expansion.contains[0].designation[1].language = #en
-* expansion.contains[0].designation[1].use = #consumer "Consumer-friendly term"
+* expansion.contains[0].designation[1].use = http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra#consumer "Consumer-friendly term"
 
 * expansion.contains[0].designation[2].value = "Caps"
 * expansion.contains[0].designation[2].language = #en
@@ -29,6 +29,15 @@ Description: "Example of drug concepts with multiple designation uses"
 * expansion.contains[0].designation[4].value = "Capsule - unit of product usage (qualifier value)"
 * expansion.contains[0].designation[4].language = #en
 * expansion.contains[0].designation[4].use = SCT#900000000000003001 "Fully specified name"
+
+* expansion.contains[0].designation[5].value = "Capsule - unit of product usage"
+* expansion.contains[0].designation[5].language = #en
+* expansion.contains[0].designation[5].use = http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra#preferredForLanguage "Preferred for language" // just going by the proposal...
+
+* expansion.contains[0].designation[6].value = "Capsule - unit of product usage"
+* expansion.contains[0].designation[6].language = #en
+* expansion.contains[0].designation[6].use = http://hl7.org/fhir/CodeSystem/designation-usage#display "Display"
+
 
 Instance: DrugValueSetExample1
 InstanceOf: ValueSet
