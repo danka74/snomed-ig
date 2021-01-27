@@ -11,6 +11,16 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "60621009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Body mass index",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "248334005"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -81,12 +91,125 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "60621009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "608771002",
+  "display" : "GMDN language reference set"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Body mass index",
+  "display" : "GMDN language reference set (foundation metadata concept)",
   "severity" : null,
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000548007",
+  "display" : "Preferred"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Preferred (foundation metadata concept)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000013009",
+  "display" : "Synonym"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Synonym (core metadata concept)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000013009",
+  "display" : "Synonym"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
+      {
+        "code" : "900000000000013009"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Synonym (core metadata concept)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000509007",
+  "display" : "US English"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "United States of America English language reference set",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000549004",
+  "display" : "Acceptable"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Acceptable (foundation metadata concept)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63461000052102",
+  "display" : "Professional use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 63461000052102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63461000052102\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63461000052102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63461000052102#63451000052100",
+  "display" : "Patient-friendly use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63461000052102#63491000052105",
+  "display" : "Abbreviation use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63461000052102#63481000052108",
+  "display" : "Plural use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -170,8 +293,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:5823f974-77b6-40a5-b23a-18b25f7ff4d9",
-    "timestamp" : "2020-12-15T21:11:39.590Z",
+    "identifier" : "urn:uuid:eb8a9820-49cd-4c54-a903-c6320ad71592",
+    "timestamp" : "2021-01-13T07:52:13.711Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5202,8 +5325,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:c79b37db-f26f-4a72-9c99-13c6ac89c4a3",
-    "timestamp" : "2020-12-15T21:12:22.292Z",
+    "identifier" : "urn:uuid:9166260e-61f4-47d6-8a96-d5cd759b2814",
+    "timestamp" : "2021-01-13T07:53:37.772Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5244,8 +5367,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:86037e3a-dddc-46f6-879b-b319f8e10384",
-    "timestamp" : "2020-12-15T21:12:22.683Z",
+    "identifier" : "urn:uuid:058a875b-8c9f-4bc4-8861-67e1572e0790",
+    "timestamp" : "2021-01-13T07:53:38.335Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5296,8 +5419,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:6e278f81-dc7a-45d5-8e84-67250d047780",
-    "timestamp" : "2020-12-15T21:12:23.105Z",
+    "identifier" : "urn:uuid:fd433446-3b67-453d-a2f6-6bb6eb36ea30",
+    "timestamp" : "2020-12-26T13:45:09.225Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5461,8 +5584,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:1bdff2f8-e396-4800-aa39-2c32e5b0a90c",
-    "timestamp" : "2020-12-15T21:12:25.855Z",
+    "identifier" : "urn:uuid:c5591af6-9e13-4ea7-a0ca-1973d9842945",
+    "timestamp" : "2020-12-26T13:45:13.365Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5503,8 +5626,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:8a457bbb-2313-48aa-9b17-fc11de9ddc83",
-    "timestamp" : "2020-12-15T21:12:26.214Z",
+    "identifier" : "urn:uuid:efecf491-6b5d-42be-8bba-94cd661f8cfe",
+    "timestamp" : "2020-12-26T13:45:13.615Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -5576,8 +5699,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:93e7329f-c76c-4d76-8ec3-4fb2802c8067",
-    "timestamp" : "2020-12-15T21:12:27.089Z",
+    "identifier" : "urn:uuid:95d7bd44-bb47-4210-8c71-7b720725ec4a",
+    "timestamp" : "2021-01-13T07:53:49.585Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -10613,8 +10736,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:17585d92-6d32-4199-9f66-e56d650bdaad",
-    "timestamp" : "2020-12-15T21:13:09.745Z",
+    "identifier" : "urn:uuid:6bd6d00a-752e-4b2a-b99d-fe3542f4d7a0",
+    "timestamp" : "2021-01-13T07:55:13.255Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11315,8 +11438,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:f1922732-aacf-4799-a4d7-7010faa26df7",
-    "timestamp" : "2020-12-15T21:13:15.464Z",
+    "identifier" : "urn:uuid:65dd5a07-20da-4b04-b98a-d8fe18bdcad9",
+    "timestamp" : "2021-01-13T07:55:24.209Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -11671,8 +11794,8 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:5bf7cbc2-d78b-416a-855b-c31a7e28b340",
-    "timestamp" : "2020-12-15T21:13:18.542Z",
+    "identifier" : "urn:uuid:57657495-a8cb-4ac6-939a-76ac968bb7e3",
+    "timestamp" : "2021-01-13T07:55:29.005Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -16688,41 +16811,52 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "608771002",
-  "display" : "GMDN language reference set"
+  "code" : "63451000052100",
+  "display" : "Patient-friendly use"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "GMDN language reference set (foundation metadata concept)",
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 63451000052100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63451000052100\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63451000052100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63491000052105",
+  "display" : "Abbreviation use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 63491000052105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63491000052105\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63491000052105) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "63481000052108",
+  "display" : "Plural use"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Unable to find code 63481000052108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63481000052108\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63481000052108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001",
+  "display" : "Fully specified name"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Fully specified name",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000548007",
-  "display" : "Preferred"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Preferred (foundation metadata concept)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "900000000000013009",
-  "display" : "Synonym"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Synonym (core metadata concept)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "900000000000013009",
-  "display" : "Synonym"
+  "code" : "900000000000003001",
+  "display" : "Fully specified name"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -16738,74 +16872,32 @@ v: {
   }
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Synonym (core metadata concept)",
+  "display" : "Fully specified name",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000509007",
-  "display" : "US English"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "United States of America English language reference set",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "900000000000549004",
-  "display" : "Acceptable"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Acceptable (foundation metadata concept)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "63461000052102",
-  "display" : "Professional use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "900000000000548007",
+  "display" : "Preferred"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
+      {
+        "code" : "900000000000013009"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Unable to find code 63461000052102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63461000052102\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63461000052102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63451000052100",
-  "display" : "Patient-friendly use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63491000052105",
-  "display" : "Abbreviation use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63481000052108",
-  "display" : "Plural use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+  "error" : "The code provided (http://snomed.info/sct#900000000000548007) is not valid in the value set 'DesignationUse' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
