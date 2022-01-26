@@ -63,7 +63,7 @@ Years later the patient is seeing another physician within the organization for 
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#unconfirmed
 * verificationStatus.coding[+] = $SCT#2931005 "Probable diagnosis (qualifier value)"
-* clinicalStatus.text = "Probable"
+* verificationStatus.text = "Probable"
 * criticality = #low
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
 * reaction.substance = $SCT#387525002 "Hydrochlorothiazide (substance)"

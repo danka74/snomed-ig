@@ -17382,3 +17382,30 @@ v: {
   "error" : "The display \"Probable diagnosis (qualifier value)\" is not a valid display for the code {http://snomed.info/sct}2931005 - should be one of ['Probable diagnosis', 'Probable', 'Probably', 'Probable diagnosis (contextual qualifier) (qualifier value)', 'Likely', 'Probable diagnosis (contextual qualifier)', 'Presumptive diagnosis'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007",
+  "display" : "Moderate (severity modifier) (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "24484000"
+      },
+      {
+        "code" : "6736007"
+      },
+      {
+        "code" : "255604002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
