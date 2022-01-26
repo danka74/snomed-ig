@@ -16,6 +16,9 @@ version: 0.0.1
 name: SNOMEDCTImplementationGuideforFHIR
 title: SNOMED CT Implementation Guide for FHIR
 status: active
+jurisdiction:
+  system: http://unstats.un.org/unsd/methods/m49/m49.htm
+  code: "001"
 publisher:
   name: SNOMED on FHIR project group
   url: https://confluence.ihtsdotools.org/display/FHIR/SNOMED+on+FHIR
@@ -38,8 +41,8 @@ menu:
   Table of Contents: toc.html
   #Artifact Index: artifacts.html
   Support:
-    SNOMED on FHIR: new-tab external https://confluence.ihtsdotools.org/display/FHIR/SNOMED+on+FHIR
-    FHIR Spec: new-tab external http://hl7.org/fhir/R4/index.html
+    SNOMED on FHIR: new-tab https://confluence.ihtsdotools.org/display/FHIR/SNOMED+on+FHIR
+    FHIR Spec: new-tab http://hl7.org/fhir/R4/index.html
 
 # ╭────────────────────────────────────────────index.md────────────────────────────────────────────╮
 # │  To use a provided ig-data/input/[pagecontent | pages]/index.[md | xml], delete the            │
@@ -61,7 +64,3 @@ menu:
 #     sequence: STU 1
 #     current: true
 
-# ╭─────────────────────────────────────────────ig.ini─────────────────────────────────────────────╮
-# │  To control the ig.ini using this config, uncomment and set the "template" property.           │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-template: snomed-template

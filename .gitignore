@@ -1,10 +1,8 @@
 SUSHI-GENERATED-FILES.md
 org.hl7.fhir.publisher.jar
 publisher.jar
-input/
 output/
 temp/
 template/
-ig.ini
-package-list.json
 .index.json
+/fsh-generated
