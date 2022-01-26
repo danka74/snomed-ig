@@ -2768,10 +2768,10 @@
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "English",
-  "severity" : null,
-  "error" : ""
+  "code" : "en",
+  "system" : "urn:ietf:bcp:47"
 }
 -------------------------------------------------------------------------------------
