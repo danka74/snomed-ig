@@ -126,7 +126,7 @@ A patient enters the urgent care with complaints of ringing, clanging and whistl
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
@@ -150,7 +150,7 @@ A patient enters the urgent care with complaints of ringing, clanging and whistl
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
@@ -207,7 +207,7 @@ A physician sees a patient for the first time in clinic for routine outpatient c
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
@@ -246,7 +246,7 @@ Years later the youngster is seen by a dermatologist for treatment of acne.  As 
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * criticality = #high
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
@@ -284,7 +284,7 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $CondVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * category = $CondCat#problem-list-item
 * severity = $SCT#6736007 "Moderate (qualifier)"
@@ -304,7 +304,7 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 // * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
@@ -330,7 +330,7 @@ A nurse is performing an intake examination on a patient that is new to the clin
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
 * verificationStatus.text = "Confirmed"
 
 
