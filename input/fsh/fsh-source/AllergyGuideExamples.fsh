@@ -192,6 +192,7 @@ A physician sees a patient for the first time in clinic for routine outpatient c
 
 Instance: AllergySpecimenExample1
 InstanceOf: Specimen
+* subject = Reference(PatientExample1)
 * type = $SCT#119364003 "Serum specimen"
 
 Instance: AllergyIntoleranceExample4-5
@@ -289,7 +290,6 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * severity = $SCT#6736007 "Moderate (qualifier)"
 * severity.text = "Moderate"
 
-
 Instance: AllergyIntoleranceExample4-7
 InstanceOf: AllergyIntolerance-SubstanceFocused
 Description: """Scenario:
@@ -319,7 +319,19 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * reaction.exposureRoute = $SCT#6064005 "Topical route (qualifier)"
 * reaction.exposureRoute.text = "Topical" 
 
-
+Instance: AllergyIntoleranceExample4-8
+InstanceOf: AllergyIntolerance
+Description: """Scenario:
+A nurse is performing an intake examination on a patient that is new to the clinical practice.  As part of the clinical interview he inquires about medication and other allergies.  The patient reports that she is not allergic to any medications, foods, chemicals or animals.  The nurse opens the ‘allergy list’ in the EHR and documents ‘No known allergies’ which electronically validates that the nurse inquired of the patient and that the history was confirmed negative at the date and time recorded.  This satisfies decision support criteria that allergies be documented before medication orders are written and is encoded in the EHR allergy list as confirmed absence of dispositions to adverse reactions."""
+* patient = Reference(PatientExample1)
+* code = $SCT#716186003 "No known allergy (situation)"
+* code.text = "No known allergies"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#4106005003 "Confirmed present (qualifier)"
+* verificationStatus.text = "Confirmed"
 
 
 
