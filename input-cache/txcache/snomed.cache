@@ -17409,3 +17409,217 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000013009"
+}, "url": "http://hl7.org/fhir/ValueSet/designation-use--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Synonym (core metadata concept)",
+  "code" : "900000000000013009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001"
+}, "url": "http://hl7.org/fhir/ValueSet/designation-use--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Fully specified name",
+  "code" : "900000000000003001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007",
+  "display" : "Moderate (severity modifier) (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "47965005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Differential diagnosis",
+  "code" : "47965005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002",
+  "display" : "Mild (qualifier)"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Mild (qualifier)\" is not a valid display for the code {http://snomed.info/sct}255604002 - should be one of ['Mild', 'Mild (qualifier value)'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "292044008",
+  "display" : "Aspirin adverse reaction (disorder)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Aspirin adverse reaction",
+  "code" : "292044008",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002"
+}, "url": "http://hl7.org/fhir/ValueSet/substance-code--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002",
+  "display" : "Hydrochlorothiazide (substance)"
+}, "url": "http://hl7.org/fhir/ValueSet/substance-code", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001"
+}, "url": "http://hl7.org/fhir/ValueSet/clinical-findings--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001",
+  "display" : "Urticaria (disorder)"
+}, "url": "http://hl7.org/fhir/ValueSet/clinical-findings", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006"
+}, "url": "http://hl7.org/fhir/ValueSet/route-codes--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006",
+  "display" : "Oral route (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/route-codes", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003"
+}, "url": "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code--0", "version": "0.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003",
+  "display" : "Allergy to thiazide (finding)"
+}, "url": "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code", "version": "0.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/bodyweight", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 27113001 | Body weight (observable entity) | MINUS (<< 248350002 | Reference weight (observable entity) | OR << 301334000 | Birth weight centile (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/dia-bp", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 271650006 | Diastolic blood pressure (observable entity) | MINUS (<< 314465004 | 24 hour diastolic blood pressure (observable entity) | OR << 716632005 | Baseline diastolic blood pressure (observable entity) | OR << 315613000 | Target diastolic blood pressure (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/headcircum", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 363812007 | Head circumference (observable entity) | MINUS << 248397001 | Head circumference centile (observable entity) |)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/heartrate", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 364075005 | Heart rate (observable entity) | MINUS 428420003 | Target heart rate (observable entity) |)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/syst-bp", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 271649006 | Systolic blood pressure (observable entity) | MINUS (<< 314464000 | 24 hour systolic blood pressure (observable entity) | OR << 716579001 | Baseline systolic blood pressure (observable entity) | OR << 315612005 | Target systolic blood pressure (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
