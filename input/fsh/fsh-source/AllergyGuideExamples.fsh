@@ -121,7 +121,7 @@ A patient enters the urgent care with complaints of ringing, clanging and whistl
 * patient = Reference(PatientExample1)
 * code = $SCT#387458008 "Aspirin (substance)"
 * code.text = "Aspirin"
-* type = #allergy
+* type = #intolerance
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
@@ -218,7 +218,7 @@ A physician sees a patient for the first time in clinic for routine outpatient c
 * reaction.manifestation.text = "Asthma"
 * reaction.severity = #mild
 * reaction.exposureRoute = $SCT#447694001 "Respiratory tract route (qualifier value)"
-* reaction.exposureRoute.text = "Topical" // ???
+* reaction.exposureRoute.text = "Respiratory" // ???
 
 Instance: AllergyObservationExample4-6
 InstanceOf: Observation
