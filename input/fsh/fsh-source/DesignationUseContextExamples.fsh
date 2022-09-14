@@ -36,7 +36,7 @@ Description: "Example of drug concepts with multiple designation uses"
 
 * expansion.contains[0].designation[6].value = "Capsule - unit of product usage"
 * expansion.contains[0].designation[6].language = #en
-* expansion.contains[0].designation[6].use = http://hl7.org/fhir/CodeSystem/designation-usage#display "Display"
+* expansion.contains[0].designation[6].use = http://hl7.org/fhir/ValueSet/designation-use#display "Display"
 
 
 Instance: DrugValueSetExample1

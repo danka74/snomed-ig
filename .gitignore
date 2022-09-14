@@ -6,3 +6,4 @@ temp/
 template/
 .index.json
 /fsh-generated
+.*
