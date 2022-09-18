@@ -2,130 +2,129 @@
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "420134006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Propensity to adverse reactions",
-  "severity" : null,
-  "error" : ""
+  "code" : "420134006",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "60621009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Body mass index",
-  "severity" : null,
-  "error" : ""
+  "code" : "60621009",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "248334005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Length of body",
-  "severity" : null,
-  "error" : ""
+  "code" : "248334005",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "276885007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Core body temperature",
-  "severity" : null,
-  "error" : ""
+  "code" : "276885007",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "431314004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Peripheral oxygen saturation (observable entity)",
-  "severity" : null,
-  "error" : ""
+  "code" : "431314004",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "86290005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Respiratory rate",
-  "severity" : null,
-  "error" : ""
+  "code" : "86290005",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "17636008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Specimen collection",
-  "severity" : null,
-  "error" : ""
+  "code" : "17636008",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "9265001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Specimen processing",
-  "severity" : null,
-  "error" : ""
+  "code" : "9265001",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "123038009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Specimen",
-  "severity" : null,
-  "error" : ""
+  "code" : "123038009",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "608771002",
   "display" : "GMDN language reference set"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "GMDN language reference set (foundation metadata concept)",
-  "severity" : null,
-  "error" : ""
+  "code" : "608771002",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "900000000000548007",
   "display" : "Preferred"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Preferred (foundation metadata concept)",
-  "severity" : null,
-  "error" : ""
+  "code" : "900000000000548007",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "900000000000013009",
   "display" : "Synonym"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Synonym (core metadata concept)",
-  "severity" : null,
-  "error" : ""
+  "code" : "900000000000013009",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000013009",
-  "display" : "Synonym"
+  "code" : "900000000000013009"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -139,77 +138,123 @@ v: {
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Synonym (core metadata concept)",
-  "severity" : null,
-  "error" : ""
+  "code" : "900000000000013009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001",
+  "display" : "Fully specified name"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Fully specified name",
+  "code" : "900000000000003001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
+      {
+        "code" : "900000000000013009"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Fully specified name",
+  "code" : "900000000000003001",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "900000000000509007",
   "display" : "US English"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "United States of America English language reference set",
-  "severity" : null,
-  "error" : ""
+  "code" : "900000000000509007",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "900000000000549004",
   "display" : "Acceptable"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Acceptable (foundation metadata concept)",
-  "severity" : null,
-  "error" : ""
+  "code" : "900000000000549004",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/45991000052106",
   "code" : "63461000052102",
   "display" : "Professional use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 63461000052102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63461000052102\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63461000052102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Context-specific terms language type reference set, Swedish national medication list (foundation metadata concept)",
+  "code" : "63461000052102",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Professional use\" is not a valid display for the code {http://snomed.info/sct}63461000052102 - should be one of ['Context-specific terms language type reference set, Swedish national medication list (foundation metadata concept)', 'Context-specific terms language type reference set, Swedish national medication list'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63451000052100",
+  "version" : "http://snomed.info/sct/45991000052106",
+  "code" : "63451000052100",
   "display" : "Patient-friendly use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+  "display" : "Common-language expression language type reference set, Swedish national medication list",
+  "code" : "63451000052100",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Patient-friendly use\" is not a valid display for the code {http://snomed.info/sct}63451000052100 - should be one of ['Common-language expression language type reference set, Swedish national medication list', 'Common-language expression language type reference set, Swedish national medication list (foundation metadata concept)'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63491000052105",
+  "version" : "http://snomed.info/sct/45991000052106",
+  "code" : "63491000052105",
   "display" : "Abbreviation use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+  "display" : "Dose unit abbreviation language type reference set, Swedish national medication list (foundation metadata concept)",
+  "code" : "63491000052105",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Abbreviation use\" is not a valid display for the code {http://snomed.info/sct}63491000052105 - should be one of ['Dose unit abbreviation language type reference set, Swedish national medication list (foundation metadata concept)', 'Dose unit abbreviation language type reference set, Swedish national medication list'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63461000052102#63481000052108",
+  "version" : "http://snomed.info/sct/45991000052106",
+  "code" : "63481000052108",
   "display" : "Plural use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Found content (\"#\") after end of expression at character 15 (from http://tx.fhir.org/r4)"
+  "display" : "Dose unit plural language type reference set, Swedish national medication list",
+  "code" : "63481000052108",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Plural use\" is not a valid display for the code {http://snomed.info/sct}63481000052108 - should be one of ['Dose unit plural language type reference set, Swedish national medication list', 'Dose unit plural language type reference set, Swedish national medication list (foundation metadata concept)'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -223,48 +268,46 @@ v: {
       "filter" : [{
         "property" : "concept",
         "op" : "is-a",
-        "value" : "420134006"
+        "value" : "105590001"
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Latex allergy",
-  "severity" : null,
-  "error" : ""
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#300916003) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "300916003"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "373873005"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#300916003) is not valid (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "300916003",
   "display" : "Allergy to latex (finding)"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "is-a",
-        "value" : "420134006"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
   "display" : "Latex allergy",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "300916003"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Latex allergy",
-  "severity" : null,
-  "error" : ""
+  "code" : "300916003",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -283,6 +326,7 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
@@ -293,15 +337,15 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:eb8a9820-49cd-4c54-a903-c6320ad71592",
-    "timestamp" : "2021-01-13T07:52:13.711Z",
+    "identifier" : "urn:uuid:c1d8d4cf-6630-4b5e-a6c4-8a885a812cf9",
+    "timestamp" : "2022-01-26T16:39:57.208Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -4291,7 +4335,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "294645006",
-      "display" : "Allergy to vaccine product containing Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens"
+      "display" : "Allergy to diphtheria and pertussis and tetanus vaccine"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -4351,7 +4395,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "294662001",
-      "display" : "Allergy to vaccine product containing Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens"
+      "display" : "Allergy to measles and mumps and rubella vaccine"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -4790,11 +4834,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "294790005",
-      "display" : "Polyestradiol phosphate allergy"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "294792002",
       "display" : "Mestranol allergy"
     },
@@ -4967,11 +5006,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "294841000",
       "display" : "Calcitonin (pork) allergy"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "294843002",
-      "display" : "Erythropoietin allergy"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5302,6 +5336,16 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "294978001",
       "display" : "Quinidine allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294979009",
+      "display" : "Flecainide allergy"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "294980007",
+      "display" : "Mexiletine allergy"
     }]
   }
 },
@@ -5323,17 +5367,18 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:9166260e-61f4-47d6-8a96-d5cd759b2814",
-    "timestamp" : "2021-01-13T07:53:37.772Z",
+    "identifier" : "urn:uuid:8cfec329-c4b8-40d2-92fc-c234b0343789",
+    "timestamp" : "2022-01-26T16:39:57.833Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -5361,36 +5406,27 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:058a875b-8c9f-4bc4-8861-67e1572e0790",
-    "timestamp" : "2021-01-13T07:53:38.335Z",
+    "identifier" : "urn:uuid:d7b25c59-9ff1-4b02-93aa-ec77c4da9834",
+    "timestamp" : "2022-01-26T16:39:58.240Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "248334005",
       "display" : "Length of body"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "276351002",
-      "display" : "Infant length"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "276353004",
-      "display" : "Crown heel length"
     }]
   }
 },
@@ -5413,21 +5449,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:fd433446-3b67-453d-a2f6-6bb6eb36ea30",
-    "timestamp" : "2020-12-26T13:45:09.225Z",
+    "identifier" : "urn:uuid:ba1df9a7-04cc-4f0d-b5d3-bc8a685df0c6",
+    "timestamp" : "2022-01-26T16:39:58.630Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -5448,16 +5485,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "364246006",
       "display" : "Temperature of vagina"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "415882003",
-      "display" : "Axillary temperature"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "415929009",
-      "display" : "Groin temperature"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -5578,26 +5605,27 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:c5591af6-9e13-4ea7-a0ca-1973d9842945",
-    "timestamp" : "2020-12-26T13:45:13.365Z",
+    "identifier" : "urn:uuid:257d9189-a5ed-462d-9f9e-fb221ab180ae",
+    "timestamp" : "2022-01-26T16:40:06.021Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "431314004",
-      "display" : "SpO2 - saturation of peripheral oxygen"
+      "display" : "Peripheral oxygen saturation (observable entity)"
     }]
   }
 },
@@ -5620,21 +5648,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:efecf491-6b5d-42be-8bba-94cd661f8cfe",
-    "timestamp" : "2020-12-26T13:45:13.615Z",
+    "identifier" : "urn:uuid:c7f1ab8d-8ffd-4e40-96fc-04c7d4630439",
+    "timestamp" : "2022-01-26T16:40:06.474Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -5689,6 +5718,7 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
@@ -5699,20 +5729,20 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:95d7bd44-bb47-4210-8c71-7b720725ec4a",
-    "timestamp" : "2021-01-13T07:53:49.585Z",
+    "identifier" : "urn:uuid:6d7c95ea-5874-4adc-bd3d-94fbfe767e25",
+    "timestamp" : "2022-01-26T16:40:08.943Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
       "code" : "442083009",
-      "display" : "Anatomical or acquired body structure"
+      "display" : "Anatomical or acquired body structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -6546,11 +6576,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "1893007",
-      "display" : "Joint of upper extremity"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "1895000",
       "display" : "Entire musculophrenic vein"
     },
@@ -6727,7 +6752,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "2327009",
-      "display" : "Entire salivary seromucous gland"
+      "display" : "Entire salivary seromucous gland (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -7086,13 +7111,8 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "2954001",
-      "display" : "Deciduous supernumerary tooth"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "2969000",
-      "display" : "Anatomical space structure"
+      "display" : "Anatomical space structure (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -8206,11 +8226,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "5140004",
-      "display" : "Maxillary right first molar tooth"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "5192008",
       "display" : "Intervertebral foramen of twelfth thoracic vertebra"
     },
@@ -8443,11 +8458,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "5668004",
       "display" : "Lower digestive tract"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "5677006",
-      "display" : "Entire lenticular fasciculus"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -9203,11 +9213,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "7117004",
       "display" : "Fetal implantation site"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "7121006",
-      "display" : "Maxillary right second molar tooth"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -10052,7 +10057,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "8894005",
-      "display" : "Entire gastric cardiac gland"
+      "display" : "Entire gastric cardiac gland (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -10182,7 +10187,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "9181003",
-      "display" : "Entire accessory carpal bone"
+      "display" : "Entire accessory carpal bone (body structure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -10708,6 +10713,31 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "10209003",
       "display" : "Parotid lymph node"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10245000",
+      "display" : "Abductor digiti minimi muscle of foot"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10271001",
+      "display" : "Entire anterior commissure of aortic valve"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10293006",
+      "display" : "Iliac artery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10296003",
+      "display" : "Uropod"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "10299005",
+      "display" : "Entire anteromedial perforating artery"
     }]
   }
 },
@@ -10730,21 +10760,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:6bd6d00a-752e-4b2a-b99d-fe3542f4d7a0",
-    "timestamp" : "2021-01-13T07:55:13.255Z",
+    "identifier" : "urn:uuid:a7954fd5-bbb2-421b-9c42-e59a62cfe431",
+    "timestamp" : "2022-01-26T16:40:09.396Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -11159,102 +11190,102 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "386087005",
-      "display" : "Collection of aspirated sputum"
+      "display" : "Collection of aspirated sputum (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "386088000",
-      "display" : "Collection of induced sputum"
+      "display" : "Collection of induced sputum (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "386089008",
-      "display" : "Collection of coughed sputum"
+      "display" : "Collection of coughed sputum (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "386099003",
-      "display" : "Spot urine procedure"
+      "display" : "Spot urine procedure (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "390784004",
-      "display" : "Endocervical chlamydia swab"
+      "display" : "Endocervical chlamydia swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "390785003",
-      "display" : "Urethral chlamydia swab"
+      "display" : "Urethral chlamydia swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "400993006",
-      "display" : "Gonococcal cervical swab"
+      "display" : "Gonococcal cervical swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "400994000",
-      "display" : "Gonococcal swab"
+      "display" : "Gonococcal swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "401002001",
-      "display" : "Gonococcal urethral swab"
+      "display" : "Gonococcal urethral swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "406173008",
-      "display" : "Phlebotomy: cannulated vessel"
+      "display" : "Phlebotomy: cannulated vessel (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "418622002",
-      "display" : "Taking oral swab"
+      "display" : "Taking oral swab (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "427133003",
-      "display" : "Endoscopic retrograde cholangiopancreatography and collection of bile"
+      "display" : "Endoscopic retrograde cholangiopancreatography and collection of bile (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "439599008",
-      "display" : "Collection of specimen by device"
+      "display" : "Collection of specimen by device (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "441136006",
-      "display" : "Collection of specimen by glass slide"
+      "display" : "Collection of specimen by glass slide (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "441266008",
-      "display" : "Specimen collection by endometrial suction curette"
+      "display" : "Specimen collection by endometrial suction curette (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "441378005",
-      "display" : "Collection of specimen by culture plate"
+      "display" : "Collection of specimen by culture plate (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "444171005",
-      "display" : "Collection of biliary drainage by gravity"
+      "display" : "Collection of biliary drainage by gravity (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "446232000",
-      "display" : "Collection of bile via biliary T-tube"
+      "display" : "Collection of bile via biliary T-tube (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "446775007",
-      "display" : "Collection of urine via indwelling urinary catheter"
+      "display" : "Collection of urine via indwelling urinary catheter (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "450874000",
-      "display" : "Collection of first stream urine specimen"
+      "display" : "Collection of first stream urine specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11264,7 +11295,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "472860004",
-      "display" : "Taking anal swab for gonorrhea"
+      "display" : "Taking anal swab for gonorrhoea (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11274,32 +11305,32 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "698007008",
-      "display" : "Collection of early morning mid stream specimen of urine by clean catch"
+      "display" : "Collection of early morning mid stream specimen of urine by clean catch (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "698086002",
-      "display" : "Collection of urine via pediatric urine collection bag"
+      "display" : "Collection of urine via pediatric urine collection bag (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "698087006",
-      "display" : "Collection of urine via indwelling suprapubic catheter"
+      "display" : "Collection of urine via indwelling suprapubic catheter (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "699873000",
-      "display" : "Collection of blood via arterial catheter"
+      "display" : "Collection of blood via arterial catheter (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "705084002",
-      "display" : "Collection of fluid specimen via Jackson-Pratt drain"
+      "display" : "Collection of fluid specimen via closed suction drain (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "705156009",
-      "display" : "Collection of urine via straight catheter"
+      "display" : "Collection of urine via straight catheter (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11334,47 +11365,47 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "720450003",
-      "display" : "Preoperative urine specimen collection"
+      "display" : "Preoperative urine specimen collection (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "722501003",
-      "display" : "Postoperative urine specimen collection"
+      "display" : "Postoperative urine specimen collection (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732218007",
-      "display" : "Urine specimen collection, 8 hours"
+      "display" : "Urine specimen collection, 8 hours (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732221009",
-      "display" : "Urine specimen collection, 48 hours"
+      "display" : "Urine specimen collection, 48 hours (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732223007",
-      "display" : "Urine specimen collection, 72 hours"
+      "display" : "Urine specimen collection, 72 hours (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732224001",
-      "display" : "Timed stool collection"
+      "display" : "Timed stool collection (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732228003",
-      "display" : "Stool specimen collection, 24 hours"
+      "display" : "Stool specimen collection, 24 hours (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "732292007",
-      "display" : "Stool specimen collection, 48 hours"
+      "display" : "Stool specimen collection, 48 hours (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "733481004",
-      "display" : "Collection of second stream urine specimen"
+      "display" : "Collection of second void urine specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11384,12 +11415,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "764928002",
-      "display" : "Collection of fluid specimen"
+      "display" : "Collection of fluid specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "764929005",
-      "display" : "Collection of exhaled breath specimen"
+      "display" : "Collection of exhaled breath specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11432,21 +11463,22 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:65dd5a07-20da-4b04-b98a-d8fe18bdcad9",
-    "timestamp" : "2021-01-13T07:55:24.209Z",
+    "identifier" : "urn:uuid:1aafee0b-ef8e-4c1a-915c-706be72f1095",
+    "timestamp" : "2022-01-26T16:40:09.802Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -11676,37 +11708,37 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "401297005",
-      "display" : "Hemolysis screening test"
+      "display" : "Hemolysis screening test (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "409077008",
-      "display" : "Examination for xanthochromia"
+      "display" : "Examination for xanthochromia (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "428995007",
-      "display" : "Receiving of specimen in laboratory"
+      "display" : "Receiving of specimen in laboratory (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "433454009",
-      "display" : "Microdissection of tissue specimen using laser"
+      "display" : "Microdissection of tissue specimen using laser (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "734227007",
-      "display" : "Specimen decontamination"
+      "display" : "Specimen decontamination (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "787371004",
-      "display" : "Recasting of specimen in block"
+      "display" : "Recasting of specimen in block (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "787372006",
-      "display" : "Preparation of large slide from specimen"
+      "display" : "Preparation of large slide from specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11726,17 +11758,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "787376009",
-      "display" : "Preparation of formalin fixed paraffin embedded tissue specimen"
+      "display" : "Preparation of formalin fixed paraffin embedded tissue specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "787378005",
-      "display" : "Fixation of specimen"
+      "display" : "Fixation of specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "787379002",
-      "display" : "Handling of oriented specimen"
+      "display" : "Handling of oriented specimen (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -11751,17 +11783,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "866037002",
-      "display" : "Dispatch of specimen for second opinion"
+      "display" : "Dispatch of specimen for second opinion (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "866038007",
-      "display" : "Specimen dispatch"
+      "display" : "Specimen dispatch (procedure)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "866039004",
-      "display" : "Review specimen from own archive"
+      "display" : "Review specimen from own archive (procedure)"
     }]
   }
 },
@@ -11784,6 +11816,7 @@ e: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "language" : "en",
   "status" : "active",
   "expansion" : {
     "extension" : [{
@@ -11794,15 +11827,15 @@ e: {
       "url" : "http://hl7.org/fhir/StructureDefinition/valueset-unclosed",
       "valueBoolean" : true
     }],
-    "identifier" : "urn:uuid:57657495-a8cb-4ac6-939a-76ac968bb7e3",
-    "timestamp" : "2021-01-13T07:55:29.005Z",
+    "identifier" : "urn:uuid:afcd4050-32e0-44ea-bb7f-165bc817fc2c",
+    "timestamp" : "2022-01-26T16:40:10.396Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
     },
     {
       "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20200731"
+      "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
     }],
     "contains" : [{
       "system" : "http://snomed.info/sct",
@@ -12112,7 +12145,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "110953004",
-      "display" : "Vaginal and cervical cytologic material"
+      "display" : "Vaginal and cervical cytologic material (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -12292,17 +12325,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "119304001",
-      "display" : "Blood bag specimen"
+      "display" : "Specimen from blood bag"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119305000",
-      "display" : "Plasma bag specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119306004",
-      "display" : "Drain device specimen"
+      "display" : "Specimen from plasma bag (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -12312,37 +12340,32 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "119308003",
-      "display" : "Cannula specimen"
+      "display" : "Cannula submitted as specimen"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119309006",
-      "display" : "Arterial line specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119310001",
-      "display" : "Tube specimen"
+      "display" : "Arterial line submitted as specimen"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119311002",
-      "display" : "Catheter specimen"
+      "display" : "Catheter submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119312009",
-      "display" : "Catheter tip specimen"
+      "display" : "Catheter tip submitted as specimen"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119313004",
-      "display" : "Implantable venous catheter specimen"
+      "display" : "Implantable venous catheter submitted as specimen"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "119314005",
-      "display" : "Electrode specimen"
+      "display" : "Electrode submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -12812,12 +12835,12 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "122563008",
-      "display" : "Blood bag specimen, from patient"
+      "display" : "Specimen from blood bag from patient (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "122564002",
-      "display" : "Blood bag specimen, from blood product"
+      "display" : "Specimen from blood bag from blood product (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -13322,7 +13345,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "122669002",
-      "display" : "Specimen from urinary bladder obtained by anterior exenteration"
+      "display" : "Specimen from urinary bladder obtained by anterior exenteration (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -13407,17 +13430,17 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "122686008",
-      "display" : "Specimen from urinary bladder obtained by partial cystectomy"
+      "display" : "Specimen from urinary bladder obtained by partial cystectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "122687004",
-      "display" : "Specimen from urinary bladder obtained by total cystectomy"
+      "display" : "Specimen from urinary bladder obtained by total cystectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "122688009",
-      "display" : "Specimen from urinary bladder obtained by radical cystoprostatectomy"
+      "display" : "Specimen from urinary bladder obtained by radical cystoprostatectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -13678,11 +13701,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "122880004",
       "display" : "Urine specimen obtained by clean catch procedure"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "127454002",
-      "display" : "Device specimen"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -14611,11 +14629,6 @@ e: {
     },
     {
       "system" : "http://snomed.info/sct",
-      "code" : "258540007",
-      "display" : "Prosthetic joint sample"
-    },
-    {
-      "system" : "http://snomed.info/sct",
       "code" : "258541006",
       "display" : "Cardiovascular sample"
     },
@@ -14623,11 +14636,6 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "258542004",
       "display" : "Heart valve sample"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258543009",
-      "display" : "Prosthetic heart valve sample"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -14867,22 +14875,22 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258608003",
-      "display" : "Sputum specimen obtained by aspiration"
+      "display" : "Sputum specimen obtained by aspiration (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258609006",
-      "display" : "Sputum specimen obtained by aspiration from trachea"
+      "display" : "Sputum specimen obtained by aspiration from trachea (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258610001",
-      "display" : "Sputum specimen obtained by sputum induction"
+      "display" : "Sputum specimen obtained by sputum induction (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258611002",
-      "display" : "Sputum specimen obtained from sputum suction trap"
+      "display" : "Sputum specimen obtained from sputum suction trap (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -14917,32 +14925,27 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258627009",
-      "display" : "Cannula tip"
+      "display" : "Cannula tip submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258628004",
-      "display" : "Vascular cannula tip"
+      "display" : "Vascular cannula tip submitted as specimen"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258629007",
-      "display" : "Arterial cannula tip"
+      "display" : "Arterial cannula tip submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258630002",
-      "display" : "Venous cannula tip"
+      "display" : "Venous cannula tip submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "258631003",
-      "display" : "Arteriovenous shunt tip"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258647001",
-      "display" : "Drain tip"
+      "display" : "Arteriovenous shunt tip submitted as specimen (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -14972,7 +14975,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "258654007",
-      "display" : "Soy milk sample"
+      "display" : "Soy milk sample (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16127,7 +16130,7 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "369618002",
-      "display" : "Tissue specimen obtained from vulva by biopsy"
+      "display" : "Tissue specimen obtained from vulva by biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16137,27 +16140,27 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "371780008",
-      "display" : "Specimen for identification"
+      "display" : "Specimen for identification (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "371782000",
-      "display" : "Human bone for identification"
+      "display" : "Human bone for identification (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "371783005",
-      "display" : "Human tissue for identification"
+      "display" : "Human tissue for identification (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "371784004",
-      "display" : "Body parts for identification"
+      "display" : "Body parts for identification (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "373101006",
-      "display" : "Breast cytologic material obtained by percutaneous core biopsy"
+      "display" : "Breast cytologic material obtained by percutaneous core biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16167,32 +16170,32 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "373103009",
-      "display" : "Breast cytologic material obtained by incisional biopsy"
+      "display" : "Breast cytologic material obtained by incisional biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "373192005",
-      "display" : "Lymph node from axillary dissection"
+      "display" : "Lymph node from axillary dissection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "373193000",
-      "display" : "Lymph node from sentinel lymph node dissection"
+      "display" : "Lymph node from sentinel lymph node dissection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "373826004",
-      "display" : "Surgical excision sample"
+      "display" : "Surgical excision sample (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "384744003",
-      "display" : "Lymph node from sentinel lymph node dissection and axillary dissection"
+      "display" : "Lymph node from sentinel lymph node dissection and axillary dissection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "384746001",
-      "display" : "Specimen from lung obtained by wedge biopsy"
+      "display" : "Specimen from lung obtained by wedge biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16202,162 +16205,162 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "384819001",
-      "display" : "Specimen from prostate obtained by needle biopsy"
+      "display" : "Specimen from prostate obtained by needle biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "384820007",
-      "display" : "Specimen from prostate obtained by transurethral resection"
+      "display" : "Specimen from prostate obtained by transurethral resection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "385338007",
-      "display" : "Specimen from anus obtained by transanal disk excision"
+      "display" : "Specimen from anus obtained by transanal disk excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "385339004",
-      "display" : "Specimen from anus obtained by transanal disk excision, intact"
+      "display" : "Specimen from anus obtained by transanal disk excision, intact (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "385340002",
-      "display" : "Specimen from anus obtained by transanal disk excision, fragmented"
+      "display" : "Specimen from anus obtained by transanal disk excision, fragmented (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396273004",
-      "display" : "Specimen from uterine cervix obtained by excision of cervix"
+      "display" : "Specimen from uterine cervix obtained by excision of cervix (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396353007",
-      "display" : "Specimen from skin obtained by elliptical excision"
+      "display" : "Specimen from skin obtained by elliptical excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396354001",
-      "display" : "Specimen from skin obtained by wide excision"
+      "display" : "Specimen from skin obtained by wide excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396355000",
-      "display" : "Specimen from skin obtained by excision"
+      "display" : "Specimen from skin obtained by excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396356004",
-      "display" : "Specimen from skin obtained by re-excision"
+      "display" : "Specimen from skin obtained by re-excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396357008",
-      "display" : "Specimen from skin obtained by elliptical re-excision"
+      "display" : "Specimen from skin obtained by elliptical re-excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396358003",
-      "display" : "Specimen from skin obtained by wide re-excision"
+      "display" : "Specimen from skin obtained by wide re-excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396359006",
-      "display" : "Lymph node from regional lymph node dissection"
+      "display" : "Lymph node from regional lymph node dissection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396476009",
-      "display" : "Specimen from liver obtained by right lobectomy"
+      "display" : "Specimen from liver obtained by right lobectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396477000",
-      "display" : "Specimen from liver obtained by extended right lobectomy"
+      "display" : "Specimen from liver obtained by extended right lobectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396478005",
-      "display" : "Specimen from liver obtained by medial segmentectomy"
+      "display" : "Specimen from liver obtained by medial segmentectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396479002",
-      "display" : "Specimen from liver obtained by left lateral segmentectomy"
+      "display" : "Specimen from liver obtained by left lateral segmentectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396480004",
-      "display" : "Specimen from liver obtained by total left lobectomy"
+      "display" : "Specimen from liver obtained by total left lobectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396481000",
-      "display" : "Specimen from explanted liver"
+      "display" : "Specimen from explanted liver (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396483002",
-      "display" : "Specimen from skin obtained by shave excision"
+      "display" : "Specimen from skin obtained by shave excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396525008",
-      "display" : "Specimen from adrenal gland obtained by needle biopsy"
+      "display" : "Specimen from adrenal gland obtained by needle biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396526009",
-      "display" : "Specimen from adrenal gland obtained by partial adrenalectomy"
+      "display" : "Specimen from adrenal gland obtained by partial adrenalectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396527000",
-      "display" : "Specimen from adrenal gland obtained by total adrenalectomy"
+      "display" : "Specimen from adrenal gland obtained by total adrenalectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396685001",
-      "display" : "Specimen from urinary bladder obtained by radical cystectomy"
+      "display" : "Specimen from urinary bladder obtained by radical cystectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396804002",
-      "display" : "Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, partial pancreatectomy"
+      "display" : "Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, partial pancreatectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396805001",
-      "display" : "Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, total pancreatectomy"
+      "display" : "Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, total pancreatectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396806000",
-      "display" : "Specimen from pancreas obtained by pancreaticoduodenectomy, partial pancreatectomy"
+      "display" : "Specimen from pancreas obtained by pancreaticoduodenectomy, partial pancreatectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396807009",
-      "display" : "Specimen from pancreas obtained by pancreaticoduodenectomy, total pancreatectomy"
+      "display" : "Specimen from pancreas obtained by pancreaticoduodenectomy, total pancreatectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396896007",
-      "display" : "Specimen from thymus gland"
+      "display" : "Specimen from thymus gland (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396897003",
-      "display" : "Specimen from thymus gland obtained by transcervical thymectomy"
+      "display" : "Specimen from thymus gland obtained by transcervical thymectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396898008",
-      "display" : "Specimen from thymus gland obtained by thoracotomy"
+      "display" : "Specimen from thymus gland obtained by thoracotomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396899000",
-      "display" : "Specimen from thymus gland obtained by fine needle aspiration biopsy"
+      "display" : "Specimen from thymus gland obtained by fine needle aspiration biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16367,47 +16370,47 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "396902002",
-      "display" : "Specimen from thymus gland obtained by transthoracic needle biopsy"
+      "display" : "Specimen from thymus gland obtained by transthoracic needle biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396904001",
-      "display" : "Specimen from thymus gland obtained by limited thoracotomy"
+      "display" : "Specimen from thymus gland obtained by limited thoracotomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396906004",
-      "display" : "Specimen from thymus gland obtained by video assisted thoracotomy"
+      "display" : "Specimen from thymus gland obtained by video assisted thoracotomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396928004",
-      "display" : "Specimen from eye obtained by enucleation"
+      "display" : "Specimen from eye obtained by enucleation (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396997002",
-      "display" : "Specimen from bone marrow obtained by aspiration"
+      "display" : "Specimen from bone marrow obtained by aspiration (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396998007",
-      "display" : "Specimen from bone marrow obtained by aspiration and biopsy"
+      "display" : "Specimen from bone marrow obtained by aspiration and biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "396999004",
-      "display" : "Specimen from bone marrow obtained by biopsy"
+      "display" : "Specimen from bone marrow obtained by biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397053005",
-      "display" : "Specimen from small intestine obtained by polypectomy"
+      "display" : "Specimen from small intestine obtained by polypectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397055003",
-      "display" : "Specimen from small intestine obtained by segmental resection"
+      "display" : "Specimen from small intestine obtained by segmental resection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
@@ -16417,392 +16420,422 @@ e: {
     {
       "system" : "http://snomed.info/sct",
       "code" : "397077004",
-      "display" : "Specimen obtained by incisional biopsy"
+      "display" : "Specimen obtained by incisional biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397078009",
-      "display" : "Specimen obtained by excisional biopsy"
+      "display" : "Specimen obtained by excisional biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397111007",
-      "display" : "Specimen from vagina obtained by partial vaginectomy"
+      "display" : "Specimen from vagina obtained by partial vaginectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397129002",
-      "display" : "Specimen from vulva"
+      "display" : "Specimen from vulva (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397130007",
-      "display" : "Specimen from vulva obtained by local excision"
+      "display" : "Specimen from vulva obtained by local excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397131006",
-      "display" : "Specimen from vulva obtained by wide excision"
+      "display" : "Specimen from vulva obtained by wide excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397132004",
-      "display" : "Specimen from vulva obtained by partial vulvectomy"
+      "display" : "Specimen from vulva obtained by partial vulvectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397133009",
-      "display" : "Specimen from vulva obtained by total vulvectomy"
+      "display" : "Specimen from vulva obtained by total vulvectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397134003",
-      "display" : "Specimen from vulva obtained by radical vulvectomy"
+      "display" : "Specimen from vulva obtained by radical vulvectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397135002",
-      "display" : "Specimen from pelvic lymph node"
+      "display" : "Specimen from pelvic lymph node (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397136001",
-      "display" : "Specimen from inguinofemoral lymphadenectomy"
+      "display" : "Specimen from inguinofemoral lymphadenectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397199005",
-      "display" : "Specimen from breast obtained by excision"
+      "display" : "Specimen from breast obtained by excision (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397221008",
-      "display" : "Specimen from renal pelvis obtained by biopsy"
+      "display" : "Specimen from renal pelvis obtained by biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397232008",
-      "display" : "Specimen from renal pelvis obtained by nephroureterectomy"
+      "display" : "Specimen from renal pelvis obtained by nephroureterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397233003",
-      "display" : "Specimen from renal pelvis"
+      "display" : "Specimen from renal pelvis (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397234009",
-      "display" : "Specimen from renal pelvis obtained by partial nephroureterectomy"
+      "display" : "Specimen from renal pelvis obtained by partial nephroureterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397235005",
-      "display" : "Specimen from renal pelvis obtained by complete nephroureterectomy"
+      "display" : "Specimen from renal pelvis obtained by complete nephroureterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397245007",
-      "display" : "Specimen from ovary obtained by hysterectomy with right salpingo-oophorectomy"
+      "display" : "Specimen from ovary obtained by hysterectomy with right salpingo-oophorectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397246008",
-      "display" : "Specimen from ovary obtained by hysterectomy with left salpingo-oophorectomy"
+      "display" : "Specimen from ovary obtained by hysterectomy with left salpingo-oophorectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397326000",
-      "display" : "Specimen from right fallopian tube obtained by hysterectomy with salpingo-oophorectomy"
+      "display" : "Specimen from right fallopian tube obtained by hysterectomy with salpingo-oophorectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397333000",
-      "display" : "Specimen from right fallopian tube obtained by salpingectomy"
+      "display" : "Specimen from right fallopian tube obtained by salpingectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397334006",
-      "display" : "Specimen from left fallopian tube obtained by salpingectomy"
+      "display" : "Specimen from left fallopian tube obtained by salpingectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397436009",
-      "display" : "Specimen obtained by lymphadenectomy"
+      "display" : "Specimen obtained by lymphadenectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397438005",
-      "display" : "Specimen from lymph node obtained by staging laparotomy"
+      "display" : "Specimen from lymph node obtained by staging laparotomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397455009",
-      "display" : "Specimen from thoracic mesothelium obtained by percutaneous needle biopsy"
+      "display" : "Specimen from thoracic mesothelium obtained by percutaneous needle biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397456005",
-      "display" : "Specimen from thoracic mesothelium obtained by thoracoscopic biopsy"
+      "display" : "Specimen from thoracic mesothelium obtained by thoracoscopic biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397457001",
-      "display" : "Specimen from thoracic mesothelium"
+      "display" : "Specimen from thoracic mesothelium (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397458006",
-      "display" : "Specimen from thoracic mesothelium obtained by open thoracotomy"
+      "display" : "Specimen from thoracic mesothelium obtained by open thoracotomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397462000",
-      "display" : "Specimen from pericardium obtained by pericardial resection"
+      "display" : "Specimen from pericardium obtained by pericardial resection (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397482001",
-      "display" : "Specimen from extrahepatic bile duct obtained by pancreaticoduodenectomy"
+      "display" : "Specimen from extrahepatic bile duct obtained by pancreaticoduodenectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "397483006",
-      "display" : "Specimen from extrahepatic bile duct obtained by segmental resection of bile ducts"
+      "display" : "Specimen from extrahepatic bile duct obtained by segmental resection of bile ducts (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399388008",
-      "display" : "Specimen from left fallopian tube obtained by hysterectomy with salpingo-oophorectomy"
+      "display" : "Specimen from left fallopian tube obtained by hysterectomy with salpingo-oophorectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399396003",
-      "display" : "Trophoblastic tissue obtained from uterus by dilation and curettage"
+      "display" : "Trophoblastic tissue obtained from uterus by dilation and curettage (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399402006",
-      "display" : "Specimen from ureter"
+      "display" : "Specimen from ureter (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399407000",
-      "display" : "Specimen from ureter obtained by ureterectomy"
+      "display" : "Specimen from ureter obtained by ureterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399411006",
-      "display" : "Specimen from trophoblast"
+      "display" : "Specimen from trophoblast (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399436000",
-      "display" : "Specimen from central nervous system"
+      "display" : "Specimen from central nervous system (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399440009",
-      "display" : "Specimen from ureter obtained by nephroureterectomy"
+      "display" : "Specimen from ureter obtained by nephroureterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399443006",
-      "display" : "Specimen from eye obtained by complete exenteration"
+      "display" : "Specimen from eye obtained by complete exenteration (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399447007",
-      "display" : "Trophoblastic tissue obtained by radical hysterectomy"
+      "display" : "Trophoblastic tissue obtained by radical hysterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399451009",
-      "display" : "Tissue specimen from retina"
+      "display" : "Tissue specimen from retina (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399460001",
-      "display" : "Specimen from extrahepatic bile duct"
+      "display" : "Specimen from extrahepatic bile duct (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399467003",
-      "display" : "Specimen from uvea obtained by limited exenteration of eye"
+      "display" : "Specimen from uvea obtained by limited exenteration of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399484009",
-      "display" : "Superficial parotidectomy sample"
+      "display" : "Superficial parotidectomy sample (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399486006",
-      "display" : "Tissue specimen from vulva"
+      "display" : "Tissue specimen from vulva (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399492000",
-      "display" : "Tissue specimen from lung"
+      "display" : "Tissue specimen from lung (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399499009",
-      "display" : "Specimen from uvea obtained by complete exenteration of eye"
+      "display" : "Specimen from uvea obtained by complete exenteration of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399502008",
-      "display" : "Trophoblastic tissue obtained by pelvic exenteration"
+      "display" : "Trophoblastic tissue obtained by pelvic exenteration (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399512001",
-      "display" : "Specimen from retina obtained by enucleation of eye"
+      "display" : "Specimen from retina obtained by enucleation of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399526005",
-      "display" : "Specimen from major salivary gland"
+      "display" : "Specimen from major salivary gland (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399532000",
-      "display" : "Tissue specimen from renal pelvis"
+      "display" : "Tissue specimen from renal pelvis (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399541005",
-      "display" : "Tissue specimen from extrahepatic bile duct"
+      "display" : "Tissue specimen from extrahepatic bile duct (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399542003",
-      "display" : "Tissue specimen from central nervous system"
+      "display" : "Tissue specimen from central nervous system (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399551006",
-      "display" : "Specimen from central nervous system obtained by open biopsy"
+      "display" : "Specimen from central nervous system obtained by open biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399559008",
-      "display" : "Specimen from uvea obtained by enucleation of eye"
+      "display" : "Specimen from uvea obtained by enucleation of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399572009",
-      "display" : "Tissue specimen from thymus gland"
+      "display" : "Tissue specimen from thymus gland (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399603006",
-      "display" : "Specimen from retina obtained by complete exenteration of eye"
+      "display" : "Specimen from retina obtained by complete exenteration of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399614009",
-      "display" : "Specimen from central nervous system obtained by total resection of tumor"
+      "display" : "Specimen from central nervous system obtained by total resection of tumor (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399619004",
-      "display" : "Tissue specimen from uvea"
+      "display" : "Tissue specimen from uvea (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399622002",
-      "display" : "Specimen from thyroid obtained by total thyroidectomy"
+      "display" : "Specimen from thyroid obtained by total thyroidectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399624001",
-      "display" : "Tissue specimen from ureter"
+      "display" : "Tissue specimen from ureter (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399629006",
-      "display" : "Specimen from stomach obtained by gastrectomy"
+      "display" : "Specimen from stomach obtained by gastrectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399633004",
-      "display" : "Specimen from thymus gland obtained by biopsy"
+      "display" : "Specimen from thymus gland obtained by biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399640003",
-      "display" : "Specimen from retina obtained by limited exenteration of eye"
+      "display" : "Specimen from retina obtained by limited exenteration of eye (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399645008",
-      "display" : "Tissue specimen from major salivary gland"
+      "display" : "Tissue specimen from major salivary gland (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399649002",
-      "display" : "Specimen from regional lymph node obtained by lymphadenectomy"
+      "display" : "Specimen from regional lymph node obtained by lymphadenectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399657004",
-      "display" : "Tissue specimen from trophoblast"
+      "display" : "Tissue specimen from trophoblast (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399658009",
-      "display" : "Trophoblastic tissue obtained by hysterectomy"
+      "display" : "Trophoblastic tissue obtained by hysterectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399661005",
-      "display" : "Specimen from pelvic lymphadenectomy"
+      "display" : "Specimen from pelvic lymphadenectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399672000",
-      "display" : "Tissue specimen from thoracic mesothelium"
+      "display" : "Tissue specimen from thoracic mesothelium (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399680007",
-      "display" : "Specimen from thyroid"
+      "display" : "Specimen from thyroid (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399689008",
-      "display" : "Specimen from thyroid obtained by thyroidectomy"
+      "display" : "Specimen from thyroid obtained by thyroidectomy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399693002",
-      "display" : "Total parotidectomy sample"
+      "display" : "Total parotidectomy sample (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399713008",
-      "display" : "Specimen from uterine cervix obtained by cone biopsy"
+      "display" : "Specimen from uterine cervix obtained by cone biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399728008",
-      "display" : "Specimen from central nervous system obtained by stereotactically guided core needle biopsy"
+      "display" : "Specimen from central nervous system obtained by stereotactically guided core needle biopsy (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399731009",
-      "display" : "Specimen from anus obtained by excision of anal polyp"
+      "display" : "Specimen from anus obtained by excision of anal polyp (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399732002",
-      "display" : "Specimen from central nervous system obtained by partial excision of tumor"
+      "display" : "Specimen from central nervous system obtained by partial excision of tumor (specimen)"
     },
     {
       "system" : "http://snomed.info/sct",
       "code" : "399735000",
-      "display" : "Specimen from eye obtained by limited exenteration"
+      "display" : "Specimen from eye obtained by limited exenteration (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "399741007",
+      "display" : "Specimen from kidney obtained by radical nephrectomy (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "399747006",
+      "display" : "Specimen from salivary gland (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "399751008",
+      "display" : "Specimen from uterus obtained by dilation and curettage (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "399752001",
+      "display" : "Specimen from anus obtained by abdominoperineal resection (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "404643001",
+      "display" : "Sputum smear specimen (specimen)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "405902005",
+      "display" : "Specimen obtained by radical excision (specimen)"
     }]
   }
 },
@@ -16811,93 +16844,782 @@ e: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63451000052100",
-  "display" : "Patient-friendly use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "271303006",
+  "display" : "Examination of skin (procedure)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 63451000052100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63451000052100\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63451000052100) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Examination of skin",
+  "code" : "271303006",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63491000052105",
-  "display" : "Abbreviation use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "247472004",
+  "display" : "Wheal (finding)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 63491000052105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63491000052105\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63491000052105) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Weal",
+  "code" : "247472004",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "63481000052108",
-  "display" : "Plural use"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "181469002",
+  "display" : "Entire skin (body structure)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "Unable to find code 63481000052108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20200731); The code \"63481000052108\" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#63481000052108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "display" : "Entire skin",
+  "code" : "181469002",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000003001",
-  "display" : "Fully specified name"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "55561003",
+  "display" : "Active (qualifier value)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Fully specified name",
-  "severity" : null,
-  "error" : ""
+  "display" : "Active",
+  "code" : "55561003",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000003001",
-  "display" : "Fully specified name"
+  "code" : "14657009",
+  "display" : "Established diagnosis (contextual qualifier) (qualifier value)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Established diagnosis",
+  "code" : "14657009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "900000000000003001"
+        "code" : "24484000"
       },
       {
-        "code" : "900000000000013009"
+        "code" : "6736007"
+      },
+      {
+        "code" : "255604002"
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
 v: {
-  "display" : "Fully specified name",
-  "severity" : null,
-  "error" : ""
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "900000000000548007",
-  "display" : "Preferred"
+  "code" : "6736007",
+  "display" : "Moderate (qualifier)"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "900000000000003001"
+        "code" : "24484000"
       },
       {
-        "code" : "900000000000013009"
+        "code" : "6736007"
+      },
+      {
+        "code" : "255604002"
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
 v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#900000000000548007) is not valid in the value set 'DesignationUse' (from http://tx.fhir.org/r4)"
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Moderate (qualifier)\" is not a valid display for the code {http://snomed.info/sct}6736007 - should be one of ['Moderate', 'Midgrade', 'Moderate (severity modifier) (qualifier value)', 'Moderate (severity modifier)'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001",
+  "display" : "Urticaria (disorder)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55561003",
+  "display" : "Active (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Active",
+  "code" : "55561003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55561003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Active",
+  "code" : "55561003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "14657009",
+  "display" : "Established diagnosis (contextual qualifier) (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Established diagnosis",
+  "code" : "14657009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "14657009"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Established diagnosis",
+  "code" : "14657009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371930009",
+  "display" : "Possible (qualifier)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Possible (qualifier value)",
+  "code" : "371930009",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Possible (qualifier)\" is not a valid display for the code {http://snomed.info/sct}371930009 - should be one of ['Possible (qualifier value)', 'Possible'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371930009"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Possible (qualifier value)",
+  "code" : "371930009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003",
+  "display" : "Allergy to thiazide (finding)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "116003000",
+  "display" : "Structure of immune system (body structure)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Immune system",
+  "code" : "116003000",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "55561003",
+  "display" : "Active (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Active",
+  "code" : "55561003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005",
+  "display" : "Probable diagnosis (qualifier)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Probable diagnosis",
+  "code" : "2931005",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Probable diagnosis (qualifier)\" is not a valid display for the code {http://snomed.info/sct}2931005 - should be one of ['Probable diagnosis', 'Probable', 'Probably', 'Probable diagnosis (contextual qualifier) (qualifier value)', 'Likely', 'Probable diagnosis (contextual qualifier)', 'Presumptive diagnosis'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "105590001"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002",
+  "display" : "Hydrochlorothiazide (substance)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "105590001"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "373873005"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001",
+  "display" : "Urticaria (disorder)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "284009009"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006",
+  "display" : "Oral route (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "284009009"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005",
+  "display" : "Probable diagnosis (qualifier)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Probable diagnosis",
+  "code" : "2931005",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Probable diagnosis (qualifier)\" is not a valid display for the code {http://snomed.info/sct}2931005 - should be one of ['Probable diagnosis', 'Probable', 'Probably', 'Probable diagnosis (contextual qualifier) (qualifier value)', 'Likely', 'Probable diagnosis (contextual qualifier)', 'Presumptive diagnosis'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Probable diagnosis",
+  "code" : "2931005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007",
+  "display" : "Moderate (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "24484000"
+      },
+      {
+        "code" : "6736007"
+      },
+      {
+        "code" : "255604002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Moderate (qualifier value)\" is not a valid display for the code {http://snomed.info/sct}6736007 - should be one of ['Moderate', 'Midgrade', 'Moderate (severity modifier) (qualifier value)', 'Moderate (severity modifier)'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "371930009",
+  "display" : "Possible (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Possible (qualifier value)",
+  "code" : "371930009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005",
+  "display" : "Probable diagnosis (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Probable diagnosis",
+  "code" : "2931005",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Probable diagnosis (qualifier value)\" is not a valid display for the code {http://snomed.info/sct}2931005 - should be one of ['Probable diagnosis', 'Probable', 'Probably', 'Probable diagnosis (contextual qualifier) (qualifier value)', 'Likely', 'Probable diagnosis (contextual qualifier)', 'Presumptive diagnosis'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007",
+  "display" : "Moderate (severity modifier) (qualifier value)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "24484000"
+      },
+      {
+        "code" : "6736007"
+      },
+      {
+        "code" : "255604002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000013009"
+}, "url": "http://hl7.org/fhir/ValueSet/designation-use--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Synonym (core metadata concept)",
+  "code" : "900000000000013009",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "900000000000003001"
+}, "url": "http://hl7.org/fhir/ValueSet/designation-use--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Fully specified name",
+  "code" : "900000000000003001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007",
+  "display" : "Moderate (severity modifier) (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Moderate",
+  "code" : "6736007",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "47965005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Differential diagnosis",
+  "code" : "47965005",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002",
+  "display" : "Mild (qualifier)"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-severity", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Mild (qualifier)\" is not a valid display for the code {http://snomed.info/sct}255604002 - should be one of ['Mild', 'Mild (qualifier value)'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Mild",
+  "code" : "255604002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "292044008",
+  "display" : "Aspirin adverse reaction (disorder)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Aspirin adverse reaction",
+  "code" : "292044008",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002"
+}, "url": "http://hl7.org/fhir/ValueSet/substance-code--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387525002",
+  "display" : "Hydrochlorothiazide (substance)"
+}, "url": "http://hl7.org/fhir/ValueSet/substance-code", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Hydrochlorothiazide (substance)",
+  "code" : "387525002",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001"
+}, "url": "http://hl7.org/fhir/ValueSet/clinical-findings--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "126485001",
+  "display" : "Urticaria (disorder)"
+}, "url": "http://hl7.org/fhir/ValueSet/clinical-findings", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Urticaria",
+  "code" : "126485001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006"
+}, "url": "http://hl7.org/fhir/ValueSet/route-codes--0", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "26643006",
+  "display" : "Oral route (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/route-codes", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Oral route",
+  "code" : "26643006",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003"
+}, "url": "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code--0", "version": "0.0.1", "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003",
+  "display" : "Allergy to thiazide (finding)"
+}, "url": "http://snomed.info/fhir/ValueSet/allergyintolerance-finding-code", "version": "0.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "860765003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Allergy to thiazide (finding)",
+  "code" : "860765003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/bodyweight", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 27113001 | Body weight (observable entity) | MINUS (<< 248350002 | Reference weight (observable entity) | OR << 301334000 | Birth weight centile (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/dia-bp", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 271650006 | Diastolic blood pressure (observable entity) | MINUS (<< 314465004 | 24 hour diastolic blood pressure (observable entity) | OR << 716632005 | Baseline diastolic blood pressure (observable entity) | OR << 315613000 | Target diastolic blood pressure (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/headcircum", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 363812007 | Head circumference (observable entity) | MINUS << 248397001 | Head circumference centile (observable entity) |)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/heartrate", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 364075005 | Heart rate (observable entity) | MINUS 428420003 | Target heart rate (observable entity) |)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://snomed.info/fhir/ValueSet/syst-bp", "version": "0.0.1"}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<< 271649006 | Systolic blood pressure (observable entity) | MINUS (<< 314464000 | 24 hour systolic blood pressure (observable entity) | OR << 716579001 | Baseline systolic blood pressure (observable entity) | OR << 315612005 | Target systolic blood pressure (observable entity) |))\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
