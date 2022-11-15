@@ -6,4 +6,4 @@ template/
 /input-cache
 .index.json
 /fsh-generated
-
+.*
