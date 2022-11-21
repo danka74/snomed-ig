@@ -44,6 +44,24 @@ Description: "Example for Patient"
 * address.postalCode = "60616"
 * address.country = "US"
 
+
+Instance: PatientExample7
+InstanceOf: Patient
+Description: "Example for Patient"
+* id = "PatientExample7"
+* identifier.use = #usual
+* identifier.type = $IdType#MR "Medical Record Number"
+* identifier.system = "urn:oid:1.2.36.146.595.217.0.1"
+* identifier.value = "12345654321"
+* identifier.period.start = "2001-05-06"
+* identifier.assigner.display = "Acme Healthcare"
+* name[0].family = "Ratched"
+* name[0].given = "Mildred"
+* gender = #female
+* birthDate = "1962-08-12"
+
+
+
 Instance: AllergyObservationExample1-1
 InstanceOf: Observation
 Description: """Scenario:
@@ -327,209 +345,151 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
 
-/*
 
 
-Instance: AllergyConditionExample4-3
-InstanceOf: Condition
-Description: """Scenario:
-A patient enters the urgent care with complaints of ringing, clanging and whistling in his ears. The patient cannot distinctly state when the noises initiated and has not been exposed to any high noise environments. The patient has a history of chronic back pain, congestive heart failure and arthritis. Upon reviewing the patient’s medication list, the physician notices that the patient has been taking 12 tablets of aspirin each day. The physician suspects that the patient is suffering from aspirin induced tinnitus. The patient is encouraged to decrease his aspirin dose and follow up with his rheumatologist who prescribed the aspirin. In the patient’s electronic medical record the urgent care specialist documents in the encounter diagnosis and allergy list that the patient has a drug intolerance to aspirin."""
-* subject = Reference(PatientExample1)
-* code = $SCT#292044008 "Aspirin adverse reaction (disorder)"
-* code.text = "Aspirin intolerance" // ????
-* clinicalStatus.coding[+] = $CondClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $CondVerStatus#differential
-* verificationStatus.coding[+] = $SCT#47965005 "Diufferential diagnosis(qualifier)"
-* verificationStatus.text = "Differential"
-* category = $CondCat#encounter-diagnosis
-* severity = $SCT#255604002 "Mild (qualifier)"
-* severity.text = "Mild"
 
-Instance: AllergyIntoleranceExample4-3
-InstanceOf: AllergyIntolerance-SubstanceFocused
-Description: """Scenario:
-A patient enters the urgent care with complaints of ringing, clanging and whistling in his ears. The patient cannot distinctly state when the noises initiated and has not been exposed to any high noise environments. The patient has a history of chronic back pain, congestive heart failure and arthritis. Upon reviewing the patient’s medication list, the physician notices that the patient has been taking 12 tablets of aspirin each day. The physician suspects that the patient is suffering from aspirin induced tinnitus. The patient is encouraged to decrease his aspirin dose and follow up with his rheumatologist who prescribed the aspirin. In the patient’s electronic medical record the urgent care specialist documents in the encounter diagnosis and allergy list that the patient has a drug intolerance to aspirin."""
-* patient = Reference(PatientExample1)
-* code = $SCT#387458008 "Aspirin (substance)"
-* code.text = "Aspirin"
-* type = #intolerance
-* clinicalStatus.coding[+] = $AIClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
-* verificationStatus.text = "Confirmed"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#387458008 "Aspirin (substance)"
-* reaction.substance.text = "Aspirin"
-// * reaction.certainty = #confirmed 410605003 Confirmed present (qualifier value)
-* reaction.manifestation = $SCT#60862001 "Tinnitus (finding)"
-* reaction.manifestation.text = "Tinnitus"
-* reaction.severity = #mild
-* reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
-Instance: AllergyIntoleranceExample4-3-alternative
-InstanceOf: AllergyIntolerance-FindingFocused
-Description: """Scenario:
-A patient enters the urgent care with complaints of ringing, clanging and whistling in his ears. The patient cannot distinctly state when the noises initiated and has not been exposed to any high noise environments. The patient has a history of chronic back pain, congestive heart failure and arthritis. Upon reviewing the patient’s medication list, the physician notices that the patient has been taking 12 tablets of aspirin each day. The physician suspects that the patient is suffering from aspirin induced tinnitus. The patient is encouraged to decrease his aspirin dose and follow up with his rheumatologist who prescribed the aspirin. In the patient’s electronic medical record the urgent care specialist documents in the encounter diagnosis and allergy list that the patient has a drug intolerance to aspirin."""
-* patient = Reference(PatientExample1)
-* code = $SCT#293586001 "Allergy to aspirin (finding)"
-* code.text = "Aspirin allergy"
-// * type = #allergy
-* clinicalStatus.coding[+] = $AIClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
-* verificationStatus.text = "Confirmed"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#387458008 "Aspirin (substance)"
-* reaction.substance.text = "Aspirin"
-// * reaction.certainty = #confirmed 410605003 Confirmed present (qualifier value)
-* reaction.manifestation = $SCT#60862001 "Tinnitus (finding)"
-* reaction.manifestation.text = "Tinnitus"
-* reaction.severity = #mild
-* reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
-
-Instance: AllergyConditionExample4-4
-InstanceOf: Condition
-Description: """Scenario: The patient from scenario 4.1 is planning a vacation with his family consisting of a cross-country camping trip.  In preparation for travels, he speaks to his physician and obtains an electronic summary of his healthcare record on a flash drive for himself, his wife and children. His physician informs him that the summary software includes an electronic ‘reader’ as well as a standard format that can be imported into another EHR for patient care.  Their vacation unfolds happily until, many miles from home the patient experiences an episode of chest pain while hiking and is taken to a local emergency room.  He provides the flash drive with his electronic record summary to the emergency room physician whose hospital employs an EHR which can accept FHIR extracted electronic record summaries for integration into the on-site health record system.  The emergency room nurse loads the flash drive and accepts the electronic copy of the problem list, allergies and medication list into the on-site record.  The software extract manages the differences in information model design between EHR vendors by cross-checking the allergy list with information in the problem list and encounter diagnoses.
-Later, the attending physician is writing admission orders for the patient, admitting him to the ward for observation.  The physician notices that the patient blood pressure is high at 195/100.  The physician does not want to take aggressive action but decides that the blood pressure should be brought down slowly.  Noting that the patient medication list already includes two types of blood pressure medicine, he enters an electronic order for “Hygroton 50mg po daily”, a favorite choice for hypertension with slow onset of action.  When the physician presses ‘Enter’ to commit the order, a pop-up alert is generated by the EHR with warning that this patient has had an allergic reaction to a thiazide diuretic consisting of hives and that Chlorthalidone (Hygroton) has a high likelihood of cross reacting.  While studying the alert, the physician notes that the supporting information was gleaned from the problem list and allergy list.  While the earlier record from the problem list was provisional, the later allergy list record is notable for probable status and moderate risk as an allergy.  The EHR drug interaction software has cross-referenced the chemical composition of Hydrochlorothiazide and Hygroton (Chlorthalidone) and noted them to be similar.  He decides that the information is credible and changes his order to a medicine not likely to lead to an allergic reaction."""
-* subject = Reference(PatientExample1)
-* code = $SCT#860765003 "Allergy to thiazide (finding)"
-* code.text = "Probable thiazide allergy"
-* clinicalStatus.coding[+] = $CondClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $CondVerStatus#provisional
-* verificationStatus.coding[+] = $SCT#371930009 "Possible (qualifier)"
-* verificationStatus.text = "Provisional"
-* category = $CondCat#problem-list-item
-* severity = $SCT#6736007 "Moderate (qualifier)"
-* severity.text = "Moderate"
-
-Instance: AllergyObservationExample4-5
+Instance: AllergyObservationExample6
 InstanceOf: Observation
 Description: """Scenario:
-A physician sees a patient for the first time in clinic for routine outpatient care.  The patient tells the physician that he has begun to experience asthma symptoms.  The physician runs some blood tests and a series of skin tests which demonstrate an intense reaction to the house dust mite, Dermatophagoides farinae protein with high IgE antibody levels. The patient confirms that his wheezing occurs primarily at home, especially while lying in bed at night. The physician opens the allergy record and documents the allergic propensity to Dermatophagoides farinae protein, criticality and severity of low in the EHR allergy list."""
-* code = $LOINC#6095-4 "American house dust mite IgE Ab [Units/volume] in Serum"
+A patient's mother reports to their child's physician that the child reacts violently to eating peanuts with symptoms that include generalized hives, wheezing and hypotension requiring use of epinephrine for resuscitation.  The physician obtains a blood test which documents high levels of IgE antibody against the Arachis h2 peanut protein which is found in unrefined peanut oil (Arachis oil) - the sensitizing agent for clinical peanut allergy. Ara h2 is associated with a risk of severe reactions to peanut.
+"""
+* subject = Reference(PatientExample1)
+* code.coding[+] = $LOINC#58778-2 "Peanut recombinant (rAra h) 2 IgE Ab [Units/volume] in Serum"
+* code.coding[+] = $SCT#445354008 "Measurement of Ara h 2 immunoglobulin E (procedure)"
 * status = #final
 * category = $ObsCat#laboratory "Laboratory"
-* valueQuantity = 59.1 'k[IU]/L'
+* valueQuantity = 100 'k[IU]/L'
+* valueQuantity.comparator = #>
 * interpretation = $ObsInterpretation#high "High"
 * specimen = Reference(AllergySpecimenExample1)
 
-Instance: AllergySpecimenExample1
+Instance: AllergySpecimenExample6
 InstanceOf: Specimen
 * subject = Reference(PatientExample1)
 * type = $SCT#119364003 "Serum specimen"
 
-Instance: AllergyIntoleranceExample4-5
+Instance: AllergyIntoleranceExample6
 InstanceOf: AllergyIntolerance-SubstanceFocused
 Description: """Scenario:
-A physician sees a patient for the first time in clinic for routine outpatient care.  The patient tells the physician that he has begun to experience asthma symptoms.  The physician runs some blood tests and a series of skin tests which demonstrate an intense reaction to the house dust mite, Dermatophagoides farinae protein with high IgE antibody levels. The patient confirms that his wheezing occurs primarily at home, especially while lying in bed at night. The physician opens the allergy record and documents the allergic propensity to Dermatophagoides farinae protein, criticality and severity of low in the EHR allergy list."""
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
 * patient = Reference(PatientExample1)
-* code = $SCT#711092006 "Dermatophagoides farinae protein (substance)"
-* code.text = "Dermatophagoides farinae"
+* code = $SCT#762952008 "Peanut (substance)"
+* code.text = "Peanut"
 * type = #allergy
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
 * verificationStatus.text = "Confirmed"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#711092006 "Dermatophagoides farinae protein (substance)"
-* reaction.substance.text = "Dermatophagoides farinae"
-// * reaction.certainty = #confirmed 410605003 Confirmed present (qualifier value)
-* reaction.manifestation = $SCT#195967001 "Asthma (disorder)"
-* reaction.manifestation.text = "Asthma"
-* reaction.severity = #mild
-* reaction.exposureRoute = $SCT#447694001 "Respiratory tract route (qualifier value)"
-* reaction.exposureRoute.text = "Respiratory" // ???
-
-Instance: AllergyObservationExample4-6
-InstanceOf: Observation
-Description: """Scenario:
-A patient's mother reports to their child's physician that the child reacts violently to eating peanuts with symptoms that include generalized hives, wheezing and hypotension requiring use of epinephrine for resuscitation.  The physician obtains a blood test which documents high levels of IgE antibody against the Arachis h2 peanut protein which is found in peanut oil (Arachis oil) - the sensitizing agent for clinical peanut allergy.  The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of ‘severe’.  
-Years later the youngster is seen by a dermatologist for treatment of acne.  As part of the plan of care, the physician enters an electronic prescription for Isotretinoin capsules.  When the physician commits the order, the EHR software runs allergy cross checking and issues a high priority alert that the capsules contain peanut oil that is not highly refined and therefore may potentially include peanut protein and are contraindicated for the patient.  The physician cancels the order and chooses an alternative preparation."""
-* code = $LOINC#58778-2 "Peanut recombinant (rAra h) 2 IgE Ab [Units/volume] in Serum"
-* status = #final
-* category = $ObsCat#laboratory "Laboratory"
-* valueQuantity = 100 'k[IU]/L'
-* valueQuantity.comparator = #>
-* interpretation = $ObsInterpretation#high "High"
-* specimen = Reference(AllergySpecimenExample1)
-
-Instance: AllergyIntoleranceExample4-6
-InstanceOf: AllergyIntolerance-SubstanceFocused
-Description: """Scenario:
-A patient's mother reports to their child's physician that the child reacts violently to eating peanuts with symptoms that include generalized hives, wheezing and hypotension requiring use of epinephrine for resuscitation.  The physician obtains a blood test which documents high levels of IgE antibody against the Arachis h2 peanut protein which is found in peanut oil (Arachis oil) - the sensitizing agent for clinical peanut allergy.  The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of ‘severe’.  
-Years later the youngster is seen by a dermatologist for treatment of acne.  As part of the plan of care, the physician enters an electronic prescription for Isotretinoin capsules.  When the physician commits the order, the EHR software runs allergy cross checking and issues a high priority alert that the capsules contain peanut oil that is not highly refined and therefore may potentially include peanut protein and are contraindicated for the patient.  The physician cancels the order and chooses an alternative preparation."""
-* patient = Reference(PatientExample1)
-* code = $SCT#417889008 "Arachis oil (substance)"
-* code.text = "Peanut oil"
-* type = #allergy
-* clinicalStatus.coding[+] = $AIClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
-* verificationStatus.text = "Confirmed"
+// * category = #environment
 * criticality = #high
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#417889008 "Arachis oil (substance)"
-* reaction.substance.text = "Peanut oil"
-// * reaction.certainty = #confirmed 4106050Instance: AllergyConditionExample4-4
 * reaction.manifestation = $SCT#39579001 "Anaphylaxis (disorder)"
-* reaction.manifestation.text = "Anaphylaxis"
 * reaction.severity = #severe
-* reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier)"
-* reaction.exposureRoute.text = "Oral" 
+* reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
-Instance: AllergyObservationExample4-7
-InstanceOf: Observation
+
+
+
+
+Instance: AllergyIntoleranceExample6-alt
+InstanceOf: AllergyIntolerance-FindingFocused
 Description: """Scenario:
-A licensed nurse presents to her personal physician for recurring problems of a generalized rash and itching.  She works in an intensive care unit and is constantly handing chemicals, disinfectants, assisting in surgical procedures and performing catheter cares for her patients.  As a part of the health history, she verifies that she has noticed an eruption on her hands after handling latex catheters.  Additionally, she reports a serious allergic reaction to papaya in the past and has been careful in the fruits she eats as a consequence.  The clinician suspects a latex allergy cross-reacting with food stuffs and orders IgE testing for Hevea latex antibody.  The serology testing is strongly positive and the clinician advises the nurse of his findings with warnings about other foods which may cross react.  While documenting the clinical encounter, he records a latex allergy in the allergy list.
-The EHR software supports selection of foods, chemicals and animal biological products as substances which may be identified as source substances for an entry onto the allergy list or for recording of an adverse reaction."""
-* code = $LOINC#6158-0 "Latex IgE Ab [Units/volume] in Serum"
-* status = #final
-* category = $ObsCat#laboratory "Laboratory"
-* valueQuantity = 100 'k[IU]/L'
-* valueQuantity.comparator = #>
-* interpretation = $ObsInterpretation#high "High"
-* specimen = Reference(AllergySpecimenExample1)
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#91935009 "Allergy to peanut (finding)"
+* code.text = "Peanut allergy"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+// * category = #environment
+* criticality = #high
+* reaction.manifestation = $SCT#39579001 "Anaphylaxis (disorder)"
+* reaction.severity = #severe
+* reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
-Instance: AllergyConditionExample4-7
+
+
+
+
+
+
+
+Instance: ProblemListExample7
+InstanceOf: List
+Description: """Scenario:
+A 34-year-old female is seen by her primary care provider for complaints of abdominal pain, bloating and change in bowel habits within hours or a few days after ingesting whole wheat bread. In addition, she complains of feeling tired but denies itching rash or wheezing. Those complaints are entered as observations in the EHR.
+"""
+* status = #current
+* mode = #snapshot
+* title = "Problem List"
+* code = #problems
+* entry[+].item = Reference(AllergyConditionExample7-1)
+* entry[+].item = Reference(AllergyConditionExample7-2)
+
+Instance: AllergyConditionExample7-1
 InstanceOf: Condition
 Description: """Scenario:
-A licensed nurse presents to her personal physician for recurring problems of a generalized rash and itching.  She works in an intensive care unit and is constantly handing chemicals, disinfectants, assisting in surgical procedures and performing catheter cares for her patients.  As a part of the health history, she verifies that she has noticed an eruption on her hands after handling latex catheters.  Additionally, she reports a serious allergic reaction to papaya in the past and has been careful in the fruits she eats as a consequence.  The clinician suspects a latex allergy cross-reacting with food stuffs and orders IgE testing for Hevea latex antibody.  The serology testing is strongly positive and the clinician advises the nurse of his findings with warnings about other foods which may cross react.  While documenting the clinical encounter, he records a latex allergy in the allergy list.
-The EHR software supports selection of foods, chemicals and animal biological products as substances which may be identified as source substances for an entry onto the allergy list or for recording of an adverse reaction."""
-* subject = Reference(PatientExample1)
-* code = $SCT#1003755004 "Allergy to Hevea brasiliensis latex protein (finding)"
-* code.text = "Latex allergic propensity"
+A licensed nurse presents to her personal physician for recurring problems of a generalized rash and itching.  She works in an intensive care unit and is constantly handing chemicals, disinfectants, assisting in surgical procedures and performing catheter cares for her patients.  As a part of the health history, she noticed that she had an eruption on her hands after handling latex catheters.  Additionally, she reports a serious allergic reaction to papaya in the past and has been careful in the fruits she eats as a consequence.  The clinician suspects a latex allergy cross-reacting with foodstuffs and orders IgE testing for Hevea latex antibody.  The serology testing is strongly positive and the clinician advises the nurse of his findings with warnings about other foods, which may cross react.
+"""
+* subject = Reference(PatientExample7)
+* code = $SCT#271807003 "Eruption of skin (disorder)"
+* code.text = "Rash"
 * clinicalStatus.coding[+] = $CondClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $CondVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
-* verificationStatus.text = "Confirmed"
 * category = $CondCat#problem-list-item
-* severity = $SCT#6736007 "Moderate (qualifier)"
-* severity.text = "Moderate"
+* asserter = Reference(PatientExample7)
 
-Instance: AllergyIntoleranceExample4-7
+Instance: AllergyConditionExample7-2
+InstanceOf: Condition
+Description: """Scenario:
+A licensed nurse presents to her personal physician for recurring problems of a generalized rash and itching.  She works in an intensive care unit and is constantly handing chemicals, disinfectants, assisting in surgical procedures and performing catheter cares for her patients.  As a part of the health history, she noticed that she had an eruption on her hands after handling latex catheters.  Additionally, she reports a serious allergic reaction to papaya in the past and has been careful in the fruits she eats as a consequence.  The clinician suspects a latex allergy cross-reacting with foodstuffs and orders IgE testing for Hevea latex antibody.  The serology testing is strongly positive and the clinician advises the nurse of his findings with warnings about other foods, which may cross react.
+"""
+* subject = Reference(PatientExample7)
+* code = $SCT#418363000 "Itching of skin (finding)"
+* code.text = "Itching"
+* clinicalStatus.coding[+] = $CondClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* category = $CondCat#problem-list-item
+* asserter = Reference(PatientExample7)
+
+Instance: AllergyObservationExample7
+InstanceOf: Observation
+Description: """Scenario:
+While documenting the clinical encounter, he records a latex allergy in the allergy list.
+The EHR software supports selection of foods, chemicals and animal biological products as substances, which may be identified as source substances for an entry onto the allergy list or for recording of an adverse reaction.
+"""
+* subject = Reference(PatientExample7)
+* code.coding[+] = $LOINC#6158-0 "Latex IgE Ab [Units/volume] in Serum"
+* code.coding[+] = $SCT#392475005 "Hevea brasiliensis specific immunoglobulin E antibody measurement (procedure)"
+* status = #final
+* category = $ObsCat#laboratory "Laboratory"
+* valueQuantity = 100 'k[IU]/L'
+* valueQuantity.comparator = #>
+* interpretation = $ObsInterpretation#high "High"
+* specimen = Reference(AllergySpecimenExample7)
+
+Instance: AllergySpecimenExample7
+InstanceOf: Specimen
+* subject = Reference(PatientExample1)
+* type = $SCT#119364003 "Serum specimen"
+
+Instance: AllergyIntoleranceExample7
 InstanceOf: AllergyIntolerance-SubstanceFocused
 Description: """Scenario:
-A licensed nurse presents to her personal physician for recurring problems of a generalized rash and itching.  She works in an intensive care unit and is constantly handing chemicals, disinfectants, assisting in surgical procedures and performing catheter cares for her patients.  As a part of the health history, she verifies that she has noticed an eruption on her hands after handling latex catheters.  Additionally, she reports a serious allergic reaction to papaya in the past and has been careful in the fruits she eats as a consequence.  The clinician suspects a latex allergy cross-reacting with food stuffs and orders IgE testing for Hevea latex antibody.  The serology testing is strongly positive and the clinician advises the nurse of his findings with warnings about other foods which may cross react.  While documenting the clinical encounter, he records a latex allergy in the allergy list.
-The EHR software supports selection of foods, chemicals and animal biological products as substances which may be identified as source substances for an entry onto the allergy list or for recording of an adverse reaction."""
-* patient = Reference(PatientExample1)
-* code = $SCT#1003751008 "Hevea barasiliensis latex (substance)"
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
+* patient = Reference(PatientExample7)
+* code = $SCT#1003752001 "Hevea brasiliensis latex protein (substance)"
 * code.text = "Latex"
 * type = #allergy
 * extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
@@ -537,25 +497,55 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
 * verificationStatus.text = "Confirmed"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#1003751008 "Hevea barasiliensis latex (substance)"
-* reaction.substance.text = "Latex"
-// * reaction.certainty = #confirmed 4106050Instance: AllergyConditionExample4-4
-* reaction.manifestation[+] = $SCT#271807003 "Eruption of skin (disorder)"
-* reaction.manifestation[=].text = "Rash"
-* reaction.manifestation[+] = $SCT#418290006 "Itching (finding)"
-* reaction.manifestation[=].text = "Itching"
-* reaction.severity = #mild
-* reaction.exposureRoute = $SCT#6064005 "Topical route (qualifier)"
-* reaction.exposureRoute.text = "Topical" 
+// * category = #environment
+* criticality = #high
+* reaction[+].manifestation = $SCT#271807003 "Eruption of skin (disorder)"
+* reaction[=].severity = #mild
+* reaction[=].exposureRoute = $SCT#6064005 "Topical route (qualifier)"
+* reaction[+].manifestation = $SCT#418363000 "Itching of skin (finding)"
+* reaction[=].severity = #mild
+* reaction[=].exposureRoute = $SCT#6064005 "Topical route (qualifier)"
 
-Instance: AllergyIntoleranceExample4-8
-InstanceOf: AllergyIntolerance
+
+
+
+
+Instance: AllergyIntoleranceExample7-alt
+InstanceOf: AllergyIntolerance-FindingFocused
 Description: """Scenario:
-A nurse is performing an intake examination on a patient that is new to the clinical practice.  As part of the clinical interview he inquires about medication and other allergies.  The patient reports that she is not allergic to any medications, foods, chemicals or animals.  The nurse opens the ‘allergy list’ in the EHR and documents ‘No known allergies’ which electronically validates that the nurse inquired of the patient and that the history was confirmed negative at the date and time recorded.  This satisfies decision support criteria that allergies be documented before medication orders are written and is encoded in the EHR allergy list as confirmed absence of dispositions to adverse reactions."""
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
+* patient = Reference(PatientExample7)
+* code = $SCT#1003755004 "Allergy to Hevea brasiliensis latex protein (finding)"
+* code.text = "Latex allergy"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+// * category = #environment
+* criticality = #high
+* reaction[+].manifestation = $SCT#271807003 "Eruption of skin (disorder)"
+* reaction[=].severity = #mild
+* reaction[=].exposureRoute = $SCT#6064005 "Topical route (qualifier)"
+* reaction[+].manifestation = $SCT#418363000 "Itching of skin (finding)"
+* reaction[=].severity = #mild
+* reaction[=].exposureRoute = $SCT#6064005 "Topical route (qualifier)"
+
+
+
+
+
+
+
+Instance: AllergyIntoleranceExample8
+InstanceOf: AllergyIntolerance-FindingFocused
+Description: """Scenario:
+A nurse is performing an intake examination on a patient that is new to the clinical practice.  As part of the clinical interview, he inquires about medication and other allergies.  The patient reports that she is not allergic to any medications, foods, chemicals or animals.  The nurse opens the 'allergy list' in the EHR and documents 'No known allergies' which electronically validates that the nurse inquired of the patient and that the history was confirmed negative at the date and time recorded.  This satisfies decision support criteria that allergies be documented before medication orders are written and is encoded in the EHR allergy list as confirmed absence of dispositions to adverse reactions.
+"""
 * patient = Reference(PatientExample1)
 * code = $SCT#716186003 "No known allergy (situation)"
 * code.text = "No known allergies"
@@ -563,33 +553,26 @@ A nurse is performing an intake examination on a patient that is new to the clin
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
 * verificationStatus.text = "Confirmed"
 
 
 
-Instance: PatientExample1
-InstanceOf: Patient
-Description: "Example for Patient"
-* id = "PatientExample1"
-* identifier.use = #usual
-* identifier.type = $IdType#MR "Medical Record Number"
-* identifier.system = "urn:oid:1.2.36.146.595.217.0.1"
-* identifier.value = "1234567890"
-* identifier.period.start = "2001-05-06"
-* identifier.assigner.display = "Acme Healthcare"
-* name[0].use = #official
-* name[0].family = "Goode"
-* name[0].given[0] = "John"
-* name[0].given[1] = "B."
-* name[1].use = #usual
-* name[1].given[0] = "Johnny"
-* name[1].given[1] = "B."
-* name[1].family = "Goode"
-* gender = #male
-* birthDate = "1958-01-06"
-* address.line = "2120 S Michigan Ave"
-* address.city = "Chicago"
-* address.postalCode = "60616"
-* address.country = "US"
-*/
+
+
+
+Instance: AllergyIntoleranceExample8-alt
+InstanceOf: AllergyIntolerance-SubstanceFocused
+Description: """Scenario:
+A nurse is performing an intake examination on a patient that is new to the clinical practice.  As part of the clinical interview, he inquires about medication and other allergies.  The patient reports that she is not allergic to any medications, foods, chemicals or animals.  The nurse opens the 'allergy list' in the EHR and documents 'No known allergies' which electronically validates that the nurse inquired of the patient and that the history was confirmed negative at the date and time recorded.  This satisfies decision support criteria that allergies be documented before medication orders are written and is encoded in the EHR allergy list as confirmed absence of dispositions to adverse reactions.
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#105590001 "Substance (substance)"
+* type = #allergy
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#refuted
+* verificationStatus.coding[+] = $SCT#410594000 "Definitely NOT present (qualifier value)"
+* verificationStatus.text = "Refuted"
