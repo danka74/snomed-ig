@@ -2902,3 +2902,14 @@ v: {
   "error" : "The display \"Confirmed present (qualifier value)|\" is not a valid display for the code {http://snomed.info/sct}410605003 - should be one of ['Confirmed present (qualifier value)', 'Confirmed present'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410594000",
+  "display" : "Definitely NOT present (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/allergyintolerance-verification", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Definitely NOT present (qualifier value)",
+  "code" : "410594000",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------

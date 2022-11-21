@@ -120,3 +120,36 @@ v: {
   "system" : "http://loinc.org"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "58778-2",
+  "display" : "Peanut recombinant (rAra h) 2 IgE Ab [Units/volume] in Serum"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Peanut recombinant (rAra h) 2 IgE Ab [Units/volume] in Serum",
+  "code" : "58778-2",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "6158-0",
+  "display" : "Latex IgE Ab [Units/volume] in Serum"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Latex IgE Ab [Units/volume] in Serum",
+  "code" : "6158-0",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "6095-4",
+  "display" : "American house dust mite IgE Ab [Units/volume] in Serum"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "American house dust mite IgE Ab [Units/volume] in Serum",
+  "code" : "6095-4",
+  "system" : "http://loinc.org"
+}
+-------------------------------------------------------------------------------------
