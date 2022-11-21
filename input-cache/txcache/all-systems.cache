@@ -2854,3 +2854,51 @@ v: {
   "error" : "The display \"Probable diagnosis (qualifier value)\" is not a valid display for the code {http://snomed.info/sct}2931005 - should be one of ['Probable diagnosis', 'Probable', 'Probably', 'Probable diagnosis (contextual qualifier) (qualifier value)', 'Likely', 'Probable diagnosis (contextual qualifier)', 'Presumptive diagnosis'] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410605003",
+  "display" : "Confirmed present (qualifier value)|"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-ver-status", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Confirmed present (qualifier value)",
+  "code" : "410605003",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Confirmed present (qualifier value)|\" is not a valid display for the code {http://snomed.info/sct}410605003 - should be one of ['Confirmed present (qualifier value)', 'Confirmed present'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "415684004",
+  "display" : "Suspected (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/allergyintolerance-verification", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Suspected (qualifier value)",
+  "code" : "415684004",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "415684004",
+  "display" : "Suspected (qualifier value)"
+}, "url": "http://hl7.org/fhir/ValueSet/condition-ver-status", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Suspected (qualifier value)",
+  "code" : "415684004",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410605003",
+  "display" : "Confirmed present (qualifier value)|"
+}, "url": "http://hl7.org/fhir/ValueSet/allergyintolerance-verification", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Confirmed present (qualifier value)",
+  "code" : "410605003",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Confirmed present (qualifier value)|\" is not a valid display for the code {http://snomed.info/sct}410605003 - should be one of ['Confirmed present (qualifier value)', 'Confirmed present'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
