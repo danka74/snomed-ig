@@ -1,101 +1,334 @@
-Instance: AllergyObservationExample4-1
+Instance: PatientExample1
+InstanceOf: Patient
+Description: "Example for Patient"
+* id = "PatientExample1"
+* identifier.use = #usual
+* identifier.type = $IdType#MR "Medical Record Number"
+* identifier.system = "urn:oid:1.2.36.146.595.217.0.1"
+* identifier.value = "1234567890"
+* identifier.period.start = "2001-05-06"
+* identifier.assigner.display = "Acme Healthcare"
+* name[0].use = #official
+* name[0].family = "Goode"
+* name[0].given[0] = "John"
+* name[0].given[1] = "B."
+* name[1].use = #usual
+* name[1].given[0] = "Johnny"
+* name[1].given[1] = "B."
+* name[1].family = "Goode"
+* gender = #male
+* birthDate = "1958-01-06"
+* address.line = "2120 S Michigan Ave"
+* address.city = "Chicago"
+* address.postalCode = "60616"
+* address.country = "US"
+
+Instance: PatientExample2
+InstanceOf: Patient
+Description: "Example for Patient"
+* id = "PatientExample2"
+* identifier.use = #usual
+* identifier.type = $IdType#MR "Medical Record Number"
+* identifier.system = "urn:oid:1.2.36.146.595.217.0.1"
+* identifier.value = "9876543210"
+* identifier.period.start = "2001-05-06"
+* identifier.assigner.display = "Acme Healthcare"
+* name[0].use = #official
+* name[0].family = "Goode"
+* name[0].given[0] = "Janet"
+* name[0].given[1] = "B."
+* gender = #female
+* birthDate = "1988-01-06"
+* address.line = "2120 S Michigan Ave"
+* address.city = "Chicago"
+* address.postalCode = "60616"
+* address.country = "US"
+
+Instance: AllergyObservationExample1-1
 InstanceOf: Observation
 Description: """Scenario:
-A physician sees a patient in clinic for routine outpatient care.  The patient has been receiving care for diabetes and hypertension.  Recently the patient was prescribed 25mg hydrochlorothiazide for his blood pressure.  He tells the physician that he has developed hives the previous week and on examination, the physician confirms the presence of generalized hives.  A review of systems fails to reveal any other causes and the physician believes that the patient may be having an urticarial reaction to hydrochlorothiazide.  He has lingering uncertainty about this and tells the patient to stop the thiazide and employ diphenhydramine for relief.  The physician advances the patient dose of losartan for blood pressure control.  He schedules him back in a week for follow-up and when recording his note for the visit, he adds to his assessment in the problem list: “Urticarial reaction, possible thiazide allergy”."""
+A physician sees a patient in clinic for routine outpatient care. Recently the
+patient was prescribed penicillin V 500 mg orally two times daily x 10 days for streptococcal
+pharyngitis. He tells the physician that he has developed hives the previous week and on
+examination, the physician confirms the presence of generalized hives. He records this in the
+patient record as an Observation.
+"""
 * code = $SCT#271303006 "Examination of skin (procedure)"
 * code.text = "Skin exam"
 * status = #final
 * category = $ObsCat#exam "Exam"
 * valueCodeableConcept = $SCT#247472004 "Wheal (finding)"
 * valueCodeableConcept.text = "Hives"
-* bodySite = $SCT#181469002 "Entire skin (body structure)"
+* bodySite = $SCT#39937001 "Skin structure (body structure)"
 * bodySite.text = "Skin, generalized"
 
-Instance: AllergyConditionExample4-1-1
+
+
+
+Instance: AllergyConditionExample1-1
 InstanceOf: Condition
 Description: """Scenario: 
-A physician sees a patient in clinic for routine outpatient care.  The patient has been receiving care for diabetes and hypertension.  Recently the patient was prescribed 25mg hydrochlorothiazide for his blood pressure.  He tells the physician that he has developed hives the previous week and on examination, the physician confirms the presence of generalized hives.  A review of systems fails to reveal any other causes and the physician believes that the patient may be having an urticarial reaction to hydrochlorothiazide.  He has lingering uncertainty about this and tells the patient to stop the thiazide and employ diphenhydramine for relief.  The physician advances the patient dose of losartan for blood pressure control.  He schedules him back in a week for follow-up and when recording his note for the visit, he adds to his assessment in the problem list: “Urticarial reaction, possible thiazide allergy”."""
+A review of systems fails to reveal any other causes and the physician believes that the
+patient may be having an urticarial reaction to penicillin. He has lingering uncertainty about
+this and tells the patient to stop the penicillin and employ diphenhydramine for relief. He
+schedules him back in a week for follow-up and when recording his note for the visit, he adds 
+to his assessment in the problem list: \"Moderate urticarial reaction, possible penicillin allergy\".
+"""
 * subject = Reference(PatientExample1)
 * code = $SCT#126485001 "Urticaria (disorder)"
 * code.text = "Urticarial reaction"
 * clinicalStatus.coding[+] = $CondClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "AcAlias:tive"
+* clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $CondVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#14657009 "Established diagnosis (contextual qualifier) (qualifier value)"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
 * verificationStatus.text = "Confirmed"
 * category = $CondCat#problem-list-item
 * severity = $SCT#6736007 "Moderate (severity modifier) (qualifier value)"
 * severity.text = "Moderate"
-* bodySite = $SCT#181469002 "Entire skin (body structure)"
+* bodySite = $SCT#39937001 "Skin structure (body structure)"
 * bodySite.text = "Skin, generalized"
 
-Instance: AllergyConditionExample4-1-2
-InstanceOf: Condition
-Description: """Scenario:
-A physician sees a patient in clinic for routine outpatient care.  The patient has been receiving care for diabetes and hypertension.  Recently the patient was prescribed 25mg hydrochlorothiazide for his blood pressure.  He tells the physician that he has developed hives the previous week and on examination, the physician confirms the presence of generalized hives.  A review of systems fails to reveal any other causes and the physician believes that the patient may be having an urticarial reaction to hydrochlorothiazide.  He has lingering uncertainty about this and tells the patient to stop the thiazide and employ diphenhydramine for relief.  The physician advances the patient dose of losartan for blood pressure control.  He schedules him back in a week for follow-up and when recording his note for the visit, he adds to his assessment in the problem list: “Urticarial reaction, possible thiazide allergy”."""
-* subject = Reference(PatientExample1)
-* code = $SCT#860765003 "Allergy to thiazide (finding)"
-* code.text = "probable thiazide allergy"
-* clinicalStatus.coding[+] = $CondClinStatus#active
-* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
-* clinicalStatus.text = "Active"
-* verificationStatus.coding[+] = $CondVerStatus#provisional
-* verificationStatus.coding[+] = $SCT#371930009 "Possible (qualifier value)"
-* verificationStatus.text = "Provisional"
-* category = $CondCat#problem-list-item
-* severity = $SCT#6736007 "Moderate (severity modifier) (qualifier value)"
-* severity.text = "Moderate"
-* bodySite = $SCT#116003000 "Structure of immune system (body structure)"
-* bodySite.text = "Immune system"
 
-Instance: AllergyIntoleranceExample4-2
+
+
+Instance: AllergyIntoleranceExample1-2
 InstanceOf: AllergyIntolerance-SubstanceFocused
 Description: """Scenario:
-The clinic nurse calls the patient from scenario 4.1 a week later with test results from his visit.  She inquires as to the urticaria and the patient verifies that they have disappeared with discontinuation of the diuretic.  Following clinic protocols she accesses the patient EHR and proceeds to make a new entry into the substance-based allergy list which is employed by the EHR software for issuing clinical prescribing alerts.  The software steps through a series of questions asking: what was the offending agent, what were symptoms or findings resulting from the reaction, what class of reaction occurred, what was the severity, criticality and verification status.  The nurse answers the questions and an allergy record appears in the list “Hydrochlorothiazide; Allergy; Moderate severity; Low criticality; Symptoms-Hives”.
-Years later the patient is seeing another physician within the organization for consultation on treatment of resistant hypertension.  The second physician decides that an ACE inhibitor/thiazide medication is appropriate for the patient.  When the physician creates an order for “Lisinopril-hydrochlorothiazide 20/25” and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to hydrochlorothiazide which is an ingredient in the drug he is about to order.  The alert is generated by the EHR software which uses the Allergy list as reference.   The physician retracts the order and chooses another antihypertensive."""
+A week later, the patient returns for follow-up with the itching and rash entirely resolved.  He reports that the reaction subsided within days after stopping the penicillin.  The physician adds “Penicillin allergy probable: moderate reaction of hives; criticality unable-to-assess” to the allergy list.
+"""
 * patient = Reference(PatientExample1)
-* code = $SCT#387525002 "Hydrochlorothiazide (substance)"
-* code.text = "Hydrochlorothiazide"
+* code = $SCT#764146007 "Penicillin (substance)"
+* code.text = "Penicillin"
 * type = #allergy
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#unconfirmed
-* verificationStatus.coding[+] = $SCT#2931005 "Probable diagnosis (qualifier value)"
-* verificationStatus.text = "Probable"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#387525002 "Hydrochlorothiazide (substance)"
-* reaction.substance.text = "Hydrochlorothiazide"
-* reaction.manifestation = $SCT#126485001 "Urticaria (disorder)"
-* reaction.manifestation.text = "Urticaria"
-* reaction.severity = #moderate
+* verificationStatus.coding[+] = $SCT#415684004 "Suspected (qualifier value)"
+* verificationStatus.text = "Unconfirmed"
+* criticality = #unable-to-assess
+// * category = #medication 
+* reaction.manifestation = $SCT#247472004 "Wheal (finding)"
+* reaction.manifestation.text = "Hives"
+* reaction.severity = #moderate // cannot be SNOMED CT coded, data type is "code"
 * reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
-Instance: AllergyIntoleranceExample4-2-alt
+
+
+
+Instance: AllergyIntoleranceExample1-2-alt
 InstanceOf: AllergyIntolerance-FindingFocused
 Description: """Scenario:
-The clinic nurse calls the patient from scenario 4.1 a week later with test results from his visit.  She inquires as to the urticaria and the patient verifies that they have disappeared with discontinuation of the diuretic.  Following clinic protocols she accesses the patient EHR and proceeds to make a new entry into the substance-based allergy list which is employed by the EHR software for issuing clinical prescribing alerts.  The software steps through a series of questions asking: what was the offending agent, what were symptoms or findings resulting from the reaction, what class of reaction occurred, what was the severity, criticality and verification status.  The nurse answers the questions and an allergy record appears in the list “Hydrochlorothiazide; Allergy; Moderate severity; Low criticality; Symptoms-Hives”.
-Years later the patient is seeing another physician within the organization for consultation on treatment of resistant hypertension.  The second physician decides that an ACE inhibitor/thiazide medication is appropriate for the patient.  When the physician creates an order for “Lisinopril-hydrochlorothiazide 20/25” and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to hydrochlorothiazide which is an ingredient in the drug he is about to order.  The alert is generated by the EHR software which uses the Allergy list as reference.   The physician retracts the order and chooses another antihypertensive."""
+A week later, the patient returns for follow-up with the itching and rash entirely resolved.  He reports that the reaction subsided within days after stopping the penicillin.  The physician adds “Penicillin allergy probable: moderate reaction of hives; criticality unable-to-assess” to the allergy list.
+"""
 * patient = Reference(PatientExample1)
-* code = $SCT#860765003 "Allergy to thiazide (finding)"
-* code.text = "Thiazide allergy"
-// * type = #allergy 
+* code = $SCT#91936005 "Allergy to penicillin (finding)"
+* code.text = "Allergy to penicillin"
+// * type = #allergy
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#unconfirmed
-* verificationStatus.coding[+] = $SCT#2931005 "Probable diagnosis (qualifier value)"
-* verificationStatus.text = "Probable"
-* criticality = #low
-// * category = #medication // Excluded from SNOMED profile as it overlaps semantically with code
-* reaction.substance = $SCT#387525002 "Hydrochlorothiazide (substance)"
-* reaction.substance.text = "Hydrochlorothiazide"
-* reaction.manifestation = $SCT#126485001 "Urticaria (disorder)"
-* reaction.manifestation.text = "Urticaria"
-* reaction.severity = #moderate
+* verificationStatus.coding[+] = $SCT#415684004 "Suspected (qualifier value)"
+* verificationStatus.text = "Unconfirmed"
+* criticality = #unable-to-assess
+// * category = #medication 
+* reaction.manifestation = $SCT#247472004 "Wheal (finding)"
+* reaction.manifestation.text = "Hives"
+* reaction.severity = #moderate // cannot be SNOMED CT coded, data type is "code"
 * reaction.exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
+
+
+
+
+Instance: AllergyObservationExample2
+InstanceOf: Observation
+Description: """Scenario: 
+Several years later, the patient from scenario 4.1 who has since received an aortic valve replacement is seeing another physician within the organization for consultation on antibiotic prophylaxis for an upcoming dental procedure. The second physician decides that a penicillin class antibiotic is appropriate for the patient.  
+When the physician creates an order for amoxicillin 2 g orally as a single dose and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to penicillin. The substance-based alert is generated by the EHR drug-disease interactions software, which uses the Allergy list as a reference. As the patient has not received penicillin class antibiotics for several years, the physician decides to refer the patient to an allergy specialist for clarification of current status of penicillin allergy. The specialist performs skin testing for penicillin allergy, the results of which are positive. The patient is confirmed as penicillin allergic and the results of the testing are documented in the patient’s medical record. The patient is subsequently prescribed azithromycin for his dental procedure.
+"""
+* code = $SCT#252515007 "Type 1 hypersensitivity skin test (procedure)"
+* status = #final
+* category = $ObsCat#procedure "Procedure"
+* valueCodeableConcept = $SCT#10828004 "Positive (qualifier value)"
+* bodySite = $SCT#39937001 "Skin structure (body structure)"
+* bodySite.text = "Skin"
+
+
+
+
+Instance: AllergyIntoleranceExample2
+InstanceOf: AllergyIntolerance-SubstanceFocused
+Description: """Scenario:
+Scenario: Several years later, the patient from scenario 4.1 who has since received an aortic valve replacement is seeing another physician within the organization for consultation on antibiotic prophylaxis for an upcoming dental procedure. The second physician decides that a penicillin class antibiotic is appropriate for the patient.  
+When the physician creates an order for amoxicillin 2 g orally as a single dose and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to penicillin. The substance-based alert is generated by the EHR drug-disease interactions software, which uses the Allergy list as a reference. As the patient has not received penicillin class antibiotics for several years, the physician decides to refer the patient to an allergy specialist for clarification of current status of penicillin allergy. The specialist performs skin testing for penicillin allergy, the results of which are positive. The patient is confirmed as penicillin allergic and the results of the testing are documented in the patient’s medical record. The patient is subsequently prescribed azithromycin for his dental procedure.
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#764146007 "Penicillin (substance)"
+* code.text = "Penicillin"
+* type = #allergy
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+
+
+
+
+Instance: AllergyIntoleranceExample2-alt
+InstanceOf: AllergyIntolerance-FindingFocused
+Description: """Scenario:
+Scenario: Several years later, the patient from scenario 4.1 who has since received an aortic valve replacement is seeing another physician within the organization for consultation on antibiotic prophylaxis for an upcoming dental procedure. The second physician decides that a penicillin class antibiotic is appropriate for the patient.  
+When the physician creates an order for amoxicillin 2 g orally as a single dose and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to penicillin. The substance-based alert is generated by the EHR drug-disease interactions software, which uses the Allergy list as a reference. As the patient has not received penicillin class antibiotics for several years, the physician decides to refer the patient to an allergy specialist for clarification of current status of penicillin allergy. The specialist performs skin testing for penicillin allergy, the results of which are positive. The patient is confirmed as penicillin allergic and the results of the testing are documented in the patient’s medical record. The patient is subsequently prescribed azithromycin for his dental procedure.
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#91936005 "Allergy to penicillin (finding)"
+* code.text = "Allergy to penicillin"
+// * type = #allergy
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+
+
+
+Instance: ProblemListExample3
+InstanceOf: List
+Description: """Scenario:
+A 34-year-old female is seen by her primary care provider for complaints of abdominal pain, bloating and change in bowel habits within hours or a few days after ingesting whole wheat bread. In addition, she complains of feeling tired but denies itching rash or wheezing. Those complaints are entered as observations in the EHR.
+"""
+* status = #current
+* mode = #snapshot
+* title = "Problem List"
+* code = #problems
+* entry[+].item = Reference(AllergyConditionExample3-1)
+* entry[+].item = Reference(AllergyConditionExample3-2)
+* entry[+].item = Reference(AllergyConditionExample3-3)
+
+
+Instance: AllergyConditionExample3-1
+InstanceOf: Condition
+Description: """Scenario:
+A 34-year-old female is seen by her primary care provider for complaints of abdominal pain, bloating and change in bowel habits within hours or a few days after ingesting whole wheat bread. In addition, she complains of feeling tired but denies itching rash or wheezing. Those complaints are entered as observations in the EHR.
+"""
+* subject = Reference(PatientExample2)
+* code = $SCT#116289008 "Abdominal bloating (finding)"
+* code.text = "Abdominal bloating"
+* clinicalStatus.coding[+] = $CondClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* category = $CondCat#problem-list-item
+* asserter = Reference(PatientExample2)
+
+Instance: AllergyConditionExample3-2
+InstanceOf: Condition
+Description: """Scenario:
+A 34-year-old female is seen by her primary care provider for complaints of abdominal pain, bloating and change in bowel habits within hours or a few days after ingesting whole wheat bread. In addition, she complains of feeling tired but denies itching rash or wheezing. Those complaints are entered as observations in the EHR.
+"""
+* subject = Reference(PatientExample2)
+* code = $SCT#21522001 "Abdominal pain (finding)"
+* code.text = "Abdominal pain"
+* clinicalStatus.coding[+] = $CondClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* category = $CondCat#problem-list-item
+* asserter = Reference(PatientExample2)
+
+Instance: AllergyConditionExample3-3
+InstanceOf: Condition
+Description: """Scenario:
+A 34-year-old female is seen by her primary care provider for complaints of abdominal pain, bloating and change in bowel habits within hours or a few days after ingesting whole wheat bread. In addition, she complains of feeling tired but denies itching rash or wheezing. Those complaints are entered as observations in the EHR.
+"""
+* subject = Reference(PatientExample2)
+* code = $SCT#84229001 "Fatigue (finding)"
+* code.text = "Fatigue"
+* clinicalStatus.coding[+] = $CondClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* category = $CondCat#problem-list-item
+* asserter = Reference(PatientExample2)
+
+Instance: AllergyConditionExample3-4
+InstanceOf: Condition
+Description: """Scenario:
+Due to a family history of celiac disease, tissue transglutaminase IgG and IgA are ordered which are negative. The patient is also referred to a gastroenterologist, who performs an endoscopic biopsy, which is negative for celiac disease. (Both of these examination results can be recorded in the EHR as a FHIR observation using LOINC codes).
+The patient is advised to avoid wheat and gluten containing products. An encounter diagnosis of moderate wheat intolerance is documented in the patient’s health record and wheat is entered in the patient’s \"allergy\" list.
+"""
+* subject = Reference(PatientExample2)
+* code = $SCT#700095006 "Intolerance to wheat (finding)"
+* clinicalStatus.coding[+] = $CondClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $CondVerStatus#unconfirmed
+* verificationStatus.coding[+] = $SCT#415684004 "Suspected (qualifier value)"
+* verificationStatus.text = "Unconfirmed"
+* category = #encounter-diagnosis
+* severity = #moderate
+* bodySite = $SCT#5668004 "Lower gastrointestinal tract structure (body structure)"
+
+
+Instance: AllergyIntoleranceExample3
+InstanceOf: AllergyIntolerance-SubstanceFocused
+Description: """Scenario:
+Scenario: Several years later, the patient from scenario 4.1 who has since received an aortic valve replacement is seeing another physician within the organization for consultation on antibiotic prophylaxis for an upcoming dental procedure. The second physician decides that a penicillin class antibiotic is appropriate for the patient.  
+When the physician creates an order for amoxicillin 2 g orally as a single dose and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to penicillin. The substance-based alert is generated by the EHR drug-disease interactions software, which uses the Allergy list as a reference. As the patient has not received penicillin class antibiotics for several years, the physician decides to refer the patient to an allergy specialist for clarification of current status of penicillin allergy. The specialist performs skin testing for penicillin allergy, the results of which are positive. The patient is confirmed as penicillin allergic and the results of the testing are documented in the patient’s medical record. The patient is subsequently prescribed azithromycin for his dental procedure.
+"""
+* patient = Reference(PatientExample2)
+* code = $SCT#412071004 "Wheat (substance)"
+* code.text = "Wheat"
+* type = #intolerance
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#782197009 "Intolerance to substance (finding)|"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+* criticality = #low
+* reaction[+].manifestation = $SCT#116289008 "Abdominal bloating (finding)"
+* reaction[=].severity = #moderate
+* reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
+* reaction[+].manifestation = $SCT#21522001 "Abdominal pain (finding)"
+* reaction[=].severity = #moderate
+* reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
+
+
+
+
+
+Instance: AllergyIntoleranceExample3-alt
+InstanceOf: AllergyIntolerance-FindingFocused
+Description: """Scenario:
+Scenario: Several years later, the patient from scenario 4.1 who has since received an aortic valve replacement is seeing another physician within the organization for consultation on antibiotic prophylaxis for an upcoming dental procedure. The second physician decides that a penicillin class antibiotic is appropriate for the patient.  
+When the physician creates an order for amoxicillin 2 g orally as a single dose and commits to the electronic prescription, an alert appears which requires a response by the physician warning him of an allergy history to penicillin. The substance-based alert is generated by the EHR drug-disease interactions software, which uses the Allergy list as a reference. As the patient has not received penicillin class antibiotics for several years, the physician decides to refer the patient to an allergy specialist for clarification of current status of penicillin allergy. The specialist performs skin testing for penicillin allergy, the results of which are positive. The patient is confirmed as penicillin allergic and the results of the testing are documented in the patient’s medical record. The patient is subsequently prescribed azithromycin for his dental procedure.
+"""
+* patient = Reference(PatientExample2)
+* code = $SCT#700095006 "Intolerance to wheat (finding)"
+* code.text = "Intolerance to wheat"
+// * type = #allergy
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+* criticality = #low
+* reaction[+].manifestation = $SCT#116289008 "Abdominal bloating (finding)"
+* reaction[=].severity = #moderate
+* reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
+* reaction[+].manifestation = $SCT#21522001 "Abdominal pain (finding)"
+* reaction[=].severity = #moderate
+* reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
+
+
+/*
+
 
 Instance: AllergyConditionExample4-3
 InstanceOf: Condition
@@ -359,3 +592,4 @@ Description: "Example for Patient"
 * address.city = "Chicago"
 * address.postalCode = "60616"
 * address.country = "US"
+*/

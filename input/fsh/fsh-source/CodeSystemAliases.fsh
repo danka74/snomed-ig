@@ -10,3 +10,4 @@ Alias:  $CondVerStatus = http://terminology.hl7.org/CodeSystem/condition-ver-sta
 Alias:  $CondCat = http://terminology.hl7.org/CodeSystem/condition-category
 Alias:  $AICriticality = http://hl7.org/fhir/allergy-intolerance-criticality
 Alias:  $ObsInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
+Alias: 	$ListCode = http://hl7.org/fhir/ValueSet/list-example-codes
