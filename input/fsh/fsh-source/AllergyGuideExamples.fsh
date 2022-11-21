@@ -99,7 +99,7 @@ to his assessment in the problem list: \"Moderate urticarial reaction, possible 
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $CondVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 * category = $CondCat#problem-list-item
 * severity = $SCT#6736007 "Moderate (severity modifier) (qualifier value)"
@@ -191,7 +191,7 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 
 
@@ -211,7 +211,7 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 
 
@@ -301,12 +301,12 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * code = $SCT#412071004 "Wheat (substance)"
 * code.text = "Wheat"
 * type = #intolerance
-* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#782197009 "Intolerance to substance (finding)|"
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#782197009 "Intolerance to substance (finding)"
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 * reaction[+].manifestation = $SCT#116289008 "Abdominal bloating (finding)"
@@ -334,7 +334,7 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 * criticality = #low
 * reaction[+].manifestation = $SCT#116289008 "Abdominal bloating (finding)"
@@ -378,7 +378,7 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #low
@@ -393,13 +393,13 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 """
 * patient = Reference(PatientExample1)
 * code = $SCT#703902000 "Allergy to Dermatophagoides farinae protein (finding)"
-* code.text = "Dermatophagoides farinae protein"
+* code.text = "Dermatophagoides farinae protein allergy"
 * extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
 * clinicalStatus.coding[+] = $AIClinStatus#active
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #low
@@ -448,7 +448,7 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #high
@@ -472,7 +472,7 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #high
@@ -562,7 +562,7 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #high
@@ -589,7 +589,7 @@ The physician records a peanut allergy in the EHR with anaphylaxis, hives and wh
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 // * category = #environment
 * criticality = #high
@@ -618,7 +618,7 @@ A nurse is performing an intake examination on a patient that is new to the clin
 * clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
 * clinicalStatus.text = "Active"
 * verificationStatus.coding[+] = $AIVerStatus#confirmed
-* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)"
 * verificationStatus.text = "Confirmed"
 
 
