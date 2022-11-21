@@ -345,6 +345,71 @@ When the physician creates an order for amoxicillin 2 g orally as a single dose 
 * reaction[=].exposureRoute = $SCT#26643006 "Oral route (qualifier value)"
 
 
+Instance: AllergyObservationExample5
+InstanceOf: Observation
+Description: """Scenario:
+A patient's mother reports to their child's physician that the child reacts violently to eating peanuts with symptoms that include generalized hives, wheezing and hypotension requiring use of epinephrine for resuscitation.  The physician obtains a blood test which documents high levels of IgE antibody against the Arachis h2 peanut protein which is found in unrefined peanut oil (Arachis oil) - the sensitizing agent for clinical peanut allergy. Ara h2 is associated with a risk of severe reactions to peanut.
+"""
+* subject = Reference(PatientExample1)
+* code.coding[+] = $LOINC#6095-4 "American house dust mite IgE Ab [Units/volume] in Serum"
+* code.coding[+] = $SCT#388810005 "Dermatophagoides farinae specific immunoglobulin E antibody measurement (procedure)"
+* status = #final
+* category = $ObsCat#laboratory "Laboratory"
+* valueQuantity = 59.1 'k[IU]/L'
+* interpretation = $ObsInterpretation#high "High"
+* specimen = Reference(AllergySpecimenExample5)
+
+Instance: AllergySpecimenExample5
+InstanceOf: Specimen
+* subject = Reference(PatientExample1)
+* type = $SCT#119364003 "Serum specimen"
+
+Instance: AllergyIntoleranceExample5
+InstanceOf: AllergyIntolerance-SubstanceFocused
+Description: """Scenario:
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#7711092006 "Dermatophagoides farinae protein (substance)"
+* code.text = "Dermatophagoides farinae protein"
+* type = #allergy
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+// * category = #environment
+* criticality = #low
+* reaction.manifestation = $SCT#195967001 "Asthma (disorder)"
+* reaction.severity = #mild
+* reaction.exposureRoute = $SCT#447694001 "Respiratory tract route (qualifier value)"
+
+Instance: AllergyIntoleranceExample5-alt
+InstanceOf: AllergyIntolerance-FindingFocused
+Description: """Scenario:
+The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
+"""
+* patient = Reference(PatientExample1)
+* code = $SCT#703902000 "Allergy to Dermatophagoides farinae protein (finding)"
+* code.text = "Dermatophagoides farinae protein"
+* extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
+* clinicalStatus.coding[+] = $AIClinStatus#active
+* clinicalStatus.coding[+] = $SCT#55561003 "Active (qualifier value)"
+* clinicalStatus.text = "Active"
+* verificationStatus.coding[+] = $AIVerStatus#confirmed
+* verificationStatus.coding[+] = $SCT#410605003 "Confirmed present (qualifier value)|"
+* verificationStatus.text = "Confirmed"
+// * category = #environment
+* criticality = #low
+* reaction.manifestation = $SCT#195967001 "Asthma (disorder)"
+* reaction.severity = #mild
+* reaction.exposureRoute = $SCT#447694001 "Respiratory tract route (qualifier value)"
+
+
+
+
 
 
 
@@ -362,7 +427,7 @@ A patient's mother reports to their child's physician that the child reacts viol
 * valueQuantity = 100 'k[IU]/L'
 * valueQuantity.comparator = #>
 * interpretation = $ObsInterpretation#high "High"
-* specimen = Reference(AllergySpecimenExample1)
+* specimen = Reference(AllergySpecimenExample6)
 
 Instance: AllergySpecimenExample6
 InstanceOf: Specimen
