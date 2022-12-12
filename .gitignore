@@ -7,3 +7,5 @@ template/
 .index.json
 /fsh-generated
 .*
+*.sh
+*.jar
