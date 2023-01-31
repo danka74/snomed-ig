@@ -356,7 +356,7 @@ A patient's mother reports to their child's physician that the child reacts viol
 * status = #final
 * category = $ObsCat#laboratory "Laboratory"
 * valueQuantity = 59.1 'k[IU]/L'
-* interpretation = $ObsInterpretation#high "High"
+* interpretation = $ObsInterpretation#H "High"
 * specimen = Reference(AllergySpecimenExample5)
 
 Instance: AllergySpecimenExample5
@@ -370,7 +370,7 @@ Description: """Scenario:
 The physician records a peanut allergy in the EHR with anaphylaxis, hives and wheezing as reaction symptoms, records a criticality of high and reaction severity of \"severe\".
 """
 * patient = Reference(PatientExample1)
-* code = $SCT#7711092006 "Dermatophagoides farinae protein (substance)"
+* code = $SCT#711092006 "Dermatophagoides farinae protein (substance)"
 * code.text = "Dermatophagoides farinae protein"
 * type = #allergy
 * extension[allergy-intolerance-detailed-type].valueCodeableConcept = $SCT#609328004 "Allergic disposition (finding)"
@@ -426,7 +426,7 @@ A patient's mother reports to their child's physician that the child reacts viol
 * category = $ObsCat#laboratory "Laboratory"
 * valueQuantity = 100 'k[IU]/L'
 * valueQuantity.comparator = #>
-* interpretation = $ObsInterpretation#high "High"
+* interpretation = $ObsInterpretation#H "High"
 * specimen = Reference(AllergySpecimenExample6)
 
 Instance: AllergySpecimenExample6
@@ -540,7 +540,7 @@ The EHR software supports selection of foods, chemicals and animal biological pr
 * category = $ObsCat#laboratory "Laboratory"
 * valueQuantity = 100 'k[IU]/L'
 * valueQuantity.comparator = #>
-* interpretation = $ObsInterpretation#high "High"
+* interpretation = $ObsInterpretation#H "High"
 * specimen = Reference(AllergySpecimenExample7)
 
 Instance: AllergySpecimenExample7
