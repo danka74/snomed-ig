@@ -1,5 +1,4 @@
-Overview of SNOMED CT language features in FHIR 
-=====================
+# Overview of SNOMED CT language features in FHIR 
 
 SNOMED CT has extensive functionality for working with multiple natural languages, e.g. supporting multiple descriptions in different languages for the same concept, or multiple descriptions for use in different contexts for the same concept. This section aims to explain how to use the SNOMED CT language features with [FHIR Terminology Services](http://hl7.org/fhir/terminology-service.html).
 
@@ -15,7 +14,7 @@ SNOMED CT has two main language components: [Descriptions](https://confluence.ih
 |---|---|---|
 | [Description](https://confluence.ihtsdotools.org/display/DOCGLOSS/description)  | [designation](http://hl7.org/fhir/codesystem-definitions.html#CodeSystem.concept.designation) ||
 | [Description.languageCode](https://confluence.ihtsdotools.org/display/DOCRELFMT/4.2.2+Description+File+Specification) | [designation.language](http://hl7.org/fhir/codesystem-definitions.html#CodeSystem.concept.designation.language) | SNOMED CT uses two-character ISO-639-1 codes only, i.e. without any dialect, while FHIR allows more expressive [BCP-47](https://www.ietf.org/rfc/bcp/bcp47.txt) coding |
-| [Description.typeId](https://confluence.ihtsdotools.org/display/DOCRELFMT/4.2.2+Description+File+Specification) | [designation.use](http://hl7.org/fhir/codesystem-definitions.html#CodeSystem.concept.designation.use) | In SNOMED CT, the allowed values for Description.typeId are `<900000000000446008\|Description type\|`, currently including `900000000000003001\|Fully specified name\|`, `900000000000013009\|Synonym\|`, and `900000000000550004\|Definition\|`. The FHIR ValueSet for designation.use includes two of those codes: `900000000000003001\|Fully specified name\|` and `900000000000013009\|Synonym\|`. The FHIR binding is extensible. |
+| [Description.typeId](https://confluence.ihtsdotools.org/display/DOCRELFMT/4.2.2+Description+File+Specification) | [designation.use](http://hl7.org/fhir/codesystem-definitions.html#CodeSystem.concept.designation.use) | In SNOMED CT, the allowed values for Description.typeId are <code><900000000000446008&#124;Description type&#124;</code>, currently including `900000000000003001\|Fully specified name\|`, `900000000000013009\|Synonym\|`, and `900000000000550004\|Definition\|`. The FHIR ValueSet for designation.use includes two of those codes: `900000000000003001\|Fully specified name\|` and `900000000000013009\|Synonym\|`. The FHIR binding is extensible. |
 | [Language reference sets](https://confluence.ihtsdotools.org/display/DOCGLOSS/language+reference+set) | [designation.use](http://hl7.org/fhir/codesystem-definitions.html#CodeSystem.concept.designation.use) | The FHIR binding includes the two SNOMED codes mentioned above, but is extensible. Currently, [addition of a code for "consumer" is being discussed](https://jira.hl7.org/browse/UP-107). |
 
 
