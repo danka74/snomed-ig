@@ -24,3 +24,7 @@ SNOMED CT has two main language components: [Descriptions](https://confluence.ih
 There is a good match between the SNOMED CT and FHIR language features, and most SNOMED CT features can be realized using FHIR or standard HTTP language features.
 
 ## Querying SNOMED CT using FHIR language features
+
+### $expand query parameters
+
+designation
