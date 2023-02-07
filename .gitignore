@@ -4,8 +4,8 @@ temp/
 template/
 /qa
 /input-cache
-.index.json
 /fsh-generated
 .*
+!.gitignore
 *.sh
 *.jar
